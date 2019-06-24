@@ -1,0 +1,81 @@
+<application>
+  <component name="AppStorage">
+    <histories>
+      <item value="the initial number of permits available. * This value may be negative, in which case releases * must occur before any acquires will be granted." />
+      <item value="Semaphore" />
+      <item value="异常" />
+      <item value="激活" />
+      <item value="Recognizing" />
+      <item value="aid" />
+      <item value="bind" />
+      <item value="Bound" />
+      <item value="invalid" />
+      <item value="braces and semicolons" />
+      <item value="An umbrella container for several serializable graphics representations, including Bitmaps, * compressed bitmap images (e.g. JPG or PNG), and drawable resources (including vectors). * * &lt;a href=&quot;https://developer.android.com/training/displaying-bitmaps/index.html&quot;&gt;Much ink&lt;/a&gt; * has been spilled on the best way to load images, and many clients may have different needs when * it comes to threading and fetching. This class is therefore focused on encapsulation rather than * behavior." />
+      <item value="ensure that any current Drawable received in {@link #onResourceReady(Object, * Transition)} is no longer used before redrawing the container (usually a View) or changing its * visibility." />
+      <item value="A &lt;b&gt;mandatory&lt;/b&gt; lifecycle callback that is called when a load is cancelled and its resources * are freed." />
+      <item value="Millis" />
+      <item value="停用" />
+      <item value="双倍" />
+      <item value="UNKNOW" />
+      <item value="invocation" />
+      <item value="Relation" />
+      <item value="gender" />
+      <item value="过户" />
+      <item value="guo" />
+      <item value="assigned" />
+      <item value="in Valid" />
+      <item value="Returns milliseconds since boot, including time spent in sleep." />
+      <item value="valid" />
+      <item value="vaild" />
+      <item value="tourist" />
+      <item value="Offline" />
+      <item value="Electric" />
+      <item value="automated" />
+      <item value="handle" />
+      <item value="update" />
+      <item value="indices" />
+      <item value="Cascade" />
+      <item value="汉字" />
+      <item value="手动" />
+      <item value="If set in an Intent passed to {@link Context#startActivity Context.startActivity()}, * this flag will cause the launched activity to be brought to the front of its * task's history stack if it is already running. * * &lt;p&gt;For example, consider a task consisting of four activities: A, B, C, D. * If D calls startActivity() with an Intent that resolves to the component * of activity B, then B will be brought to the front of the history stack, * with this resulting order: A, C, D, B. * * This flag will be ignored if {@link #FLAG_ACTIVITY_CLEAR_TOP} is also * specified." />
+      <item value="A Live" />
+      <item value="TRANSIENT" />
+      <item value="The implementation of the method will update its parameters in the database if they already * exists (checked by primary keys). If they don't already exists, this option will not change the * database." />
+      <item value="Used to indicate a transient loss of audio focus where the loser of the audio focus can * lower its output volume if it wants to continue playing (also referred to as &quot;ducking&quot;), as * the new focus owner doesn't require others to be silent." />
+      <item value="存在" />
+      <item value="下午4" />
+      <item value="(Usually optional) Set an explicit application package name that limits * the components this Intent will resolve to. If left to the default * value of null, all components in all applications will considered. * If non-null, the Intent can only match the components in the given * application package." />
+      <item value="/** * Sets the flag indicating that this receiver should abort the * current broadcast; only works with broadcasts sent through * {@link Context#sendOrderedBroadcast(Intent, String) * Context.sendOrderedBroadcast}. This will prevent * any other broadcast receivers from receiving the broadcast. It will still * call {@link #onReceive} of the BroadcastReceiver that the caller of * {@link Context#sendOrderedBroadcast(Intent, String) * Context.sendOrderedBroadcast} passed in." />
+      <item value="Represents an {@link Observer} and an {@link Observable} at the same time, allowing * multicasting events from a single source to multiple child {@code Observer}s. * &lt;p&gt; * All methods except the {@link #onSubscribe(io.reactivex.disposables.Disposable)}, {@link #onNext(Object)}, * {@link #onError(Throwable)} and {@link #onComplete()} are thread-safe. * Use {@link #toSerialized()} to make these methods thread-safe as well." />
+      <item value="Like {@link #commit} but allows the commit to be executed after an * activity's state is saved. This is dangerous because the commit can * be lost if the activity needs to later be restored from its state, so * this should only be used for cases where it is okay for the UI state * to change unexpectedly on the user." />
+      <item value="If, when starting the activity, there is already a task running that starts with this activity, then instead of starting a new instance the current task is brought to the front. The existing instance will receive a call to {@link android.app.Activity#onNewIntent Activity.onNewIntent()} with the new Intent that is being started, and with the {@link android.content.Intent#FLAG_ACTIVITY_BROUGHT_TO_FRONT Intent.FLAG_ACTIVITY_BROUGHT_TO_FRONT} flag set. This is a superset of the singleTop mode, where if there is already an instance of the activity being started at the top of the stack, it will receive the Intent as described there (without the FLAG_ACTIVITY_BROUGHT_TO_FRONT flag set). See the Tasks and Back Stack document for more details about tasks." />
+      <item value="lighting" />
+    </histories>
+    <option name="languageScores">
+      <map>
+        <entry key="CHINESE" value="64" />
+        <entry key="ENGLISH" value="274" />
+        <entry key="CHINESE_TRADITIONAL" value="71" />
+        <entry key="ALBANIAN" value="1" />
+        <entry key="FRENCH" value="2" />
+        <entry key="SPANISH" value="1" />
+      </map>
+    </option>
+  </component>
+  <component name="Settings">
+    <option name="googleTranslateSettings">
+      <google-translate>
+        <option name="primaryLanguage" value="CHINESE_TRADITIONAL" />
+      </google-translate>
+    </option>
+    <option name="ignoreRegExp" value="" />
+    <option name="translator" value="ai.youdao" />
+    <option name="youdaoTranslateSettings">
+      <youdao-translate>
+        <option name="appId" value="5035e0423bd01874" />
+        <option name="appKeyConfigured" value="true" />
+      </youdao-translate>
+    </option>
+  </component>
+</application>

@@ -1,0 +1,19 @@
+<application>
+  <component name="FileTypeManager" version="17">
+    <extensionMap>
+      <mapping pattern="Common" type="PLAIN_TEXT" />
+      <mapping pattern="StartApp" type="PLAIN_TEXT" />
+      <mapping pattern="InstallApk" type="PLAIN_TEXT" />
+      <mapping pattern="AppUtil" type="PLAIN_TEXT" />
+      <mapping pattern="xiaoma" type="PLAIN_TEXT" />
+      <mapping pattern="xm" type="PLAIN_TEXT" />
+      <mapping pattern="CheckSignature" type="PLAIN_TEXT" />
+      <mapping pattern="BuildApk" type="PLAIN_TEXT" />
+      <mapping pattern="Command" type="PLAIN_TEXT" />
+      <mapping pattern="UninstallApp" type="PLAIN_TEXT" />
+      <mapping pattern="KillApp" type="PLAIN_TEXT" />
+      <mapping ext="crc" type="PLAIN_TEXT" />
+      <mapping ext="db" type="PLAIN_TEXT" />
+    </extensionMap>
+  </component>
+</application>
