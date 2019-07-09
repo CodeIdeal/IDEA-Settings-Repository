@@ -1,10 +1,10 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="激活" />
       <item value="the initial number of permits available. * This value may be negative, in which case releases * must occur before any acquires will be granted." />
       <item value="Semaphore" />
       <item value="异常" />
-      <item value="激活" />
       <item value="Recognizing" />
       <item value="aid" />
       <item value="bind" />
@@ -55,7 +55,7 @@
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="64" />
-        <entry key="ENGLISH" value="274" />
+        <entry key="ENGLISH" value="275" />
         <entry key="CHINESE_TRADITIONAL" value="71" />
         <entry key="ALBANIAN" value="1" />
         <entry key="FRENCH" value="2" />
