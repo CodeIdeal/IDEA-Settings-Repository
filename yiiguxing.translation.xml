@@ -1,6 +1,9 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="smooth scrollbar enabled. try to estimate better." />
+      <item value="estimate" />
+      <item value="&lt;p&gt;Compute the horizontal range that the horizontal scrollbar represents.&lt;/p&gt; * * &lt;p&gt;The range is expressed in arbitrary units that must be the same as the units used by * {@link #computeHorizontalScrollExtent()} and {@link #computeHorizontalScrollOffset()}.&lt;/p&gt; * * &lt;p&gt;Default implementation returns 0.&lt;/p&gt; * * &lt;p&gt;If you want to support scroll bars, override * {@link RecyclerView.LayoutManager#computeHorizontalScrollRange(RecyclerView.State)} in your * LayoutManager.&lt;/p&gt; * * @return The total horizontal range represented by the vertical scrollbar * @see RecyclerView.LayoutManager#computeHorizontalScrollRange(RecyclerView.State)" />
       <item value="Cancels traffic or emergency announcement" />
       <item value="激活" />
       <item value="the initial number of permits available. * This value may be negative, in which case releases * must occur before any acquires will be granted." />
@@ -48,14 +51,11 @@
       <item value="下午4" />
       <item value="(Usually optional) Set an explicit application package name that limits * the components this Intent will resolve to. If left to the default * value of null, all components in all applications will considered. * If non-null, the Intent can only match the components in the given * application package." />
       <item value="/** * Sets the flag indicating that this receiver should abort the * current broadcast; only works with broadcasts sent through * {@link Context#sendOrderedBroadcast(Intent, String) * Context.sendOrderedBroadcast}. This will prevent * any other broadcast receivers from receiving the broadcast. It will still * call {@link #onReceive} of the BroadcastReceiver that the caller of * {@link Context#sendOrderedBroadcast(Intent, String) * Context.sendOrderedBroadcast} passed in." />
-      <item value="Represents an {@link Observer} and an {@link Observable} at the same time, allowing * multicasting events from a single source to multiple child {@code Observer}s. * &lt;p&gt; * All methods except the {@link #onSubscribe(io.reactivex.disposables.Disposable)}, {@link #onNext(Object)}, * {@link #onError(Throwable)} and {@link #onComplete()} are thread-safe. * Use {@link #toSerialized()} to make these methods thread-safe as well." />
-      <item value="Like {@link #commit} but allows the commit to be executed after an * activity's state is saved. This is dangerous because the commit can * be lost if the activity needs to later be restored from its state, so * this should only be used for cases where it is okay for the UI state * to change unexpectedly on the user." />
-      <item value="If, when starting the activity, there is already a task running that starts with this activity, then instead of starting a new instance the current task is brought to the front. The existing instance will receive a call to {@link android.app.Activity#onNewIntent Activity.onNewIntent()} with the new Intent that is being started, and with the {@link android.content.Intent#FLAG_ACTIVITY_BROUGHT_TO_FRONT Intent.FLAG_ACTIVITY_BROUGHT_TO_FRONT} flag set. This is a superset of the singleTop mode, where if there is already an instance of the activity being started at the top of the stack, it will receive the Intent as described there (without the FLAG_ACTIVITY_BROUGHT_TO_FRONT flag set). See the Tasks and Back Stack document for more details about tasks." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="65" />
-        <entry key="ENGLISH" value="277" />
+        <entry key="CHINESE" value="67" />
+        <entry key="ENGLISH" value="283" />
         <entry key="CHINESE_TRADITIONAL" value="71" />
         <entry key="ALBANIAN" value="1" />
         <entry key="FRENCH" value="2" />
