@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="The general type of window. There are three main classes of * window types: * &lt;ul&gt; * &lt;li&gt; &lt;strong&gt;Application windows&lt;/strong&gt; (ranging from * {@link #FIRST_APPLICATION_WINDOW} to * {@link #LAST_APPLICATION_WINDOW}) are normal top-level application * windows. For these types of windows, the {@link #token} must be * set to the token of the activity they are a part of (this will * normally be done for you if {@link #token} is null). * &lt;li&gt; &lt;strong&gt;Sub-windows&lt;/strong&gt; (ranging from * {@link #FIRST_SUB_WINDOW} to * {@link #LAST_SUB_WINDOW}) are associated with another top-level * window. For these types of windows, the {@link #token} must be * the token of the window it is attached to. * &lt;li&gt; &lt;strong&gt;System windows&lt;/strong&gt; (ranging from * {@link #FIRST_SYSTEM_WINDOW} to * {@link #LAST_SYSTEM_WINDOW}) are special types of windows for * use by the system for specific purposes. They should not normally * be used by applications, and a special permission is required * to use them." />
       <item value="resolution Strategy" />
       <item value="the exit value of the subprocess represented by this * {@code Process} object. By convention, the value * {@code 0} indicates normal termination." />
       <item value="Causes the current thread to wait, if necessary, until the * process represented by this {@code Process} object has * terminated. This method returns immediately if the subprocess * has already terminated. If the subprocess has not yet * terminated, the calling thread will be blocked until the * subprocess exits." />
@@ -50,12 +51,11 @@
       <item value="update" />
       <item value="indices" />
       <item value="Cascade" />
-      <item value="汉字" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="73" />
-        <entry key="ENGLISH" value="301" />
+        <entry key="CHINESE" value="74" />
+        <entry key="ENGLISH" value="303" />
         <entry key="CHINESE_TRADITIONAL" value="71" />
         <entry key="ALBANIAN" value="1" />
         <entry key="FRENCH" value="4" />
