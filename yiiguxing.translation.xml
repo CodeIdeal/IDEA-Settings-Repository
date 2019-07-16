@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="resolution Strategy" />
       <item value="the exit value of the subprocess represented by this * {@code Process} object. By convention, the value * {@code 0} indicates normal termination." />
       <item value="Causes the current thread to wait, if necessary, until the * process represented by this {@code Process} object has * terminated. This method returns immediately if the subprocess * has already terminated. If the subprocess has not yet * terminated, the calling thread will be blocked until the * subprocess exits." />
       <item value="Executes the specified string command in a separate process with the * specified environment and working directory. * * &lt;p&gt;This is a convenience method. An invocation of the form * &lt;tt&gt;exec(command, envp, dir)&lt;/tt&gt; * behaves in exactly the same way as the invocation * &lt;tt&gt;{@link #exec(String[], String[], File) exec}(cmdarray, envp, dir)&lt;/tt&gt;, * where &lt;code&gt;cmdarray&lt;/code&gt; is an array of all the tokens in * &lt;code&gt;command&lt;/code&gt;. * * &lt;p&gt;More precisely, the &lt;code&gt;command&lt;/code&gt; string is broken * into tokens using a {@link StringTokenizer} created by the call * &lt;code&gt;new {@link StringTokenizer}(command)&lt;/code&gt; with no * further modification of the character categories. The tokens * produced by the tokenizer are then placed in the new string * array &lt;code&gt;cmdarray&lt;/code&gt;, in the same order." />
@@ -50,12 +51,11 @@
       <item value="indices" />
       <item value="Cascade" />
       <item value="汉字" />
-      <item value="手动" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="73" />
-        <entry key="ENGLISH" value="299" />
+        <entry key="ENGLISH" value="301" />
         <entry key="CHINESE_TRADITIONAL" value="71" />
         <entry key="ALBANIAN" value="1" />
         <entry key="FRENCH" value="4" />
