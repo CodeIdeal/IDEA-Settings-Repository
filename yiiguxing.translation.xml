@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="注销" />
       <item value="cancellation" />
       <item value="if it is eligible to be re-used and the pool * can fit it, or calls {@link Bitmap#recycle()} on the Bitmap and discards it." />
       <item value="Activity Action: Display the data to the user. This is the most common * action performed on data -- it is the generic action you can use on * a piece of data to get the most reasonable thing to occur. For example, * when used on a contacts entry it will view the entry; when used on a * mailto: URI it will bring up a compose window filled with the information * supplied by the URI; when used with a tel: URI it will invoke the * dialer." />
@@ -50,12 +51,11 @@
       <item value="Offline" />
       <item value="Electric" />
       <item value="automated" />
-      <item value="handle" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="76" />
-        <entry key="ENGLISH" value="309" />
+        <entry key="ENGLISH" value="310" />
         <entry key="CHINESE_TRADITIONAL" value="71" />
         <entry key="ALBANIAN" value="1" />
         <entry key="FRENCH" value="4" />
