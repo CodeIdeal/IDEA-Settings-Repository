@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="If set, the broadcast will be visible to receivers in Instant Apps. By default Instant Apps * will not receive broadcasts." />
+      <item value="If set, when sending a broadcast the recipient is allowed to run at * foreground priority, with a shorter timeout interval. During normal * broadcasts the receivers are not automatically hoisted out of the * background priority class." />
       <item value="完善" />
       <item value="Allows Room to destructively recreate database tables if {@link Migration}s that would * migrate old database schemas to the latest schema version are not found. * &lt;p&gt; * When the database version on the device does not match the latest schema version, Room * runs necessary {@link Migration}s on the database. * &lt;p&gt; * If it cannot find the set of {@link Migration}s that will bring the database to the * current version, it will throw an {@link IllegalStateException}. * &lt;p&gt; * You can call this method to change this behavior to re-create the database instead of * crashing. * &lt;p&gt; * Note that this will delete all of the data in the database tables managed by Room." />
       <item value="Paper" />
@@ -49,13 +51,11 @@
       <item value="Relation" />
       <item value="gender" />
       <item value="过户" />
-      <item value="guo" />
-      <item value="assigned" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="78" />
-        <entry key="ENGLISH" value="327" />
+        <entry key="CHINESE" value="80" />
+        <entry key="ENGLISH" value="331" />
         <entry key="CHINESE_TRADITIONAL" value="71" />
         <entry key="ALBANIAN" value="1" />
         <entry key="FRENCH" value="4" />
