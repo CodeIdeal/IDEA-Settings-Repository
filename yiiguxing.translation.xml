@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="If set in an Intent passed to {@link Context#startActivity Context.startActivity()}, * this flag will cause a newly launching task to be placed on top of the current * home activity task (if there is one). That is, pressing back from the task * will always return the user to home even if that was not the last activity they * saw. This can only be used in conjunction with {@link #FLAG_ACTIVITY_NEW_TASK}." />
+      <item value="By default a document created by {@link #FLAG_ACTIVITY_NEW_DOCUMENT} will * have its entry in recent tasks removed when the user closes it (with back * or however else it may finish()). If you would like to instead allow the * document to be kept in recents so that it can be re-launched, you can use * this flag. When set and the task's activity is finished, the recents * entry will remain in the interface for the user to re-launch it, like a * recents entry for a top-level application." />
       <item value="If set, the broadcast will be visible to receivers in Instant Apps. By default Instant Apps * will not receive broadcasts." />
       <item value="If set, when sending a broadcast the recipient is allowed to run at * foreground priority, with a shorter timeout interval. During normal * broadcasts the receivers are not automatically hoisted out of the * background priority class." />
       <item value="完善" />
@@ -49,13 +51,11 @@
       <item value="UNKNOW" />
       <item value="invocation" />
       <item value="Relation" />
-      <item value="gender" />
-      <item value="过户" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="80" />
-        <entry key="ENGLISH" value="331" />
+        <entry key="CHINESE" value="82" />
+        <entry key="ENGLISH" value="335" />
         <entry key="CHINESE_TRADITIONAL" value="71" />
         <entry key="ALBANIAN" value="1" />
         <entry key="FRENCH" value="4" />
