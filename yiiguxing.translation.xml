@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="I agree. The alternative, which I think would be worse, is to post // something and tell the subclasses later. This is bad because there // will be a window where mScrollX/Y is different from what the app // thinks it is." />
       <item value="Code Point" />
       <item value="Determines if the specified character is white space according to Java. * A character is a Java whitespace character if and only if it satisfies * one of the following criteria:" />
       <item value="If set in an Intent passed to {@link Context#startActivity Context.startActivity()}, * this flag will cause a newly launching task to be placed on top of the current * home activity task (if there is one). That is, pressing back from the task * will always return the user to home even if that was not the last activity they * saw. This can only be used in conjunction with {@link #FLAG_ACTIVITY_NEW_TASK}." />
@@ -50,12 +51,11 @@
       <item value="Millis" />
       <item value="停用" />
       <item value="双倍" />
-      <item value="UNKNOW" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="83" />
-        <entry key="ENGLISH" value="339" />
+        <entry key="CHINESE" value="84" />
+        <entry key="ENGLISH" value="341" />
         <entry key="CHINESE_TRADITIONAL" value="71" />
         <entry key="ALBANIAN" value="1" />
         <entry key="FRENCH" value="4" />
