@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="complie" />
       <item value="status" />
       <item value="state" />
       <item value="handle" />
@@ -50,12 +51,11 @@
       <item value="Bound" />
       <item value="invalid" />
       <item value="braces and semicolons" />
-      <item value="An umbrella container for several serializable graphics representations, including Bitmaps, * compressed bitmap images (e.g. JPG or PNG), and drawable resources (including vectors). * * &lt;a href=&quot;https://developer.android.com/training/displaying-bitmaps/index.html&quot;&gt;Much ink&lt;/a&gt; * has been spilled on the best way to load images, and many clients may have different needs when * it comes to threading and fetching. This class is therefore focused on encapsulation rather than * behavior." />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="85" />
-        <entry key="ENGLISH" value="351" />
+        <entry key="ENGLISH" value="353" />
         <entry key="CHINESE_TRADITIONAL" value="71" />
         <entry key="ALBANIAN" value="1" />
         <entry key="FRENCH" value="4" />
