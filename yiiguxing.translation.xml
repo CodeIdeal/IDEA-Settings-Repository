@@ -1,9 +1,9 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="观察者" />
       <item value="AMERACIA" />
       <item value="public" />
-      <item value="观察者" />
       <item value="分割线" />
       <item value="水平" />
       <item value="横" />
@@ -55,7 +55,7 @@
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="89" />
-        <entry key="ENGLISH" value="381" />
+        <entry key="ENGLISH" value="382" />
         <entry key="CHINESE_TRADITIONAL" value="71" />
         <entry key="ALBANIAN" value="1" />
         <entry key="FRENCH" value="4" />
