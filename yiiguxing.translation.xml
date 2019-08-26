@@ -70,11 +70,9 @@
       </google-translate>
     </option>
     <option name="ignoreRegExp" value="" />
-    <option name="translator" value="ai.youdao" />
     <option name="youdaoTranslateSettings">
       <youdao-translate>
         <option name="appId" value="5035e0423bd01874" />
-        <option name="appKeyConfigured" value="true" />
       </youdao-translate>
     </option>
   </component>
