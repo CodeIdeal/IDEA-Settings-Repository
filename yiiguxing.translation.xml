@@ -1,6 +1,9 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="UNKNOW" />
+      <item value="UNKNOWN" />
+      <item value="困了嘛，休息一下吧" />
       <item value="轻度" />
       <item value="fer" />
       <item value="Spinner" />
@@ -48,15 +51,12 @@
       <item value="Activity Action: Display the data to the user. This is the most common * action performed on data -- it is the generic action you can use on * a piece of data to get the most reasonable thing to occur. For example, * when used on a contacts entry it will view the entry; when used on a * mailto: URI it will bring up a compose window filled with the information * supplied by the URI; when used with a tel: URI it will invoke the * dialer." />
       <item value="The general type of window. There are three main classes of * window types: * &lt;ul&gt; * &lt;li&gt; &lt;strong&gt;Application windows&lt;/strong&gt; (ranging from * {@link #FIRST_APPLICATION_WINDOW} to * {@link #LAST_APPLICATION_WINDOW}) are normal top-level application * windows. For these types of windows, the {@link #token} must be * set to the token of the activity they are a part of (this will * normally be done for you if {@link #token} is null). * &lt;li&gt; &lt;strong&gt;Sub-windows&lt;/strong&gt; (ranging from * {@link #FIRST_SUB_WINDOW} to * {@link #LAST_SUB_WINDOW}) are associated with another top-level * window. For these types of windows, the {@link #token} must be * the token of the window it is attached to. * &lt;li&gt; &lt;strong&gt;System windows&lt;/strong&gt; (ranging from * {@link #FIRST_SYSTEM_WINDOW} to * {@link #LAST_SYSTEM_WINDOW}) are special types of windows for * use by the system for specific purposes. They should not normally * be used by applications, and a special permission is required * to use them." />
       <item value="resolution Strategy" />
-      <item value="the exit value of the subprocess represented by this * {@code Process} object. By convention, the value * {@code 0} indicates normal termination." />
-      <item value="Causes the current thread to wait, if necessary, until the * process represented by this {@code Process} object has * terminated. This method returns immediately if the subprocess * has already terminated. If the subprocess has not yet * terminated, the calling thread will be blocked until the * subprocess exits." />
-      <item value="Executes the specified string command in a separate process with the * specified environment and working directory. * * &lt;p&gt;This is a convenience method. An invocation of the form * &lt;tt&gt;exec(command, envp, dir)&lt;/tt&gt; * behaves in exactly the same way as the invocation * &lt;tt&gt;{@link #exec(String[], String[], File) exec}(cmdarray, envp, dir)&lt;/tt&gt;, * where &lt;code&gt;cmdarray&lt;/code&gt; is an array of all the tokens in * &lt;code&gt;command&lt;/code&gt;. * * &lt;p&gt;More precisely, the &lt;code&gt;command&lt;/code&gt; string is broken * into tokens using a {@link StringTokenizer} created by the call * &lt;code&gt;new {@link StringTokenizer}(command)&lt;/code&gt; with no * further modification of the character categories. The tokens * produced by the tokenizer are then placed in the new string * array &lt;code&gt;cmdarray&lt;/code&gt;, in the same order." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="91" />
-        <entry key="ENGLISH" value="383" />
-        <entry key="CHINESE_TRADITIONAL" value="71" />
+        <entry key="CHINESE" value="92" />
+        <entry key="ENGLISH" value="385" />
+        <entry key="CHINESE_TRADITIONAL" value="73" />
         <entry key="ALBANIAN" value="1" />
         <entry key="FRENCH" value="4" />
         <entry key="SPANISH" value="1" />
