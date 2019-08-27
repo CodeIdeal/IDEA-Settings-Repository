@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="detached" />
       <item value="活动" />
       <item value="UNKNOW" />
       <item value="UNKNOWN" />
@@ -50,13 +51,12 @@
       <item value="cancellation" />
       <item value="if it is eligible to be re-used and the pool * can fit it, or calls {@link Bitmap#recycle()} on the Bitmap and discards it." />
       <item value="Activity Action: Display the data to the user. This is the most common * action performed on data -- it is the generic action you can use on * a piece of data to get the most reasonable thing to occur. For example, * when used on a contacts entry it will view the entry; when used on a * mailto: URI it will bring up a compose window filled with the information * supplied by the URI; when used with a tel: URI it will invoke the * dialer." />
-      <item value="The general type of window. There are three main classes of * window types: * &lt;ul&gt; * &lt;li&gt; &lt;strong&gt;Application windows&lt;/strong&gt; (ranging from * {@link #FIRST_APPLICATION_WINDOW} to * {@link #LAST_APPLICATION_WINDOW}) are normal top-level application * windows. For these types of windows, the {@link #token} must be * set to the token of the activity they are a part of (this will * normally be done for you if {@link #token} is null). * &lt;li&gt; &lt;strong&gt;Sub-windows&lt;/strong&gt; (ranging from * {@link #FIRST_SUB_WINDOW} to * {@link #LAST_SUB_WINDOW}) are associated with another top-level * window. For these types of windows, the {@link #token} must be * the token of the window it is attached to. * &lt;li&gt; &lt;strong&gt;System windows&lt;/strong&gt; (ranging from * {@link #FIRST_SYSTEM_WINDOW} to * {@link #LAST_SYSTEM_WINDOW}) are special types of windows for * use by the system for specific purposes. They should not normally * be used by applications, and a special permission is required * to use them." />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="92" />
-        <entry key="ENGLISH" value="385" />
-        <entry key="CHINESE_TRADITIONAL" value="73" />
+        <entry key="ENGLISH" value="386" />
+        <entry key="CHINESE_TRADITIONAL" value="74" />
         <entry key="ALBANIAN" value="1" />
         <entry key="FRENCH" value="4" />
         <entry key="SPANISH" value="1" />
