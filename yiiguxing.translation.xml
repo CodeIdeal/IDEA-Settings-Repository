@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="dissmiss" />
       <item value="Called when the message queue has run out of messages and will now * wait for more. Return true to keep your idle handler active, false * to have it removed. This may be called if there are still messages * pending in the queue, but they are all scheduled to be dispatched * after the current time." />
       <item value="Gear" />
       <item value="Limite" />
@@ -50,13 +51,12 @@
       <item value="User valid" />
       <item value="Active" />
       <item value="Requests that the file or directory denoted by this abstract * pathname be deleted when the virtual machine terminates. * Files (or directories) are deleted in the reverse order that * they are registered. Invoking this method to delete a file or * directory that is already registered for deletion has no effect. * Deletion will be attempted only for normal termination of the * virtual machine, as defined by the Java Language Specification. * * &lt;p&gt; Once deletion has been requested, it is not possible to cancel the * request. This method should therefore be used with care. * * &lt;P&gt; * Note: this method should &lt;i&gt;not&lt;/i&gt; be used for file-locking, as * the resulting protocol cannot be made to work reliably. The * {@link java.nio.channels.FileLock FileLock} * facility should be used instead. * * &lt;p&gt;&lt;i&gt;Note that on Android, the application lifecycle does not include VM termination, * so calling this method will not ensure that files are deleted&lt;/i&gt;. Instead, you should * use the most appropriate out of: * &lt;ul&gt; * &lt;li&gt;Use a {@code finally} clause to manually invoke {@link #delete}. * &lt;li&gt;Maintain your own set of files to delete, and process it at an appropriate point * in your application's lifecycle. * &lt;li&gt;Use the Unix trick of deleting the file as soon as all readers and writers have * opened it. No new readers/writers will be able to access the file, but all existing * ones will still have access until the last one closes the file." />
-      <item value="注销" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="92" />
         <entry key="ENGLISH" value="388" />
-        <entry key="CHINESE_TRADITIONAL" value="77" />
+        <entry key="CHINESE_TRADITIONAL" value="78" />
         <entry key="ALBANIAN" value="1" />
         <entry key="FRENCH" value="5" />
         <entry key="SPANISH" value="1" />
