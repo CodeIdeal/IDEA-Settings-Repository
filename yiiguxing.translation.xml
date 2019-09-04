@@ -1,6 +1,9 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Instruction" />
+      <item value="Instruction Distribute" />
+      <item value="Distribute" />
       <item value="concentrate" />
       <item value="语言" />
       <item value="his is outside the if statement below on purpose; we want this to run // even if we do a moveToState from CREATED =&gt; *, CREATED =&gt; CREATED, and // * =&gt; CREATED as part of the case fallthrough above." />
@@ -48,15 +51,12 @@
       <item value="If set, when sending a broadcast the recipient is allowed to run at * foreground priority, with a shorter timeout interval. During normal * broadcasts the receivers are not automatically hoisted out of the * background priority class." />
       <item value="完善" />
       <item value="Allows Room to destructively recreate database tables if {@link Migration}s that would * migrate old database schemas to the latest schema version are not found. * &lt;p&gt; * When the database version on the device does not match the latest schema version, Room * runs necessary {@link Migration}s on the database. * &lt;p&gt; * If it cannot find the set of {@link Migration}s that will bring the database to the * current version, it will throw an {@link IllegalStateException}. * &lt;p&gt; * You can call this method to change this behavior to re-create the database instead of * crashing. * &lt;p&gt; * Note that this will delete all of the data in the database tables managed by Room." />
-      <item value="Paper" />
-      <item value="major" />
-      <item value="Wite" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="92" />
-        <entry key="ENGLISH" value="390" />
-        <entry key="CHINESE_TRADITIONAL" value="80" />
+        <entry key="ENGLISH" value="393" />
+        <entry key="CHINESE_TRADITIONAL" value="83" />
         <entry key="ALBANIAN" value="1" />
         <entry key="FRENCH" value="5" />
         <entry key="SPANISH" value="1" />
