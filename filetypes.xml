@@ -4,6 +4,7 @@
       <mapping ext="skin" type="ARCHIVE" />
       <mapping pattern="test" type="PLAIN_TEXT" />
       <mapping pattern="text" type="PLAIN_TEXT" />
+      <mapping ext="md" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
