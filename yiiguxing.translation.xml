@@ -1,6 +1,11 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Wave To" />
+      <item value="转换器" />
+      <item value="转换" />
+      <item value="频率" />
+      <item value="array of bytes containing the frequency representation" />
       <item value="Queues audio data between the position and limit of the input {@code buffer} for processing. * {@code buffer} must be a direct byte buffer with native byte order. Its contents are treated as * read-only. Its position will be advanced by the number of bytes consumed (which may be zero). * The caller retains ownership of the provided buffer. Calling this method invalidates any * previous buffer returned by {@link #getOutput()}." />
       <item value="A sink for audio buffers that writes output audio as .wav files with a given path prefix. When * new audio data is handled after flushing the audio processor, a counter is incremented and its * value is appended to the output file name. * * &lt;p&gt;Note: if writing to external storage it's necessary to grant the {@code * WRITE_EXTERNAL_STORAGE} permission." />
       <item value="Instructs the Kotlin compiler to generate overloads for this function that substitute default parameter values." />
@@ -46,17 +51,12 @@
       <item value="disclaimer" />
       <item value="Inserts the specified element into this queue if it is possible to do * so immediately without violating capacity restrictions. * When using a capacity-restricted queue, this method is generally * preferable to {@link #add}, which can fail to insert an element only * by throwing an exception." />
       <item value="I agree. The alternative, which I think would be worse, is to post // something and tell the subclasses later. This is bad because there // will be a window where mScrollX/Y is different from what the app // thinks it is." />
-      <item value="Code Point" />
-      <item value="Determines if the specified character is white space according to Java. * A character is a Java whitespace character if and only if it satisfies * one of the following criteria:" />
-      <item value="If set in an Intent passed to {@link Context#startActivity Context.startActivity()}, * this flag will cause a newly launching task to be placed on top of the current * home activity task (if there is one). That is, pressing back from the task * will always return the user to home even if that was not the last activity they * saw. This can only be used in conjunction with {@link #FLAG_ACTIVITY_NEW_TASK}." />
-      <item value="By default a document created by {@link #FLAG_ACTIVITY_NEW_DOCUMENT} will * have its entry in recent tasks removed when the user closes it (with back * or however else it may finish()). If you would like to instead allow the * document to be kept in recents so that it can be re-launched, you can use * this flag. When set and the task's activity is finished, the recents * entry will remain in the interface for the user to re-launch it, like a * recents entry for a top-level application." />
-      <item value="If set, the broadcast will be visible to receivers in Instant Apps. By default Instant Apps * will not receive broadcasts." />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="92" />
-        <entry key="ENGLISH" value="396" />
-        <entry key="CHINESE_TRADITIONAL" value="86" />
+        <entry key="ENGLISH" value="398" />
+        <entry key="CHINESE_TRADITIONAL" value="88" />
         <entry key="ALBANIAN" value="1" />
         <entry key="FRENCH" value="5" />
         <entry key="SPANISH" value="1" />
