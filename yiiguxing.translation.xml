@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Punch" />
       <item value="Used to identify the creator of this token, for example the class name. * Instead of creating multiple tokens with the same descriptor, consider adding a suffix to * help identify them." />
       <item value="Set the type of scaling applied on the captured visualization data." />
       <item value="Defines a measurement mode which computes the peak and RMS value in mB, where 0mB is the * maximum sample value, and -9600mB is the minimum value. * Values for peak and RMS can be retrieved with" />
@@ -50,13 +51,12 @@
       <item value="complie" />
       <item value="status" />
       <item value="state" />
-      <item value="handle" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="93" />
-        <entry key="ENGLISH" value="401" />
-        <entry key="CHINESE_TRADITIONAL" value="91" />
+        <entry key="ENGLISH" value="402" />
+        <entry key="CHINESE_TRADITIONAL" value="92" />
         <entry key="ALBANIAN" value="1" />
         <entry key="FRENCH" value="5" />
         <entry key="SPANISH" value="1" />
