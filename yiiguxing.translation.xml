@@ -1,6 +1,9 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="unknown" />
+      <item value="unknow" />
+      <item value="coustom" />
       <item value="Punch" />
       <item value="Used to identify the creator of this token, for example the class name. * Instead of creating multiple tokens with the same descriptor, consider adding a suffix to * help identify them." />
       <item value="Set the type of scaling applied on the captured visualization data." />
@@ -48,15 +51,12 @@
       <item value="is User Valid" />
       <item value="associated" />
       <item value="Called to refresh an action mode's action menu whenever it is invalidated." />
-      <item value="complie" />
-      <item value="status" />
-      <item value="state" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="93" />
-        <entry key="ENGLISH" value="402" />
-        <entry key="CHINESE_TRADITIONAL" value="92" />
+        <entry key="ENGLISH" value="405" />
+        <entry key="CHINESE_TRADITIONAL" value="95" />
         <entry key="ALBANIAN" value="1" />
         <entry key="FRENCH" value="5" />
         <entry key="SPANISH" value="1" />
