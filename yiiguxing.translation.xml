@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="ALBUM" />
       <item value="intercept" />
       <item value="Album" />
       <item value="Aulbum" />
@@ -50,13 +51,12 @@
       <item value="The queue used for holding tasks and handing off to worker * threads. We do not require that workQueue.poll() returning * null necessarily means that workQueue.isEmpty(), so rely * solely on isEmpty to see if the queue is empty (which we must * do for example when deciding whether to transition from * SHUTDOWN to TIDYING). This accommodates special-purpose * queues such as DelayQueues for which poll() is allowed to * return null even if it may later return non-null when delays * expire." />
       <item value="超出范围" />
       <item value="logging in…" />
-      <item value="abnormal" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="94" />
-        <entry key="ENGLISH" value="409" />
-        <entry key="CHINESE_TRADITIONAL" value="100" />
+        <entry key="ENGLISH" value="410" />
+        <entry key="CHINESE_TRADITIONAL" value="101" />
         <entry key="ALBANIAN" value="1" />
         <entry key="FRENCH" value="5" />
         <entry key="LATIN" value="1" />
