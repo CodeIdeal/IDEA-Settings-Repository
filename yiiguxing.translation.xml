@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Flavor" />
       <item value="Contrl" />
       <item value="ALBUM" />
       <item value="intercept" />
@@ -50,13 +51,12 @@
       <item value="Configure this client to retry or not when a connectivity problem is encountered. By default, * this client silently recovers from the following problems: * &lt;ul&gt; * &lt;li&gt;&lt;strong&gt;Unreachable IP addresses.&lt;/strong&gt; If the URL's host has multiple IP addresses, * failure to reach any individual IP address doesn't fail the overall request. This can * increase availability of multi-homed services. * &lt;li&gt;&lt;strong&gt;Stale pooled connections.&lt;/strong&gt; The {@link ConnectionPool} reuses sockets * to decrease request latency, but these connections will occasionally time out. * &lt;li&gt;&lt;strong&gt;Unreachable proxy servers.&lt;/strong&gt; A {@link ProxySelector} can be used to * attempt multiple proxy servers in sequence, eventually falling back to a direct * connection. * &lt;/ul&gt; * Set this to false to avoid retrying requests when doing so is destructive. In this case the * calling application should do its own recovery of connectivity failures." />
       <item value="on Fail" />
       <item value="The queue used for holding tasks and handing off to worker * threads. We do not require that workQueue.poll() returning * null necessarily means that workQueue.isEmpty(), so rely * solely on isEmpty to see if the queue is empty (which we must * do for example when deciding whether to transition from * SHUTDOWN to TIDYING). This accommodates special-purpose * queues such as DelayQueues for which poll() is allowed to * return null even if it may later return non-null when delays * expire." />
-      <item value="超出范围" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="94" />
-        <entry key="ENGLISH" value="411" />
-        <entry key="CHINESE_TRADITIONAL" value="102" />
+        <entry key="CHINESE" value="95" />
+        <entry key="ENGLISH" value="412" />
+        <entry key="CHINESE_TRADITIONAL" value="103" />
         <entry key="ALBANIAN" value="1" />
         <entry key="FRENCH" value="5" />
         <entry key="LATIN" value="1" />
