@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="signt" />
       <item value="ATTRACTION" />
       <item value="APP VERSION CODE" />
       <item value="APP VERSION NAME" />
@@ -50,13 +51,12 @@
       <item value="public" />
       <item value="分割线" />
       <item value="水平" />
-      <item value="横" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="95" />
-        <entry key="ENGLISH" value="414" />
-        <entry key="CHINESE_TRADITIONAL" value="105" />
+        <entry key="ENGLISH" value="415" />
+        <entry key="CHINESE_TRADITIONAL" value="106" />
         <entry key="ALBANIAN" value="1" />
         <entry key="FRENCH" value="5" />
         <entry key="LATIN" value="1" />
