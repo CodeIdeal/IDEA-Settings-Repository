@@ -1,7 +1,7 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Launcher" />
-    <option name="defaultScopeName" value="Launcher" />
-    <option name="SEARCH_SCOPE" value="Launcher" />
+    <option name="customScope" value="doubleScreen" />
+    <option name="defaultScopeName" value="doubleScreen" />
+    <option name="SEARCH_SCOPE" value="doubleScreen" />
   </component>
 </application>
