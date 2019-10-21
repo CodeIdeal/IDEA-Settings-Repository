@@ -3,14 +3,14 @@
     <exec>
       <option name="COMMAND" value="$USER_HOME$/Documents/Android_SDK/platform-tools/adb" />
       <option name="PARAMETERS" value="connect 192.168.123.208:5555" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Documents/Android_SDK/platform-tools" />
+      <option name="WORKING_DIRECTORY" value="C:/Users/woshi/Documents/Android_SDK/platform-tools" />
     </exec>
   </tool>
   <tool name="Swap Android Jar" description="switch Android Jar" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
     <exec>
       <option name="COMMAND" value="/bin/sh" />
       <option name="PARAMETERS" value="swap" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Android/Sdk/platforms/android-28" />
+      <option name="WORKING_DIRECTORY" value="C:/Users/woshi/Android/Sdk/platforms/android-28" />
     </exec>
   </tool>
   <tool name="Reset Iccid" description="Reset Iccid" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
