@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="State" />
+      <item value="Statu" />
       <item value=" Composite" />
       <item value="申请权限" />
       <item value="Criteria for filtering result from Bluetooth LE scans. A {@link ScanFilter} allows clients to * restrict scan results to only those that are of interest to them." />
@@ -49,16 +51,14 @@
       <item value="concentrate" />
       <item value="语言" />
       <item value="his is outside the if statement below on purpose; we want this to run // even if we do a moveToState from CREATED =&gt; *, CREATED =&gt; CREATED, and // * =&gt; CREATED as part of the case fallthrough above." />
-      <item value="dissmiss" />
-      <item value="Called when the message queue has run out of messages and will now * wait for more. Return true to keep your idle handler active, false * to have it removed. This may be called if there are still messages * pending in the queue, but they are all scheduled to be dispatched * after the current time." />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="96" />
-        <entry key="ENGLISH" value="428" />
-        <entry key="CHINESE_TRADITIONAL" value="121" />
+        <entry key="ENGLISH" value="429" />
+        <entry key="CHINESE_TRADITIONAL" value="123" />
         <entry key="ALBANIAN" value="1" />
-        <entry key="FRENCH" value="5" />
+        <entry key="FRENCH" value="6" />
         <entry key="CROATIAN" value="1" />
         <entry key="LATIN" value="1" />
         <entry key="SAMOAN" value="1" />
