@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="establish" />
+      <item value="Discovery" />
       <item value="State" />
       <item value="Statu" />
       <item value=" Composite" />
@@ -49,14 +51,12 @@
       <item value="Instruction Distribute" />
       <item value="Distribute" />
       <item value="concentrate" />
-      <item value="语言" />
-      <item value="his is outside the if statement below on purpose; we want this to run // even if we do a moveToState from CREATED =&gt; *, CREATED =&gt; CREATED, and // * =&gt; CREATED as part of the case fallthrough above." />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="96" />
-        <entry key="ENGLISH" value="429" />
-        <entry key="CHINESE_TRADITIONAL" value="123" />
+        <entry key="ENGLISH" value="431" />
+        <entry key="CHINESE_TRADITIONAL" value="125" />
         <entry key="ALBANIAN" value="1" />
         <entry key="FRENCH" value="6" />
         <entry key="CROATIAN" value="1" />
