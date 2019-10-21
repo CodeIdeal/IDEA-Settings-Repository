@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Returns the minimum number of bytes that can be used to store this bitmap's pixels." />
+      <item value="Returns the size of the allocated memory used to store this bitmap's pixels." />
       <item value="Signals the event of this or the other SingleSource whichever signals first." />
       <item value="Allocation" />
       <item value="establish" />
@@ -49,14 +51,12 @@
       <item value="Queues audio data between the position and limit of the input {@code buffer} for processing. * {@code buffer} must be a direct byte buffer with native byte order. Its contents are treated as * read-only. Its position will be advanced by the number of bytes consumed (which may be zero). * The caller retains ownership of the provided buffer. Calling this method invalidates any * previous buffer returned by {@link #getOutput()}." />
       <item value="A sink for audio buffers that writes output audio as .wav files with a given path prefix. When * new audio data is handled after flushing the audio processor, a counter is incremented and its * value is appended to the output file name. * * &lt;p&gt;Note: if writing to external storage it's necessary to grant the {@code * WRITE_EXTERNAL_STORAGE} permission." />
       <item value="Instructs the Kotlin compiler to generate overloads for this function that substitute default parameter values." />
-      <item value="Instruction" />
-      <item value="Instruction Distribute" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="96" />
-        <entry key="ENGLISH" value="433" />
-        <entry key="CHINESE_TRADITIONAL" value="127" />
+        <entry key="ENGLISH" value="435" />
+        <entry key="CHINESE_TRADITIONAL" value="129" />
         <entry key="ALBANIAN" value="1" />
         <entry key="FRENCH" value="6" />
         <entry key="CROATIAN" value="1" />
