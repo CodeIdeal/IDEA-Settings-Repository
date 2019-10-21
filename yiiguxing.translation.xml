@@ -1,6 +1,9 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Retrieves and removes the head of this queue, waiting if necessary * until an element with an expired delay is available on this queue." />
+      <item value="A mix-in style interface for marking objects that should be * acted upon after a given delay." />
+      <item value="An unbounded {@linkplain BlockingQueue blocking queue} of * {@code Delayed} elements, in which an element can only be taken * when its delay has expired. The &lt;em&gt;head&lt;/em&gt; of the queue is that * {@code Delayed} element whose delay expired furthest in the * past. If no delay has expired there is no head and {@code poll} * will return {@code null}. Expiration occurs when an element's * {@code getDelay(TimeUnit.NANOSECONDS)} method returns a value less * than or equal to zero. Even though unexpired elements cannot be * removed using {@code take} or {@code poll}, they are otherwise * treated as normal elements. For example, the {@code size} method * returns the count of both expired and unexpired elements. * This queue does not permit null elements." />
       <item value="Returns the minimum number of bytes that can be used to store this bitmap's pixels." />
       <item value="Returns the size of the allocated memory used to store this bitmap's pixels." />
       <item value="Signals the event of this or the other SingleSource whichever signals first." />
@@ -48,15 +51,12 @@
       <item value="转换" />
       <item value="频率" />
       <item value="array of bytes containing the frequency representation" />
-      <item value="Queues audio data between the position and limit of the input {@code buffer} for processing. * {@code buffer} must be a direct byte buffer with native byte order. Its contents are treated as * read-only. Its position will be advanced by the number of bytes consumed (which may be zero). * The caller retains ownership of the provided buffer. Calling this method invalidates any * previous buffer returned by {@link #getOutput()}." />
-      <item value="A sink for audio buffers that writes output audio as .wav files with a given path prefix. When * new audio data is handled after flushing the audio processor, a counter is incremented and its * value is appended to the output file name. * * &lt;p&gt;Note: if writing to external storage it's necessary to grant the {@code * WRITE_EXTERNAL_STORAGE} permission." />
-      <item value="Instructs the Kotlin compiler to generate overloads for this function that substitute default parameter values." />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="96" />
-        <entry key="ENGLISH" value="435" />
-        <entry key="CHINESE_TRADITIONAL" value="129" />
+        <entry key="ENGLISH" value="438" />
+        <entry key="CHINESE_TRADITIONAL" value="132" />
         <entry key="ALBANIAN" value="1" />
         <entry key="FRENCH" value="6" />
         <entry key="CROATIAN" value="1" />
