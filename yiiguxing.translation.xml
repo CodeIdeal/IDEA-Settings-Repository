@@ -1,6 +1,9 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Indicates that {@link Fragment#setUserVisibleHint(boolean)} will be called when the current * fragment changes." />
+      <item value="capped" />
+      <item value="This behavior relies on the deprecated" />
       <item value="Coordinator" />
       <item value="Encodes" />
       <item value="Get the maximum supported Transmit packet size for the underlying transport. * Use this to optimize the writes done to the output socket, to avoid sending * half full packets." />
@@ -48,15 +51,12 @@
       <item value="radio" />
       <item value="unknown" />
       <item value="unknow" />
-      <item value="coustom" />
-      <item value="Punch" />
-      <item value="Used to identify the creator of this token, for example the class name. * Instead of creating multiple tokens with the same descriptor, consider adding a suffix to * help identify them." />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="96" />
-        <entry key="ENGLISH" value="443" />
-        <entry key="CHINESE_TRADITIONAL" value="139" />
+        <entry key="ENGLISH" value="446" />
+        <entry key="CHINESE_TRADITIONAL" value="142" />
         <entry key="ALBANIAN" value="1" />
         <entry key="FRENCH" value="6" />
         <entry key="CROATIAN" value="1" />
