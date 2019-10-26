@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Turn on the local Bluetooth adapter&amp;mdash;do not use without explicit * user action to turn on Bluetooth. * &lt;p&gt;This powers on the underlying Bluetooth hardware, and starts all * Bluetooth system services. * &lt;p class=&quot;caution&quot;&gt;&lt;strong&gt;Bluetooth should never be enabled without * direct user consent&lt;/strong&gt;. If you want to turn on Bluetooth in order * to create a wireless connection, you should use the {@link * #ACTION_REQUEST_ENABLE} Intent, which will raise a dialog that requests * user permission to turn on Bluetooth. The {@link #enable()} method is * provided only for applications that include a user interface for changing * system settings, such as a &quot;power manager&quot; app.&lt;/p&gt; * &lt;p&gt;This is an asynchronous call: it will return immediately, and * clients should listen for {@link #ACTION_STATE_CHANGED} * to be notified of subsequent adapter state changes. If this call returns * true, then the adapter state will immediately transition from {@link * #STATE_OFF} to {@link #STATE_TURNING_ON}, and some time * later transition to either {@link #STATE_OFF} or {@link * #STATE_ON}. If this call returns false then there was an * immediate problem that will prevent the adapter from being turned on - * such as Airplane mode, or the adapter is already turned on. * * @return true to indicate adapter startup has begun, or false on immediate error" />
       <item value="Indicates that {@link Fragment#setUserVisibleHint(boolean)} will be called when the current * fragment changes." />
       <item value="capped" />
       <item value="This behavior relies on the deprecated" />
@@ -50,13 +51,12 @@
       <item value="model" />
       <item value="radio" />
       <item value="unknown" />
-      <item value="unknow" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="96" />
-        <entry key="ENGLISH" value="446" />
-        <entry key="CHINESE_TRADITIONAL" value="142" />
+        <entry key="ENGLISH" value="447" />
+        <entry key="CHINESE_TRADITIONAL" value="143" />
         <entry key="ALBANIAN" value="1" />
         <entry key="FRENCH" value="6" />
         <entry key="CROATIAN" value="1" />
