@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Notified when a scroll occurs with the initial on down {@link MotionEvent} and the * current move {@link MotionEvent}. The distance in x and y is also supplied for * convenience." />
       <item value="Runs the garbage collector. * Calling this method suggests that the Java virtual machine expend * effort toward recycling unused objects in order to make the memory * they currently occupy available for quick reuse. When control * returns from the method call, the virtual machine has made * its best effort to recycle all discarded objects. * &lt;p&gt; * The name &lt;code&gt;gc&lt;/code&gt; stands for &quot;garbage * collector&quot;. The virtual machine performs this recycling * process automatically as needed, in a separate thread, even if the * &lt;code&gt;gc&lt;/code&gt; method is not invoked explicitly. * &lt;p&gt; * The method {@link System#gc()} is the conventional and convenient * means of invoking this method." />
       <item value="Runs the finalization methods of any objects pending finalization. * &lt;p&gt; * Calling this method suggests that the Java Virtual Machine expend * effort toward running the &lt;code&gt;finalize&lt;/code&gt; methods of objects * that have been found to be discarded but whose &lt;code&gt;finalize&lt;/code&gt; * methods have not yet been run. When control returns from the * method call, the Java Virtual Machine has made a best effort to * complete all outstanding finalizations. * &lt;p&gt; * The call &lt;code&gt;System.runFinalization()&lt;/code&gt; is effectively * equivalent to the call: * &lt;blockquote&gt;&lt;pre&gt; * Runtime.getRuntime().runFinalization() * &lt;/pre&gt;&lt;/blockquote&gt; * * @see java.lang.Runtime#runFinalization()" />
       <item value="If this view doesn't do any drawing on its own, set this flag to * allow further optimizations. By default, this flag is not set on * View, but could be set on some View subclasses such as ViewGroup. * * Typically, if you override {@link #onDraw(android.graphics.Canvas)} * you should clear this flag." />
@@ -50,13 +51,12 @@
       <item value="signt" />
       <item value="ATTRACTION" />
       <item value="APP VERSION CODE" />
-      <item value="APP VERSION NAME" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="96" />
-        <entry key="ENGLISH" value="456" />
-        <entry key="CHINESE_TRADITIONAL" value="152" />
+        <entry key="ENGLISH" value="457" />
+        <entry key="CHINESE_TRADITIONAL" value="153" />
         <entry key="ALBANIAN" value="1" />
         <entry key="FRENCH" value="6" />
         <entry key="CROATIAN" value="1" />
