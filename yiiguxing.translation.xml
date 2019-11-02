@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="The fill tool is brought to us with aid by some open source project online :( I forgot the name" />
       <item value="最喜欢的" />
       <item value="收藏" />
       <item value="Notified when a scroll occurs with the initial on down {@link MotionEvent} and the * current move {@link MotionEvent}. The distance in x and y is also supplied for * convenience." />
@@ -50,13 +51,12 @@
       <item value="Asynchronously subscribes Observers to this ObservableSource on the specified {@link Scheduler}." />
       <item value="Maual" />
       <item value="audio Info" />
-      <item value="signt" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="96" />
-        <entry key="ENGLISH" value="458" />
-        <entry key="CHINESE_TRADITIONAL" value="154" />
+        <entry key="ENGLISH" value="459" />
+        <entry key="CHINESE_TRADITIONAL" value="155" />
         <entry key="ALBANIAN" value="1" />
         <entry key="FRENCH" value="6" />
         <entry key="CROATIAN" value="1" />
