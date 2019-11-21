@@ -1,6 +1,12 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Haptic" />
+      <item value="SONIFICATION" />
+      <item value="ENFORCED" />
+      <item value="AUDIBILITY ENFORCED" />
+      <item value="AUDIBILITY" />
+      <item value="CONTENT TYPE SONIFICATION" />
       <item value="Dropper" />
       <item value="The fill tool is brought to us with aid by some open source project online :( I forgot the name" />
       <item value="最喜欢的" />
@@ -45,18 +51,12 @@
       <item value="In Aggressive mode, hw will determine a match sooner even with feeble signal strength * and few number of sightings/match in a duration." />
       <item value="Trigger a callback for every Bluetooth advertisement found that matches the filter criteria. * If no filter is active, all advertisement packets are reported." />
       <item value="Receive a callback when advertisements are no longer received from a device that has been * previously reported by a first match callback." />
-      <item value="A result callback is only triggered for the first advertisement packet received that matches * the filter criteria." />
-      <item value="Scan using highest duty cycle. It's recommended to only use this mode when the application is * running in the foreground." />
-      <item value="LATENCY" />
-      <item value="OPPORTUNISTIC" />
-      <item value="Asynchronously subscribes Observers to this ObservableSource on the specified {@link Scheduler}." />
-      <item value="Maual" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="96" />
-        <entry key="ENGLISH" value="459" />
-        <entry key="CHINESE_TRADITIONAL" value="157" />
+        <entry key="ENGLISH" value="466" />
+        <entry key="CHINESE_TRADITIONAL" value="165" />
         <entry key="ALBANIAN" value="1" />
         <entry key="DANISH" value="1" />
         <entry key="FRENCH" value="6" />
