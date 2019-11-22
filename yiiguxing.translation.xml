@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Inserts the specified element at the specified position in this * list. Shifts the element currently at that position (if any) and * any subsequent elements to the right (adds one to their indices)." />
       <item value="mutable" />
       <item value="Preconcats" />
       <item value="Haptic" />
@@ -50,13 +51,12 @@
       <item value="Criteria for filtering result from Bluetooth LE scans. A {@link ScanFilter} allows clients to * restrict scan results to only those that are of interest to them." />
       <item value="Android 7.0 (API 24) introduces an undocumented scan throttle for applications that try to scan more than 5 times during * a 30 second window. More on the topic: https://blog.classycode.com/undocumented-android-7-ble-behavior-changes-d1a9bd87d983" />
       <item value="For sticky mode, higher threshold of signal strength and sightings is required * before reporting by hw" />
-      <item value="In Aggressive mode, hw will determine a match sooner even with feeble signal strength * and few number of sightings/match in a duration." />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="96" />
-        <entry key="ENGLISH" value="467" />
-        <entry key="CHINESE_TRADITIONAL" value="168" />
+        <entry key="ENGLISH" value="468" />
+        <entry key="CHINESE_TRADITIONAL" value="169" />
         <entry key="ALBANIAN" value="1" />
         <entry key="DANISH" value="1" />
         <entry key="FRENCH" value="6" />
