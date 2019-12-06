@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Whether or not bilinear filtering should be used when scaling the * bitmap. If this is true then bilinear filtering will be used when * scaling which has better image quality at the cost of worse performance. * If this is false then nearest-neighbor scaling is used instead which * will have worse image quality but is faster. Recommended default * is to set filter to 'true' as the cost of bilinear filtering is * typically minimal and the improved image quality is significant." />
       <item value="Result OK" />
       <item value="Result" />
       <item value="Mutable" />
@@ -50,13 +51,12 @@
       <item value="Returns the size of the allocated memory used to store this bitmap's pixels." />
       <item value="Signals the event of this or the other SingleSource whichever signals first." />
       <item value="Allocation" />
-      <item value="establish" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="96" />
-        <entry key="ENGLISH" value="475" />
-        <entry key="CHINESE_TRADITIONAL" value="178" />
+        <entry key="ENGLISH" value="476" />
+        <entry key="CHINESE_TRADITIONAL" value="179" />
         <entry key="ALBANIAN" value="1" />
         <entry key="DANISH" value="1" />
         <entry key="FRENCH" value="6" />
