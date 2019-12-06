@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="SQUARE" />
       <item value="完善" />
       <item value="补充" />
       <item value="continuously" />
@@ -50,13 +51,12 @@
       <item value="Discovery" />
       <item value="State" />
       <item value="Statu" />
-      <item value=" Composite" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="96" />
-        <entry key="ENGLISH" value="471" />
-        <entry key="CHINESE_TRADITIONAL" value="174" />
+        <entry key="ENGLISH" value="472" />
+        <entry key="CHINESE_TRADITIONAL" value="175" />
         <entry key="ALBANIAN" value="1" />
         <entry key="DANISH" value="1" />
         <entry key="FRENCH" value="6" />
