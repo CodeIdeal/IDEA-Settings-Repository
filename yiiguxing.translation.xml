@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="model" />
       <item value="Filtering affects the sampling of bitmaps when they are transformed. * Filtering does not affect how the colors in the bitmap are converted into * device pixels." />
       <item value="Helper for setFlags(), setting or clearing the FILTER_BITMAP_FLAG bit. * Filtering affects the sampling of bitmaps when they are transformed. * Filtering does not affect how the colors in the bitmap are converted into * device pixels. That is dependent on dithering and xfermodes." />
       <item value="Paint flag that enables bilinear sampling on scaled bitmaps. * * &lt;p&gt;If cleared, scaled bitmaps will be drawn with nearest neighbor * sampling, likely resulting in artifacts. This should generally be on * when drawing bitmaps, unless performance-bound (rendering to software * canvas) or preferring pixelation artifacts to blurriness when scaling * significantly.&lt;/p&gt; * * &lt;p&gt;If bitmaps are scaled for device density at creation time (as * resource bitmaps often are) the filtering will already have been * done.&lt;/p&gt;" />
@@ -50,13 +51,12 @@
       <item value="Encodes" />
       <item value="Get the maximum supported Transmit packet size for the underlying transport. * Use this to optimize the writes done to the output socket, to avoid sending * half full packets." />
       <item value="Get the maximum supported Receive packet size for the underlying transport. * Use this to optimize the reads done on the input stream, as any call to read * will return a maximum of this amount of bytes - or for some transports a * multiple of this value." />
-      <item value="Operate" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="98" />
-        <entry key="ENGLISH" value="483" />
-        <entry key="CHINESE_TRADITIONAL" value="186" />
+        <entry key="ENGLISH" value="484" />
+        <entry key="CHINESE_TRADITIONAL" value="187" />
         <entry key="ALBANIAN" value="1" />
         <entry key="DANISH" value="1" />
         <entry key="FRENCH" value="6" />
