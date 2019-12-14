@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Allocates a new byte buffer. * * &lt;p&gt; The new buffer's position will be zero, its limit will be its * capacity, its mark will be undefined, and each of its elements will be * initialized to zero. It will have a {@link #array backing array}, * and its {@link #arrayOffset array offset} will be zero." />
+      <item value="Allocates a new direct byte buffer. * * &lt;p&gt; The new buffer's position will be zero, its limit will be its * capacity, its mark will be undefined, and each of its elements will be * initialized to zero. Whether or not it has a * {@link #hasArray backing array} is unspecified." />
       <item value="model" />
       <item value="Filtering affects the sampling of bitmaps when they are transformed. * Filtering does not affect how the colors in the bitmap are converted into * device pixels." />
       <item value="Helper for setFlags(), setting or clearing the FILTER_BITMAP_FLAG bit. * Filtering affects the sampling of bitmaps when they are transformed. * Filtering does not affect how the colors in the bitmap are converted into * device pixels. That is dependent on dithering and xfermodes." />
@@ -49,14 +51,12 @@
       <item value="This behavior relies on the deprecated" />
       <item value="Coordinator" />
       <item value="Encodes" />
-      <item value="Get the maximum supported Transmit packet size for the underlying transport. * Use this to optimize the writes done to the output socket, to avoid sending * half full packets." />
-      <item value="Get the maximum supported Receive packet size for the underlying transport. * Use this to optimize the reads done on the input stream, as any call to read * will return a maximum of this amount of bytes - or for some transports a * multiple of this value." />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="98" />
-        <entry key="ENGLISH" value="484" />
-        <entry key="CHINESE_TRADITIONAL" value="187" />
+        <entry key="ENGLISH" value="486" />
+        <entry key="CHINESE_TRADITIONAL" value="189" />
         <entry key="ALBANIAN" value="1" />
         <entry key="DANISH" value="1" />
         <entry key="FRENCH" value="6" />
