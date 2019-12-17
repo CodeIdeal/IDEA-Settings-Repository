@@ -1,6 +1,9 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="板" />
+      <item value="broad" />
+      <item value="borad" />
       <item value="Open a data stream for reading a raw resource. This can only be used * with resources whose value is the name of an asset files -- that is, it can be * used to open drawable, sound, and raw resources; it will fail on string * and color resources." />
       <item value="bit" />
       <item value="Instances of the file descriptor class serve as an opaque handle * to the underlying machine-specific structure representing an open * file, an open socket, or another source or sink of bytes. The * main practical use for a file descriptor is to create a * &lt;code&gt;FileInputStream&lt;/code&gt; or &lt;code&gt;FileOutputStream&lt;/code&gt; to * contain it." />
@@ -48,15 +51,12 @@
       <item value="Specifies a code fragment that can be used to replace a deprecated function, property or class. Tools such * as IDEs can automatically apply the replacements specified through this annotation." />
       <item value="The function [init] is called for each array element sequentially starting from the first one. * It should return the value for an array element given its index." />
       <item value="sequentially" />
-      <item value="color Primary Dark" />
-      <item value="color Primary" />
-      <item value="Turn on the local Bluetooth adapter&amp;mdash;do not use without explicit * user action to turn on Bluetooth. * &lt;p&gt;This powers on the underlying Bluetooth hardware, and starts all * Bluetooth system services. * &lt;p class=&quot;caution&quot;&gt;&lt;strong&gt;Bluetooth should never be enabled without * direct user consent&lt;/strong&gt;. If you want to turn on Bluetooth in order * to create a wireless connection, you should use the {@link * #ACTION_REQUEST_ENABLE} Intent, which will raise a dialog that requests * user permission to turn on Bluetooth. The {@link #enable()} method is * provided only for applications that include a user interface for changing * system settings, such as a &quot;power manager&quot; app.&lt;/p&gt; * &lt;p&gt;This is an asynchronous call: it will return immediately, and * clients should listen for {@link #ACTION_STATE_CHANGED} * to be notified of subsequent adapter state changes. If this call returns * true, then the adapter state will immediately transition from {@link * #STATE_OFF} to {@link #STATE_TURNING_ON}, and some time * later transition to either {@link #STATE_OFF} or {@link * #STATE_ON}. If this call returns false then there was an * immediate problem that will prevent the adapter from being turned on - * such as Airplane mode, or the adapter is already turned on. * * @return true to indicate adapter startup has begun, or false on immediate error" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="98" />
-        <entry key="ENGLISH" value="491" />
-        <entry key="CHINESE_TRADITIONAL" value="194" />
+        <entry key="CHINESE" value="99" />
+        <entry key="ENGLISH" value="493" />
+        <entry key="CHINESE_TRADITIONAL" value="197" />
         <entry key="ALBANIAN" value="1" />
         <entry key="DANISH" value="1" />
         <entry key="FRENCH" value="6" />
