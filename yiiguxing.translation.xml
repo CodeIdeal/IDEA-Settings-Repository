@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Relative path of this media item within the storage device where it * is persisted. For example, an item stored at * {@code /storage/0000-0000/DCIM/Vacation/IMG1024.JPG} would have a * path of {@code DCIM/Vacation/}." />
       <item value="refresh" />
       <item value="When true, the dialog will wrap the content width." />
       <item value="板" />
@@ -50,13 +51,12 @@
       <item value="Runs the finalization methods of any objects pending finalization. * &lt;p&gt; * Calling this method suggests that the Java Virtual Machine expend * effort toward running the &lt;code&gt;finalize&lt;/code&gt; methods of objects * that have been found to be discarded but whose &lt;code&gt;finalize&lt;/code&gt; * methods have not yet been run. When control returns from the * method call, the Java Virtual Machine has made a best effort to * complete all outstanding finalizations. * &lt;p&gt; * The call &lt;code&gt;System.runFinalization()&lt;/code&gt; is effectively * equivalent to the call: * &lt;blockquote&gt;&lt;pre&gt; * Runtime.getRuntime().runFinalization() * &lt;/pre&gt;&lt;/blockquote&gt; * * @see java.lang.Runtime#runFinalization()" />
       <item value="If this view doesn't do any drawing on its own, set this flag to * allow further optimizations. By default, this flag is not set on * View, but could be set on some View subclasses such as ViewGroup. * * Typically, if you override {@link #onDraw(android.graphics.Canvas)} * you should clear this flag." />
       <item value="You must return true for the menu to be displayed; * if you return false it will not be shown." />
-      <item value="Specifies a code fragment that can be used to replace a deprecated function, property or class. Tools such * as IDEs can automatically apply the replacements specified through this annotation." />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="99" />
-        <entry key="ENGLISH" value="495" />
-        <entry key="CHINESE_TRADITIONAL" value="199" />
+        <entry key="ENGLISH" value="496" />
+        <entry key="CHINESE_TRADITIONAL" value="200" />
         <entry key="ALBANIAN" value="1" />
         <entry key="DANISH" value="1" />
         <entry key="FRENCH" value="6" />
