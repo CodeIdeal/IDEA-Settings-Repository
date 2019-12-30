@@ -1,9 +1,15 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Steinberg" />
+      <item value="Floyd" />
+      <item value="Floyd Steinberg" />
+      <item value="dispose" />
+      <item value="Uses k-means clustering for color quantization. This tends to yield good results, but convergence * can be slow. It is not recommended for large images. */" />
+      <item value="Implements median cut quantization. * * &lt;p&gt;The algorithm works as follows: * * &lt;ul&gt; * &lt;li&gt;Begin with one cluster containing all the original colors.&lt;/li&gt; * &lt;li&gt;Find the cluster containing the greatest spread along a single color component (red, green * or blue).&lt;/li&gt; * &lt;li&gt;Find the median of that color component among colors in the cluster.&lt;/li&gt; * &lt;li&gt;Split the cluster into two halves, using that median as a threshold.&lt;/li&gt; * &lt;li&gt;Repeat this process until the desired number of clusters is reached.&lt;/li&gt; * &lt;/ul&gt;" />
+      <item value="Divides the color space into uniform segments, ignoring the color profile of the original image. * This is very fast but tends to yield poor results, so it should only be used in situations where * image quality is unimportant." />
       <item value="Dither the given image, producing a new image which only contains colors from the given color * set." />
       <item value="Quantize the given set of colors, returning a set no larger than {@code maxColors}." />
-      <item value="dispose" />
       <item value="Indicates the way in which the graphic is to be treated after being displayed." />
       <item value="Relative path of this media item within the storage device where it * is persisted. For example, an item stored at * {@code /storage/0000-0000/DCIM/Vacation/IMG1024.JPG} would have a * path of {@code DCIM/Vacation/}." />
       <item value="refresh" />
@@ -45,21 +51,15 @@
       <item value="ENFORCED" />
       <item value="AUDIBILITY ENFORCED" />
       <item value="AUDIBILITY" />
-      <item value="CONTENT TYPE SONIFICATION" />
-      <item value="Dropper" />
-      <item value="The fill tool is brought to us with aid by some open source project online :( I forgot the name" />
-      <item value="最喜欢的" />
-      <item value="收藏" />
-      <item value="Notified when a scroll occurs with the initial on down {@link MotionEvent} and the * current move {@link MotionEvent}. The distance in x and y is also supplied for * convenience." />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="99" />
-        <entry key="ENGLISH" value="500" />
-        <entry key="CHINESE_TRADITIONAL" value="205" />
+        <entry key="ENGLISH" value="506" />
+        <entry key="CHINESE_TRADITIONAL" value="211" />
         <entry key="ALBANIAN" value="1" />
         <entry key="DANISH" value="1" />
-        <entry key="FRENCH" value="7" />
+        <entry key="FRENCH" value="8" />
         <entry key="CATALAN" value="1" />
         <entry key="CROATIAN" value="1" />
         <entry key="LATIN" value="1" />
