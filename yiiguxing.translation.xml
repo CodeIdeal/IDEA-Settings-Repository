@@ -1,6 +1,10 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="请授予权限！" />
+      <item value="使用蓝牙需要您允许通过该权限" />
+      <item value="使用蓝牙需要，您允许通过该权限" />
+      <item value="申请蓝牙权限" />
       <item value="Relative path of this media item within the storage device where it * is persisted. For example, an item stored at * {@code /storage/0000-0000/DCIM/Vacation/IMG1024.JPG} would have a * path of {@code DCIM/Vacation/}." />
       <item value="refresh" />
       <item value="When true, the dialog will wrap the content width." />
@@ -47,16 +51,12 @@
       <item value="最喜欢的" />
       <item value="收藏" />
       <item value="Notified when a scroll occurs with the initial on down {@link MotionEvent} and the * current move {@link MotionEvent}. The distance in x and y is also supplied for * convenience." />
-      <item value="Runs the garbage collector. * Calling this method suggests that the Java virtual machine expend * effort toward recycling unused objects in order to make the memory * they currently occupy available for quick reuse. When control * returns from the method call, the virtual machine has made * its best effort to recycle all discarded objects. * &lt;p&gt; * The name &lt;code&gt;gc&lt;/code&gt; stands for &quot;garbage * collector&quot;. The virtual machine performs this recycling * process automatically as needed, in a separate thread, even if the * &lt;code&gt;gc&lt;/code&gt; method is not invoked explicitly. * &lt;p&gt; * The method {@link System#gc()} is the conventional and convenient * means of invoking this method." />
-      <item value="Runs the finalization methods of any objects pending finalization. * &lt;p&gt; * Calling this method suggests that the Java Virtual Machine expend * effort toward running the &lt;code&gt;finalize&lt;/code&gt; methods of objects * that have been found to be discarded but whose &lt;code&gt;finalize&lt;/code&gt; * methods have not yet been run. When control returns from the * method call, the Java Virtual Machine has made a best effort to * complete all outstanding finalizations. * &lt;p&gt; * The call &lt;code&gt;System.runFinalization()&lt;/code&gt; is effectively * equivalent to the call: * &lt;blockquote&gt;&lt;pre&gt; * Runtime.getRuntime().runFinalization() * &lt;/pre&gt;&lt;/blockquote&gt; * * @see java.lang.Runtime#runFinalization()" />
-      <item value="If this view doesn't do any drawing on its own, set this flag to * allow further optimizations. By default, this flag is not set on * View, but could be set on some View subclasses such as ViewGroup. * * Typically, if you override {@link #onDraw(android.graphics.Canvas)} * you should clear this flag." />
-      <item value="You must return true for the menu to be displayed; * if you return false it will not be shown." />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="99" />
-        <entry key="ENGLISH" value="496" />
-        <entry key="CHINESE_TRADITIONAL" value="200" />
+        <entry key="ENGLISH" value="497" />
+        <entry key="CHINESE_TRADITIONAL" value="201" />
         <entry key="ALBANIAN" value="1" />
         <entry key="DANISH" value="1" />
         <entry key="FRENCH" value="6" />
