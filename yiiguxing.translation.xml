@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="调色板" />
+      <item value="色板" />
       <item value="请授予权限！" />
       <item value="使用蓝牙需要您允许通过该权限" />
       <item value="使用蓝牙需要，您允许通过该权限" />
@@ -49,8 +51,6 @@
       <item value="Dropper" />
       <item value="The fill tool is brought to us with aid by some open source project online :( I forgot the name" />
       <item value="最喜欢的" />
-      <item value="收藏" />
-      <item value="Notified when a scroll occurs with the initial on down {@link MotionEvent} and the * current move {@link MotionEvent}. The distance in x and y is also supplied for * convenience." />
     </histories>
     <option name="languageScores">
       <map>
