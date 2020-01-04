@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="slow" />
       <item value="调色板" />
       <item value="色板" />
       <item value="请授予权限！" />
@@ -50,13 +51,12 @@
       <item value="CONTENT TYPE SONIFICATION" />
       <item value="Dropper" />
       <item value="The fill tool is brought to us with aid by some open source project online :( I forgot the name" />
-      <item value="最喜欢的" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="99" />
         <entry key="ENGLISH" value="497" />
-        <entry key="CHINESE_TRADITIONAL" value="201" />
+        <entry key="CHINESE_TRADITIONAL" value="202" />
         <entry key="ALBANIAN" value="1" />
         <entry key="DANISH" value="1" />
         <entry key="FRENCH" value="6" />
