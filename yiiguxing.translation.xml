@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Modifies an ObservableSource to perform its emissions and notifications on a specified {@link Scheduler}, * asynchronously with an unbounded buffer with {@link Flowable#bufferSize()} &quot;island size&quot;." />
+      <item value="Asynchronously subscribes Observers to this ObservableSource on the specified {@link Scheduler}." />
       <item value="quotient" />
       <item value="slow" />
       <item value="调色板" />
@@ -49,14 +51,12 @@
       <item value="ENFORCED" />
       <item value="AUDIBILITY ENFORCED" />
       <item value="AUDIBILITY" />
-      <item value="CONTENT TYPE SONIFICATION" />
-      <item value="Dropper" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="99" />
-        <entry key="ENGLISH" value="498" />
-        <entry key="CHINESE_TRADITIONAL" value="203" />
+        <entry key="ENGLISH" value="500" />
+        <entry key="CHINESE_TRADITIONAL" value="205" />
         <entry key="ALBANIAN" value="1" />
         <entry key="DANISH" value="1" />
         <entry key="FRENCH" value="6" />
