@@ -1,16 +1,20 @@
 <application>
   <component name="AppStorage">
     <histories>
-      <item value="Steinberg" />
-      <item value="Floyd" />
-      <item value="Floyd Steinberg" />
-      <item value="dispose" />
-      <item value="Uses k-means clustering for color quantization. This tends to yield good results, but convergence * can be slow. It is not recommended for large images. */" />
-      <item value="Implements median cut quantization. * * &lt;p&gt;The algorithm works as follows: * * &lt;ul&gt; * &lt;li&gt;Begin with one cluster containing all the original colors.&lt;/li&gt; * &lt;li&gt;Find the cluster containing the greatest spread along a single color component (red, green * or blue).&lt;/li&gt; * &lt;li&gt;Find the median of that color component among colors in the cluster.&lt;/li&gt; * &lt;li&gt;Split the cluster into two halves, using that median as a threshold.&lt;/li&gt; * &lt;li&gt;Repeat this process until the desired number of clusters is reached.&lt;/li&gt; * &lt;/ul&gt;" />
-      <item value="Divides the color space into uniform segments, ignoring the color profile of the original image. * This is very fast but tends to yield poor results, so it should only be used in situations where * image quality is unimportant." />
-      <item value="Dither the given image, producing a new image which only contains colors from the given color * set." />
-      <item value="Quantize the given set of colors, returning a set no larger than {@code maxColors}." />
-      <item value="Indicates the way in which the graphic is to be treated after being displayed." />
+      <item value="Get the drawable used for the switch &quot;thumb&quot; - the piece that the user * can physically touch and drag along the track." />
+      <item value="Get the drawable used for the track that the switch slides within" />
+      <item value="A top-level container that represents a settings screen. This is the root component of your * {@link Preference} hierarchy. A {@link PreferenceFragmentCompat} points to an instance of this * class to show the preferences. To instantiate this class, use * {@link PreferenceManager#createPreferenceScreen(Context)}." />
+      <item value="Common base class for preferences that have two selectable states, save a boolean value, and * may have dependent preferences that are enabled/disabled based on the * current state." />
+      <item value="Modifies an ObservableSource to perform its emissions and notifications on a specified {@link Scheduler}, * asynchronously with an unbounded buffer with {@link Flowable#bufferSize()} &quot;island size&quot;." />
+      <item value="Asynchronously subscribes Observers to this ObservableSource on the specified {@link Scheduler}." />
+      <item value="quotient" />
+      <item value="slow" />
+      <item value="调色板" />
+      <item value="色板" />
+      <item value="请授予权限！" />
+      <item value="使用蓝牙需要您允许通过该权限" />
+      <item value="使用蓝牙需要，您允许通过该权限" />
+      <item value="申请蓝牙权限" />
       <item value="Relative path of this media item within the storage device where it * is persisted. For example, an item stored at * {@code /storage/0000-0000/DCIM/Vacation/IMG1024.JPG} would have a * path of {@code DCIM/Vacation/}." />
       <item value="refresh" />
       <item value="When true, the dialog will wrap the content width." />
@@ -47,19 +51,15 @@
       <item value="mutable" />
       <item value="Preconcats" />
       <item value="Haptic" />
-      <item value="SONIFICATION" />
-      <item value="ENFORCED" />
-      <item value="AUDIBILITY ENFORCED" />
-      <item value="AUDIBILITY" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="99" />
-        <entry key="ENGLISH" value="506" />
-        <entry key="CHINESE_TRADITIONAL" value="211" />
+        <entry key="ENGLISH" value="504" />
+        <entry key="CHINESE_TRADITIONAL" value="209" />
         <entry key="ALBANIAN" value="1" />
         <entry key="DANISH" value="1" />
-        <entry key="FRENCH" value="8" />
+        <entry key="FRENCH" value="6" />
         <entry key="CATALAN" value="1" />
         <entry key="CROATIAN" value="1" />
         <entry key="LATIN" value="1" />
