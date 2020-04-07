@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="显示" />
       <item value="Bundle in which to place your saved state." />
       <item value="State which will be saved across reboots." />
       <item value="Get the drawable used for the switch &quot;thumb&quot; - the piece that the user * can physically touch and drag along the track." />
@@ -50,13 +51,12 @@
       <item value="continuously" />
       <item value="deepth" />
       <item value="Inserts the specified element at the specified position in this * list. Shifts the element currently at that position (if any) and * any subsequent elements to the right (adds one to their indices)." />
-      <item value="mutable" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="99" />
-        <entry key="ENGLISH" value="507" />
-        <entry key="CHINESE_TRADITIONAL" value="212" />
+        <entry key="ENGLISH" value="508" />
+        <entry key="CHINESE_TRADITIONAL" value="213" />
         <entry key="ALBANIAN" value="1" />
         <entry key="DANISH" value="1" />
         <entry key="FRENCH" value="6" />
