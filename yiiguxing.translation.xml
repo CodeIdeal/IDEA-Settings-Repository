@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Immersive Mode" />
       <item value="Evenly" />
       <item value="distribute" />
       <item value="显示" />
@@ -50,13 +51,12 @@
       <item value="SQUARE" />
       <item value="完善" />
       <item value="补充" />
-      <item value="continuously" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="99" />
-        <entry key="ENGLISH" value="510" />
-        <entry key="CHINESE_TRADITIONAL" value="215" />
+        <entry key="ENGLISH" value="511" />
+        <entry key="CHINESE_TRADITIONAL" value="216" />
         <entry key="ALBANIAN" value="1" />
         <entry key="DANISH" value="1" />
         <entry key="FRENCH" value="6" />
