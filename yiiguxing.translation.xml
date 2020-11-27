@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Creates a [CoroutineScope] and calls the specified suspend block with this scope. * The provided scope inherits its [coroutineContext][CoroutineScope.coroutineContext] from the outer scope, but overrides * the context's [Job]." />
+      <item value="Creates a _supervisor_ job object in an active state. * Children of a supervisor job can fail independently of each other. * * A failure or cancellation of a child does not cause the supervisor job to fail and does not affect its other children, * so a supervisor can implement a custom policy for handling failures of its children: * * * A failure of a child job that was created using [launch][CoroutineScope.launch] can be handled via [CoroutineExceptionHandler] in the context. * * A failure of a child job that was created using [async][CoroutineScope.async] can be handled via [Deferred.await] on the resulting deferred value. * * If [parent] job is specified, then this supervisor job becomes a child job of its parent and is cancelled when its * parent fails or is cancelled. All this supervisor's children are cancelled in this case, too. The invocation of * [cancel][Job.cancel] with exception (other than [CancellationException]) on this supervisor job also cancels parent." />
       <item value="The context of this scope. * Context is encapsulated by the scope and used for implementation of coroutine builders that are extensions on the scope. * Accessing this property in general code is not recommended for any purposes except accessing the [Job] instance for advanced usages. * * By convention, should contain an instance of a [job][Job] to enforce structured concurrency." />
       <item value="* Sets a tag associated with this viewmodel and a key. * If the given {@code newValue} is {@link Closeable}, * it will be closed once {@link #clear()}. * &lt;p&gt; * If a value was already set for the given key, this calls do nothing and * returns currently associated value, the given {@code newValue} would be ignored * &lt;p&gt; * If the ViewModel was already cleared then close() would be called on the returned object if * it implements {@link Closeable}. The same object may receive multiple close calls, so method * should be idempotent." />
       <item value="Combine" />
@@ -49,8 +51,6 @@
       <item value="Allocates a new byte buffer. * * &lt;p&gt; The new buffer's position will be zero, its limit will be its * capacity, its mark will be undefined, and each of its elements will be * initialized to zero. It will have a {@link #array backing array}, * and its {@link #arrayOffset array offset} will be zero." />
       <item value="Allocates a new direct byte buffer. * * &lt;p&gt; The new buffer's position will be zero, its limit will be its * capacity, its mark will be undefined, and each of its elements will be * initialized to zero. Whether or not it has a * {@link #hasArray backing array} is unspecified." />
       <item value="model" />
-      <item value="Filtering affects the sampling of bitmaps when they are transformed. * Filtering does not affect how the colors in the bitmap are converted into * device pixels." />
-      <item value="Helper for setFlags(), setting or clearing the FILTER_BITMAP_FLAG bit. * Filtering affects the sampling of bitmaps when they are transformed. * Filtering does not affect how the colors in the bitmap are converted into * device pixels. That is dependent on dithering and xfermodes." />
     </histories>
     <option name="languageScores">
       <map>
