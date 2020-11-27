@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Describes a situation when a function returns normally with the specified return [value]. * * The possible values of [value] are limited to `true`, `false` or `null`. * * Use [SimpleEffect.implies] function to describe a conditional effect that happens in such case." />
+      <item value="Describes a situation when a function returns normally with the specified return [value]." />
       <item value="Equivalent to calling * {@link android.view.View#setOnClickListener(android.view.View.OnClickListener)} * to launch the provided {@link PendingIntent}. The source bounds * ({@link Intent#getSourceBounds()}) of the intent will be set to the bounds of the clicked * view in screen space. * Note that any activity options associated with the mPendingIntent may get overridden * before starting the intent. * * When setting the on-click action of items within collections (eg. {@link ListView}, * {@link StackView} etc.), this method will not work. Instead, use {@link * RemoteViews#setPendingIntentTemplate(int, PendingIntent)} in conjunction with * {@link RemoteViews#setOnClickFillInIntent(int, Intent)}." />
       <item value="When using collections (eg. {@link ListView}, {@link StackView} etc.) in widgets, it is very * costly to set PendingIntents on the individual items, and is hence not permitted. Instead * a single PendingIntent template can be set on the collection, see {@link * RemoteViews#setPendingIntentTemplate(int, PendingIntent)}, and the individual on-click * action of a given item can be distinguished by setting a fillInIntent on that item. The * fillInIntent is then combined with the PendingIntent template in order to determine the final * intent which will be executed when the item is clicked. This works as follows: any fields * which are left blank in the PendingIntent template, but are provided by the fillInIntent * will be overwritten, and the resulting PendingIntent will be used. The rest * of the PendingIntent template will then be filled in with the associated fields that are * set in fillInIntent. See {@link Intent#fillIn(Intent, int)} for more details." />
       <item value="Flag indicating that if the described PendingIntent already exists, * then keep it but replace its extra data with what is in this new * Intent. For use with {@link #getActivity}, {@link #getBroadcast}, and * {@link #getService}. &lt;p&gt;This can be used if you are creating intents where only the * extras change, and don't care that any entities that received your * previous PendingIntent will be able to launch it with your new * extras even if they are not explicitly given to it." />
@@ -49,14 +51,12 @@
       <item value="An object that may hold resources (such as file or socket handles) * until it is closed. The {@link #close()} method of an {@code AutoCloseable} * object is called automatically when exiting a {@code * try}-with-resources block for which the object has been declared in * the resource specification header. This construction ensures prompt * release, avoiding resource exhaustion exceptions and errors that * may otherwise occur." />
       <item value="Tries to resume this continuation with a given value and returns non-null object token if it was successful, * or `null` otherwise (it was already resumed or cancelled). When non-null object was returned, * [completeResume] must be invoked with it. * * When [idempotent] is not `null`, this function performs _idempotent_ operation, so that * further invocations with the same non-null reference produce the same result. * * @suppress **This is unstable API and it is subject to change.**" />
       <item value="Tries to resume this continuation with a given value and returns non-null object token if it was successful, * or `null` otherwise (it was already resumed or cancelled). When non-null object was returned, * [completeResume] must be invoked with it." />
-      <item value="Whether or not bilinear filtering should be used when scaling the * bitmap. If this is true then bilinear filtering will be used when * scaling which has better image quality at the cost of worse performance. * If this is false then nearest-neighbor scaling is used instead which * will have worse image quality but is faster. Recommended default * is to set filter to 'true' as the cost of bilinear filtering is * typically minimal and the improved image quality is significant." />
-      <item value="Result OK" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="99" />
-        <entry key="ENGLISH" value="516" />
-        <entry key="CHINESE_TRADITIONAL" value="221" />
+        <entry key="ENGLISH" value="518" />
+        <entry key="CHINESE_TRADITIONAL" value="223" />
         <entry key="ALBANIAN" value="1" />
         <entry key="DANISH" value="1" />
         <entry key="FRENCH" value="6" />
