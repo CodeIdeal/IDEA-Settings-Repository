@@ -1,6 +1,10 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="The context of this scope. * Context is encapsulated by the scope and used for implementation of coroutine builders that are extensions on the scope. * Accessing this property in general code is not recommended for any purposes except accessing the [Job] instance for advanced usages. * * By convention, should contain an instance of a [job][Job] to enforce structured concurrency." />
+      <item value="* Sets a tag associated with this viewmodel and a key. * If the given {@code newValue} is {@link Closeable}, * it will be closed once {@link #clear()}. * &lt;p&gt; * If a value was already set for the given key, this calls do nothing and * returns currently associated value, the given {@code newValue} would be ignored * &lt;p&gt; * If the ViewModel was already cleared then close() would be called on the returned object if * it implements {@link Closeable}. The same object may receive multiple close calls, so method * should be idempotent." />
+      <item value="Combine" />
+      <item value="Accumulates entries of this context starting with [initial] value and applying [operation] * from left to right to current accumulator value and each element of this context." />
       <item value="Handler for [Job.invokeOnCompletion] and [CancellableContinuation.invokeOnCancellation]. * * Installed handler should not throw any exceptions. If it does, they will get caught, * wrapped into [CompletionHandlerException], and rethrown, potentially causing crash of unrelated code. * * The meaning of `cause` that is passed to the handler: * * Cause is `null` when the job has completed normally. * * Cause is an instance of [CancellationException] when the job was cancelled _normally_. * **It should not be treated as an error**. In particular, it should not be reported to error logs. * * Otherwise, the job had _failed_. * * **Note**: This type is a part of internal machinery that supports parent-child hierarchies * and allows for implementation of suspending functions that wait on the Job's state. * This type should not be used in general application code. * Implementations of `CompletionHandler` must be fast and _lock-free_." />
       <item value="Registers handler that is **synchronously** invoked once on completion of this job. * When the job is already complete, then the handler is immediately invoked * with the job's exception or cancellation cause or `null`. Otherwise, the handler will be invoked once when this * job is complete." />
       <item value="Registers handler that is **synchronously** invoked once on completion of this job. * When the job is already complete, then the handler is immediately invoked * with the job's exception or cancellation cause or `null`. Otherwise, the handler will be invoked once when this * job is complete. * * The meaning of `cause` that is passed to the handler: * * Cause is `null` when the job has completed normally. * * Cause is an instance of [CancellationException] when the job was cancelled _normally_. * **It should not be treated as an error**. In particular, it should not be reported to error logs. * * Otherwise, the job had _failed_. * * The resulting [DisposableHandle] can be used to [dispose][DisposableHandle.dispose] the * registration of this handler and release its memory if its invocation is no longer needed. * There is no need to dispose the handler after completion of this job. The references to * all the handlers are released when this job completes. * * Installed [handler] should not throw any exceptions. If it does, they will get caught, * wrapped into [CompletionHandlerException], and rethrown, potentially causing crash of unrelated code. * * **Note**: Implementation of `CompletionHandler` must be fast, non-blocking, and thread-safe. * This handler can be invoked concurrently with the surrounding code. * There is no guarantee on the execution context in which the [handler] is invoked." />
@@ -47,16 +51,12 @@
       <item value="model" />
       <item value="Filtering affects the sampling of bitmaps when they are transformed. * Filtering does not affect how the colors in the bitmap are converted into * device pixels." />
       <item value="Helper for setFlags(), setting or clearing the FILTER_BITMAP_FLAG bit. * Filtering affects the sampling of bitmaps when they are transformed. * Filtering does not affect how the colors in the bitmap are converted into * device pixels. That is dependent on dithering and xfermodes." />
-      <item value="Paint flag that enables bilinear sampling on scaled bitmaps. * * &lt;p&gt;If cleared, scaled bitmaps will be drawn with nearest neighbor * sampling, likely resulting in artifacts. This should generally be on * when drawing bitmaps, unless performance-bound (rendering to software * canvas) or preferring pixelation artifacts to blurriness when scaling * significantly.&lt;/p&gt; * * &lt;p&gt;If bitmaps are scaled for device density at creation time (as * resource bitmaps often are) the filtering will already have been * done.&lt;/p&gt;" />
-      <item value="The paint used to compose the layer. This argument is optional * and can be null. It is ignored when the layer type is * {@link #LAYER_TYPE_NONE}" />
-      <item value="固件版本号" />
-      <item value="型号" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="99" />
-        <entry key="ENGLISH" value="521" />
-        <entry key="CHINESE_TRADITIONAL" value="226" />
+        <entry key="ENGLISH" value="525" />
+        <entry key="CHINESE_TRADITIONAL" value="230" />
         <entry key="ALBANIAN" value="1" />
         <entry key="DANISH" value="1" />
         <entry key="FRENCH" value="6" />
