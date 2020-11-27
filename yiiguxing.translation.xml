@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="This function is called by [flowOn] (with context) and [buffer] (with capacity) operators * that are applied to this flow. Should not be used with [capacity] of [Channel.CONFLATED] * (it shall be desugared to `capacity = 0, onBufferOverflow = DROP_OLDEST`)." />
+      <item value="Posts a task to a main thread to set the given value. So if you have a following code * executed in the main thread: * &lt;pre class=&quot;prettyprint&quot;&gt; * liveData.postValue(&quot;a&quot;); * liveData.setValue(&quot;b&quot;); * &lt;/pre&gt; * The value &quot;b&quot; would be set at first and later the main thread would override it with * the value &quot;a&quot;. * &lt;p&gt; * If you called this method multiple times before a main thread executed a posted task, only * the last value would be dispatched." />
       <item value="coroutine" />
       <item value="Creates a [CoroutineScope] and calls the specified suspend block with this scope. * The provided scope inherits its [coroutineContext][CoroutineScope.coroutineContext] from the outer scope, but overrides * the context's [Job]." />
       <item value="Creates a _supervisor_ job object in an active state. * Children of a supervisor job can fail independently of each other. * * A failure or cancellation of a child does not cause the supervisor job to fail and does not affect its other children, * so a supervisor can implement a custom policy for handling failures of its children: * * * A failure of a child job that was created using [launch][CoroutineScope.launch] can be handled via [CoroutineExceptionHandler] in the context. * * A failure of a child job that was created using [async][CoroutineScope.async] can be handled via [Deferred.await] on the resulting deferred value. * * If [parent] job is specified, then this supervisor job becomes a child job of its parent and is cancelled when its * parent fails or is cancelled. All this supervisor's children are cancelled in this case, too. The invocation of * [cancel][Job.cancel] with exception (other than [CancellationException]) on this supervisor job also cancels parent." />
@@ -49,14 +51,12 @@
       <item value="Instances of the file descriptor class serve as an opaque handle * to the underlying machine-specific structure representing an open * file, an open socket, or another source or sink of bytes. The * main practical use for a file descriptor is to create a * &lt;code&gt;FileInputStream&lt;/code&gt; or &lt;code&gt;FileOutputStream&lt;/code&gt; to * contain it." />
       <item value="capacity" />
       <item value="Relative &lt;i&gt;put&lt;/i&gt; method&amp;nbsp;&amp;nbsp;&lt;i&gt;(optional operation)&lt;/i&gt;. * * &lt;p&gt; Writes the given byte into this buffer at the current * position, and then increments the position. &lt;/p&gt;" />
-      <item value="Allocates a new byte buffer. * * &lt;p&gt; The new buffer's position will be zero, its limit will be its * capacity, its mark will be undefined, and each of its elements will be * initialized to zero. It will have a {@link #array backing array}, * and its {@link #arrayOffset array offset} will be zero." />
-      <item value="Allocates a new direct byte buffer. * * &lt;p&gt; The new buffer's position will be zero, its limit will be its * capacity, its mark will be undefined, and each of its elements will be * initialized to zero. Whether or not it has a * {@link #hasArray backing array} is unspecified." />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="99" />
-        <entry key="ENGLISH" value="526" />
-        <entry key="CHINESE_TRADITIONAL" value="231" />
+        <entry key="ENGLISH" value="528" />
+        <entry key="CHINESE_TRADITIONAL" value="233" />
         <entry key="ALBANIAN" value="1" />
         <entry key="DANISH" value="1" />
         <entry key="FRENCH" value="6" />
