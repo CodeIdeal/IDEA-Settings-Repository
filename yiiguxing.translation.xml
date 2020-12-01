@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Close the view if it's showing, or don't show it if it isn't showing yet. * You do not normally have to call this. Normally view will disappear on its own * after the appropriate duration." />
       <item value="Optimization: this wrapper implementation is only needed in the beginning. // Once a valid call is made (i.e. with a different concurrent sequence), we // get rid of it any apply the real implementation as a direct callthrough." />
       <item value="This function is called by [flowOn] (with context) and [buffer] (with capacity) operators * that are applied to this flow. Should not be used with [capacity] of [Channel.CONFLATED] * (it shall be desugared to `capacity = 0, onBufferOverflow = DROP_OLDEST`)." />
       <item value="Posts a task to a main thread to set the given value. So if you have a following code * executed in the main thread: * &lt;pre class=&quot;prettyprint&quot;&gt; * liveData.postValue(&quot;a&quot;); * liveData.setValue(&quot;b&quot;); * &lt;/pre&gt; * The value &quot;b&quot; would be set at first and later the main thread would override it with * the value &quot;a&quot;. * &lt;p&gt; * If you called this method multiple times before a main thread executed a posted task, only * the last value would be dispatched." />
@@ -50,13 +51,12 @@
       <item value="Open a data stream for reading a raw resource. This can only be used * with resources whose value is the name of an asset files -- that is, it can be * used to open drawable, sound, and raw resources; it will fail on string * and color resources." />
       <item value="bit" />
       <item value="Instances of the file descriptor class serve as an opaque handle * to the underlying machine-specific structure representing an open * file, an open socket, or another source or sink of bytes. The * main practical use for a file descriptor is to create a * &lt;code&gt;FileInputStream&lt;/code&gt; or &lt;code&gt;FileOutputStream&lt;/code&gt; to * contain it." />
-      <item value="capacity" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="99" />
-        <entry key="ENGLISH" value="529" />
-        <entry key="CHINESE_TRADITIONAL" value="234" />
+        <entry key="ENGLISH" value="530" />
+        <entry key="CHINESE_TRADITIONAL" value="235" />
         <entry key="ALBANIAN" value="1" />
         <entry key="DANISH" value="1" />
         <entry key="FRENCH" value="6" />
