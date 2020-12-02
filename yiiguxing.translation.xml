@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Override this method to provide a particular target view for snapping. * &lt;p&gt; * This method is called when the {@link SnapHelper} is ready to start snapping and requires * a target view to snap to. It will be explicitly called when the scroll state becomes idle * after a scroll. It will also be called when the {@link SnapHelper} is preparing to snap * after a fling and requires a reference view from the current set of child views. * &lt;p&gt; * If this method returns {@code null}, SnapHelper will not snap to any view." />
+      <item value="the target view to which to snap on fling or end of scroll" />
       <item value="shelf" />
       <item value="过渡" />
       <item value="Return the scrolled top position of this view. This is the top edge of * the displayed part of your view. You do not need to draw any pixels above * it, since those are outside of the frame of your view on screen." />
@@ -49,14 +51,12 @@
       <item value="使用蓝牙需要，您允许通过该权限" />
       <item value="申请蓝牙权限" />
       <item value="Relative path of this media item within the storage device where it * is persisted. For example, an item stored at * {@code /storage/0000-0000/DCIM/Vacation/IMG1024.JPG} would have a * path of {@code DCIM/Vacation/}." />
-      <item value="refresh" />
-      <item value="When true, the dialog will wrap the content width." />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="100" />
-        <entry key="ENGLISH" value="535" />
-        <entry key="CHINESE_TRADITIONAL" value="240" />
+        <entry key="ENGLISH" value="537" />
+        <entry key="CHINESE_TRADITIONAL" value="242" />
         <entry key="ALBANIAN" value="1" />
         <entry key="DANISH" value="1" />
         <entry key="FRENCH" value="6" />
