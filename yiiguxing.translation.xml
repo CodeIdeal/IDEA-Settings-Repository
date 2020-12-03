@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Option" />
       <item value="Denotes that the annotated element should be a float or double in the given range" />
       <item value="Override this method to provide a particular target view for snapping. * &lt;p&gt; * This method is called when the {@link SnapHelper} is ready to start snapping and requires * a target view to snap to. It will be explicitly called when the scroll state becomes idle * after a scroll. It will also be called when the {@link SnapHelper} is preparing to snap * after a fling and requires a reference view from the current set of child views. * &lt;p&gt; * If this method returns {@code null}, SnapHelper will not snap to any view." />
       <item value="the target view to which to snap on fling or end of scroll" />
@@ -50,13 +51,12 @@
       <item value="请授予权限！" />
       <item value="使用蓝牙需要您允许通过该权限" />
       <item value="使用蓝牙需要，您允许通过该权限" />
-      <item value="申请蓝牙权限" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="100" />
         <entry key="ENGLISH" value="538" />
-        <entry key="CHINESE_TRADITIONAL" value="243" />
+        <entry key="CHINESE_TRADITIONAL" value="244" />
         <entry key="ALBANIAN" value="1" />
         <entry key="DANISH" value="1" />
         <entry key="FRENCH" value="6" />
