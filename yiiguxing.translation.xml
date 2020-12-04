@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Spans of type SPAN_EXCLUSIVE_EXCLUSIVE do not expand * to include text inserted at either their starting or ending point. * They can never have a length of 0 and are automatically removed * from the buffer if all the text they cover is removed." />
       <item value="不完整" />
       <item value="消费者" />
       <item value="Display the content view in a popup window at the specified location. If the popup window * cannot fit on screen, it will be clipped. See {@link android.view.WindowManager.LayoutParams} * for more information on how gravity and the x and y parameters are related. Specifying * a gravity of {@link android.view.Gravity#NO_GRAVITY} is similar to specifying * &lt;code&gt;Gravity.LEFT | Gravity.TOP&lt;/code&gt;." />
@@ -50,13 +51,12 @@
       <item value="Modifies an ObservableSource to perform its emissions and notifications on a specified {@link Scheduler}, * asynchronously with an unbounded buffer with {@link Flowable#bufferSize()} &quot;island size&quot;." />
       <item value="Asynchronously subscribes Observers to this ObservableSource on the specified {@link Scheduler}." />
       <item value="quotient" />
-      <item value="slow" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="101" />
-        <entry key="ENGLISH" value="541" />
-        <entry key="CHINESE_TRADITIONAL" value="247" />
+        <entry key="ENGLISH" value="542" />
+        <entry key="CHINESE_TRADITIONAL" value="248" />
         <entry key="ALBANIAN" value="1" />
         <entry key="DANISH" value="1" />
         <entry key="FRENCH" value="6" />
