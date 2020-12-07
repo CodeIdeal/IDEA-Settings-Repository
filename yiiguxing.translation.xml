@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Valid" />
       <item value="State value for {@link android.graphics.drawable.StateListDrawable StateListDrawable}, set when a view or drawable is considered &quot;active&quot; by its host. Actual usage may vary between views. Consult the host view documentation for details. --&gt;" />
       <item value="State value for {@link android.graphics.drawable.StateListDrawable StateListDrawable}, set when a view or its parent has been &quot;activated&quot; meaning the user has currently marked it as being of interest. This is an alternative representation of state_checked for when the state should be propagated down the view hierarchy." />
       <item value="Changes the activated state of this view. A view can be activated or not. * Note that activation is not the same as selection. Selection is * a transient property, representing the view (hierarchy) the user is * currently interacting with. Activation is a longer-term state that the * user can move views in and out of. For example, in a list view with * single or multiple selection enabled, the views in the current selection * set are activated. (Um, yeah, we are deeply sorry about the terminology * here.) The activated state is propagated down to children of the view it * is set on. *" />
@@ -50,13 +51,12 @@
       <item value="显示" />
       <item value="Bundle in which to place your saved state." />
       <item value="State which will be saved across reboots." />
-      <item value="Get the drawable used for the switch &quot;thumb&quot; - the piece that the user * can physically touch and drag along the track." />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="101" />
-        <entry key="ENGLISH" value="548" />
-        <entry key="CHINESE_TRADITIONAL" value="254" />
+        <entry key="ENGLISH" value="549" />
+        <entry key="CHINESE_TRADITIONAL" value="255" />
         <entry key="ALBANIAN" value="1" />
         <entry key="DANISH" value="1" />
         <entry key="FRENCH" value="6" />
