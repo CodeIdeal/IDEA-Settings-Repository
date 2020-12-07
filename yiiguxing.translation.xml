@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="对接" />
       <item value="The amount of horizontal scroll." />
       <item value="Spans of type SPAN_INCLUSIVE_INCLUSIVE expand * to include text inserted at either their starting or ending point." />
       <item value="Spans of type SPAN_EXCLUSIVE_EXCLUSIVE do not expand * to include text inserted at either their starting or ending point. * They can never have a length of 0 and are automatically removed * from the buffer if all the text they cover is removed." />
@@ -50,13 +51,12 @@
       <item value="Get the drawable used for the track that the switch slides within" />
       <item value="A top-level container that represents a settings screen. This is the root component of your * {@link Preference} hierarchy. A {@link PreferenceFragmentCompat} points to an instance of this * class to show the preferences. To instantiate this class, use * {@link PreferenceManager#createPreferenceScreen(Context)}." />
       <item value="Common base class for preferences that have two selectable states, save a boolean value, and * may have dependent preferences that are enabled/disabled based on the * current state." />
-      <item value="Modifies an ObservableSource to perform its emissions and notifications on a specified {@link Scheduler}, * asynchronously with an unbounded buffer with {@link Flowable#bufferSize()} &quot;island size&quot;." />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="101" />
-        <entry key="ENGLISH" value="544" />
-        <entry key="CHINESE_TRADITIONAL" value="250" />
+        <entry key="ENGLISH" value="545" />
+        <entry key="CHINESE_TRADITIONAL" value="251" />
         <entry key="ALBANIAN" value="1" />
         <entry key="DANISH" value="1" />
         <entry key="FRENCH" value="6" />
