@@ -1,6 +1,9 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="add contact server groupId choosing logic" />
+      <item value="choosing" />
+      <item value="add contact server groupId choose logic" />
       <item value="receive" />
       <item value="接受" />
       <item value="set Touch Modal" />
@@ -48,15 +51,12 @@
       <item value="Registers handler that is **synchronously** invoked once on completion of this job. * When the job is already complete, then the handler is immediately invoked * with the job's exception or cancellation cause or `null`. Otherwise, the handler will be invoked once when this * job is complete." />
       <item value="Registers handler that is **synchronously** invoked once on completion of this job. * When the job is already complete, then the handler is immediately invoked * with the job's exception or cancellation cause or `null`. Otherwise, the handler will be invoked once when this * job is complete. * * The meaning of `cause` that is passed to the handler: * * Cause is `null` when the job has completed normally. * * Cause is an instance of [CancellationException] when the job was cancelled _normally_. * **It should not be treated as an error**. In particular, it should not be reported to error logs. * * Otherwise, the job had _failed_. * * The resulting [DisposableHandle] can be used to [dispose][DisposableHandle.dispose] the * registration of this handler and release its memory if its invocation is no longer needed. * There is no need to dispose the handler after completion of this job. The references to * all the handlers are released when this job completes. * * Installed [handler] should not throw any exceptions. If it does, they will get caught, * wrapped into [CompletionHandlerException], and rethrown, potentially causing crash of unrelated code. * * **Note**: Implementation of `CompletionHandler` must be fast, non-blocking, and thread-safe. * This handler can be invoked concurrently with the surrounding code. * There is no guarantee on the execution context in which the [handler] is invoked." />
       <item value="Describes a situation when a function returns normally with the specified return [value]. * * The possible values of [value] are limited to `true`, `false` or `null`. * * Use [SimpleEffect.implies] function to describe a conditional effect that happens in such case." />
-      <item value="Describes a situation when a function returns normally with the specified return [value]." />
-      <item value="Equivalent to calling * {@link android.view.View#setOnClickListener(android.view.View.OnClickListener)} * to launch the provided {@link PendingIntent}. The source bounds * ({@link Intent#getSourceBounds()}) of the intent will be set to the bounds of the clicked * view in screen space. * Note that any activity options associated with the mPendingIntent may get overridden * before starting the intent. * * When setting the on-click action of items within collections (eg. {@link ListView}, * {@link StackView} etc.), this method will not work. Instead, use {@link * RemoteViews#setPendingIntentTemplate(int, PendingIntent)} in conjunction with * {@link RemoteViews#setOnClickFillInIntent(int, Intent)}." />
-      <item value="When using collections (eg. {@link ListView}, {@link StackView} etc.) in widgets, it is very * costly to set PendingIntents on the individual items, and is hence not permitted. Instead * a single PendingIntent template can be set on the collection, see {@link * RemoteViews#setPendingIntentTemplate(int, PendingIntent)}, and the individual on-click * action of a given item can be distinguished by setting a fillInIntent on that item. The * fillInIntent is then combined with the PendingIntent template in order to determine the final * intent which will be executed when the item is clicked. This works as follows: any fields * which are left blank in the PendingIntent template, but are provided by the fillInIntent * will be overwritten, and the resulting PendingIntent will be used. The rest * of the PendingIntent template will then be filled in with the associated fields that are * set in fillInIntent. See {@link Intent#fillIn(Intent, int)} for more details." />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="102" />
-        <entry key="ENGLISH" value="554" />
-        <entry key="CHINESE_TRADITIONAL" value="260" />
+        <entry key="ENGLISH" value="557" />
+        <entry key="CHINESE_TRADITIONAL" value="263" />
         <entry key="ALBANIAN" value="1" />
         <entry key="DANISH" value="1" />
         <entry key="FRENCH" value="6" />
