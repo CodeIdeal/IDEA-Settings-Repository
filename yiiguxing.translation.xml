@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="This will only be called when the dialog is canceled, if the creator * needs to know when it is dismissed in general, use" />
+      <item value="Interface used to allow the creator of a dialog to run some code when the * dialog is canceled." />
       <item value="尖的" />
       <item value="角" />
       <item value="直" />
@@ -49,14 +51,12 @@
       <item value="Flag indicating that if the described PendingIntent already exists, * then keep it but replace its extra data with what is in this new * Intent. For use with {@link #getActivity}, {@link #getBroadcast}, and * {@link #getService}. &lt;p&gt;This can be used if you are creating intents where only the * extras change, and don't care that any entities that received your * previous PendingIntent will be able to launch it with your new * extras even if they are not explicitly given to it." />
       <item value="minus" />
       <item value="equal" />
-      <item value="Immersive Mode" />
-      <item value="Evenly" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="101" />
-        <entry key="ENGLISH" value="550" />
-        <entry key="CHINESE_TRADITIONAL" value="256" />
+        <entry key="ENGLISH" value="552" />
+        <entry key="CHINESE_TRADITIONAL" value="258" />
         <entry key="ALBANIAN" value="1" />
         <entry key="DANISH" value="1" />
         <entry key="FRENCH" value="6" />
