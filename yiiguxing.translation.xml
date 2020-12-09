@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="处理中" />
       <item value="没有考虑到头布局" />
       <item value="考虑头布局" />
       <item value="add contact server groupId choosing logic" />
@@ -50,11 +51,10 @@
       <item value="Combine" />
       <item value="Accumulates entries of this context starting with [initial] value and applying [operation] * from left to right to current accumulator value and each element of this context." />
       <item value="Handler for [Job.invokeOnCompletion] and [CancellableContinuation.invokeOnCancellation]. * * Installed handler should not throw any exceptions. If it does, they will get caught, * wrapped into [CompletionHandlerException], and rethrown, potentially causing crash of unrelated code. * * The meaning of `cause` that is passed to the handler: * * Cause is `null` when the job has completed normally. * * Cause is an instance of [CancellationException] when the job was cancelled _normally_. * **It should not be treated as an error**. In particular, it should not be reported to error logs. * * Otherwise, the job had _failed_. * * **Note**: This type is a part of internal machinery that supports parent-child hierarchies * and allows for implementation of suspending functions that wait on the Job's state. * This type should not be used in general application code. * Implementations of `CompletionHandler` must be fast and _lock-free_." />
-      <item value="Registers handler that is **synchronously** invoked once on completion of this job. * When the job is already complete, then the handler is immediately invoked * with the job's exception or cancellation cause or `null`. Otherwise, the handler will be invoked once when this * job is complete." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="102" />
+        <entry key="CHINESE" value="103" />
         <entry key="ENGLISH" value="558" />
         <entry key="CHINESE_TRADITIONAL" value="264" />
         <entry key="ALBANIAN" value="1" />
