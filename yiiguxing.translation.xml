@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="If set, and the activity being launched is already running in the * current task, then instead of launching a new instance of that activity, * all of the other activities on top of it will be closed and this Intent * will be delivered to the (now on top) old activity as a new Intent." />
       <item value="Removes the mapping for the specified key from this map if present." />
       <item value="total price to two decimal places" />
       <item value="Triangle" />
@@ -50,13 +51,12 @@
       <item value="Posts a task to a main thread to set the given value. So if you have a following code * executed in the main thread: * &lt;pre class=&quot;prettyprint&quot;&gt; * liveData.postValue(&quot;a&quot;); * liveData.setValue(&quot;b&quot;); * &lt;/pre&gt; * The value &quot;b&quot; would be set at first and later the main thread would override it with * the value &quot;a&quot;. * &lt;p&gt; * If you called this method multiple times before a main thread executed a posted task, only * the last value would be dispatched." />
       <item value="coroutine" />
       <item value="Creates a [CoroutineScope] and calls the specified suspend block with this scope. * The provided scope inherits its [coroutineContext][CoroutineScope.coroutineContext] from the outer scope, but overrides * the context's [Job]." />
-      <item value="Creates a _supervisor_ job object in an active state. * Children of a supervisor job can fail independently of each other. * * A failure or cancellation of a child does not cause the supervisor job to fail and does not affect its other children, * so a supervisor can implement a custom policy for handling failures of its children: * * * A failure of a child job that was created using [launch][CoroutineScope.launch] can be handled via [CoroutineExceptionHandler] in the context. * * A failure of a child job that was created using [async][CoroutineScope.async] can be handled via [Deferred.await] on the resulting deferred value. * * If [parent] job is specified, then this supervisor job becomes a child job of its parent and is cancelled when its * parent fails or is cancelled. All this supervisor's children are cancelled in this case, too. The invocation of * [cancel][Job.cancel] with exception (other than [CancellationException]) on this supervisor job also cancels parent." />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="103" />
-        <entry key="ENGLISH" value="563" />
-        <entry key="CHINESE_TRADITIONAL" value="269" />
+        <entry key="ENGLISH" value="564" />
+        <entry key="CHINESE_TRADITIONAL" value="270" />
         <entry key="ALBANIAN" value="1" />
         <entry key="DANISH" value="1" />
         <entry key="FRENCH" value="6" />
