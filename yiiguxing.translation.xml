@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="vertex" />
+      <item value="Vertices" />
       <item value="If set, and the activity being launched is already running in the * current task, then instead of launching a new instance of that activity, * all of the other activities on top of it will be closed and this Intent * will be delivered to the (now on top) old activity as a new Intent." />
       <item value="Removes the mapping for the specified key from this map if present." />
       <item value="total price to two decimal places" />
@@ -49,14 +51,12 @@
       <item value="Optimization: this wrapper implementation is only needed in the beginning. // Once a valid call is made (i.e. with a different concurrent sequence), we // get rid of it any apply the real implementation as a direct callthrough." />
       <item value="This function is called by [flowOn] (with context) and [buffer] (with capacity) operators * that are applied to this flow. Should not be used with [capacity] of [Channel.CONFLATED] * (it shall be desugared to `capacity = 0, onBufferOverflow = DROP_OLDEST`)." />
       <item value="Posts a task to a main thread to set the given value. So if you have a following code * executed in the main thread: * &lt;pre class=&quot;prettyprint&quot;&gt; * liveData.postValue(&quot;a&quot;); * liveData.setValue(&quot;b&quot;); * &lt;/pre&gt; * The value &quot;b&quot; would be set at first and later the main thread would override it with * the value &quot;a&quot;. * &lt;p&gt; * If you called this method multiple times before a main thread executed a posted task, only * the last value would be dispatched." />
-      <item value="coroutine" />
-      <item value="Creates a [CoroutineScope] and calls the specified suspend block with this scope. * The provided scope inherits its [coroutineContext][CoroutineScope.coroutineContext] from the outer scope, but overrides * the context's [Job]." />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="103" />
-        <entry key="ENGLISH" value="564" />
-        <entry key="CHINESE_TRADITIONAL" value="270" />
+        <entry key="ENGLISH" value="566" />
+        <entry key="CHINESE_TRADITIONAL" value="272" />
         <entry key="ALBANIAN" value="1" />
         <entry key="DANISH" value="1" />
         <entry key="FRENCH" value="6" />
