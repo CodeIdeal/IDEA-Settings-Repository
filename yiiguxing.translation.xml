@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Returns the canonical name of the underlying class as * defined by the Java Language Specification. Returns null if * the underlying class does not have a canonical name (i.e., if * it is a local or anonymous class or an array whose component * type does not have a canonical name). * @return the canonical name of the underlying class if it exists, and * {@code null} otherwise." />
       <item value="precision" />
       <item value="vertex" />
       <item value="Vertices" />
@@ -50,13 +51,12 @@
       <item value="ToastUtils add compatible when invoke on none Ui thread" />
       <item value="Close the view if it's showing, or don't show it if it isn't showing yet. * You do not normally have to call this. Normally view will disappear on its own * after the appropriate duration." />
       <item value="Optimization: this wrapper implementation is only needed in the beginning. // Once a valid call is made (i.e. with a different concurrent sequence), we // get rid of it any apply the real implementation as a direct callthrough." />
-      <item value="This function is called by [flowOn] (with context) and [buffer] (with capacity) operators * that are applied to this flow. Should not be used with [capacity] of [Channel.CONFLATED] * (it shall be desugared to `capacity = 0, onBufferOverflow = DROP_OLDEST`)." />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="103" />
-        <entry key="ENGLISH" value="567" />
-        <entry key="CHINESE_TRADITIONAL" value="273" />
+        <entry key="ENGLISH" value="568" />
+        <entry key="CHINESE_TRADITIONAL" value="274" />
         <entry key="ALBANIAN" value="1" />
         <entry key="DANISH" value="1" />
         <entry key="FRENCH" value="6" />
