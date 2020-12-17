@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="fail" />
       <item value="remove shop name in order detail" />
       <item value="allowobfuscation" />
       <item value="If the superclass is a parameterized type, the {@code Type} * object returned must accurately reflect the actual type * parameters used in the source code. The parameterized type * representing the superclass is created if it had not been * created before. See the declaration of {@link * java.lang.reflect.ParameterizedType ParameterizedType} for the * semantics of the creation process for parameterized types. If * this {@code Class} represents either the {@code Object} * class, an interface, a primitive type, or void, then null is * returned. If this object represents an array class then the * {@code Class} object representing the {@code Object} class is * returned." />
@@ -50,13 +51,12 @@
       <item value="shelf" />
       <item value="过渡" />
       <item value="Return the scrolled top position of this view. This is the top edge of * the displayed part of your view. You do not need to draw any pixels above * it, since those are outside of the frame of your view on screen." />
-      <item value="origin" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="103" />
-        <entry key="ENGLISH" value="571" />
-        <entry key="CHINESE_TRADITIONAL" value="278" />
+        <entry key="ENGLISH" value="572" />
+        <entry key="CHINESE_TRADITIONAL" value="279" />
         <entry key="ALBANIAN" value="1" />
         <entry key="DANISH" value="1" />
         <entry key="FRENCH" value="6" />
