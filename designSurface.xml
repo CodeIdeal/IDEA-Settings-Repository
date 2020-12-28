@@ -7,10 +7,13 @@
         <entry key="app/src/main/res/layout/activity_on_sale2.xml" value="0.35989583333333336" />
         <entry key="app/src/main/res/layout/fragment_after_sale.xml" value="0.35989583333333336" />
         <entry key="app/src/main/res/layout/item_after_sale.xml" value="0.2" />
+        <entry key="common/src/main/res/drawable/radius_16_bg_black.xml" value="0.375" />
+        <entry key="common/src/main/res/drawable/radius_16_bg_fff.xml" value="0.375" />
         <entry key="common/src/main/res/drawable/radius_24_line_ff.xml" value="0.375" />
         <entry key="common/src/main/res/drawable/radius_24_line_ff445e_bg_fff.xml" value="0.375" />
         <entry key="common/src/main/res/layout/dialog_loading.xml" value="0.35989583333333336" />
         <entry key="common/src/main/res/layout/layout_dafault_state_wrap.xml" value="0.3427835051546392" />
+        <entry key="common/src/main/res/layout/no_network_toast.xml" value="0.35989583333333336" />
         <entry key="foundation/base/src/main/res/layout/layout_dafault_state_wrap.xml" value="0.13043478260869565" />
         <entry key="moduleshop/src/main/res/layout/fragment_shopcart.xml" value="0.35989583333333336" />
         <entry key="moduleshop/src/main/res/layout/fragment_shopcart2.xml" value="0.3134057971014493" />
