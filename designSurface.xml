@@ -3,6 +3,14 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="../../../../layout/custom_preview.xml" value="0.25925925925925924" />
+        <entry key="app/src/main/res/drawable-xxhdpi/bg_24_white_cont_1.xml" value="0.25925925925925924" />
+        <entry key="app/src/main/res/drawable-xxhdpi/radius_180_disable.xml" value="0.25925925925925924" />
+        <entry key="app/src/main/res/drawable/radius_bottom_8_bg_eee.xml" value="0.25925925925925924" />
+        <entry key="app/src/main/res/drawable/radius_bottom_8_bg_ff435d.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/radius_bottom_8_bg_fff.xml" value="0.25925925925925924" />
+        <entry key="app/src/main/res/drawable/selector_address_check.xml" value="0.25925925925925924" />
+        <entry key="app/src/main/res/drawable/selector_bottom_8_bg_fff_eee.xml" value="0.25925925925925924" />
+        <entry key="app/src/main/res/drawable/selector_ff435d_transparent_bg.xml" value="0.25925925925925924" />
         <entry key="app/src/main/res/layout/activity_after_sale.xml" value="0.35989583333333336" />
         <entry key="app/src/main/res/layout/activity_goods_detail.xml" value="0.2760416666666667" />
         <entry key="app/src/main/res/layout/activity_on_sale2.xml" value="0.35989583333333336" />
