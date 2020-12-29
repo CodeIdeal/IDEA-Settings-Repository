@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="warp" />
+      <item value="特定" />
       <item value="Callers should switch to checking {@link NetworkCapabilitieshasTransport} instead with one of the NetworkCapabilitiesTRANSPORT_ constants : {@link getType} and {@link getTypeName} cannot account for networks using multiple transports. Note that generally apps should not care about transport; {@link NetworkCapabilitiesNET_CAPABILITY_NOT_METERED} and {@link NetworkCapabilitiesgetLinkDownstreamBandwidthKbps} are calls that apps concerned with meteredness or bandwidth should be looking at, as they offer this information with much better accuracy." />
       <item value="add animate to loading dialog" />
       <item value="translaste" />
@@ -49,8 +51,6 @@
       <item value="Spans of type SPAN_INCLUSIVE_INCLUSIVE expand * to include text inserted at either their starting or ending point." />
       <item value="Spans of type SPAN_EXCLUSIVE_EXCLUSIVE do not expand * to include text inserted at either their starting or ending point. * They can never have a length of 0 and are automatically removed * from the buffer if all the text they cover is removed." />
       <item value="不完整" />
-      <item value="消费者" />
-      <item value="Display the content view in a popup window at the specified location. If the popup window * cannot fit on screen, it will be clipped. See {@link android.view.WindowManager.LayoutParams} * for more information on how gravity and the x and y parameters are related. Specifying * a gravity of {@link android.view.Gravity#NO_GRAVITY} is similar to specifying * &lt;code&gt;Gravity.LEFT | Gravity.TOP&lt;/code&gt;." />
     </histories>
     <option name="languageScores">
       <map>
