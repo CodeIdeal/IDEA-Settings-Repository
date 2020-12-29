@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Callers should switch to checking {@link NetworkCapabilitieshasTransport} instead with one of the NetworkCapabilitiesTRANSPORT_ constants : {@link getType} and {@link getTypeName} cannot account for networks using multiple transports. Note that generally apps should not care about transport; {@link NetworkCapabilitiesNET_CAPABILITY_NOT_METERED} and {@link NetworkCapabilitiesgetLinkDownstreamBandwidthKbps} are calls that apps concerned with meteredness or bandwidth should be looking at, as they offer this information with much better accuracy." />
       <item value="add animate to loading dialog" />
       <item value="translaste" />
       <item value="Geometry" />
@@ -50,13 +51,12 @@
       <item value="不完整" />
       <item value="消费者" />
       <item value="Display the content view in a popup window at the specified location. If the popup window * cannot fit on screen, it will be clipped. See {@link android.view.WindowManager.LayoutParams} * for more information on how gravity and the x and y parameters are related. Specifying * a gravity of {@link android.view.Gravity#NO_GRAVITY} is similar to specifying * &lt;code&gt;Gravity.LEFT | Gravity.TOP&lt;/code&gt;." />
-      <item value="Returns a view of the portion of this list between the specified [fromIndex] (inclusive) and [toIndex] (exclusive). * The returned list is backed by this list, so non-structural changes in the returned list are reflected in this list, and vice-versa. * * Structural changes in the base list make the behavior of the view undefined." />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="103" />
-        <entry key="ENGLISH" value="578" />
-        <entry key="CHINESE_TRADITIONAL" value="286" />
+        <entry key="ENGLISH" value="579" />
+        <entry key="CHINESE_TRADITIONAL" value="287" />
         <entry key="ALBANIAN" value="1" />
         <entry key="DANISH" value="1" />
         <entry key="FRENCH" value="6" />
