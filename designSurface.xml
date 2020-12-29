@@ -14,9 +14,11 @@
         <entry key="app/src/main/res/layout/activity_after_sale.xml" value="0.35989583333333336" />
         <entry key="app/src/main/res/layout/activity_goods_detail.xml" value="0.2760416666666667" />
         <entry key="app/src/main/res/layout/activity_on_sale2.xml" value="0.35989583333333336" />
+        <entry key="app/src/main/res/layout/activity_order_detail.xml" value="0.35989583333333336" />
         <entry key="app/src/main/res/layout/fragment_after_sale.xml" value="0.35989583333333336" />
         <entry key="app/src/main/res/layout/fragment_goods_detail.xml" value="0.2760416666666667" />
         <entry key="app/src/main/res/layout/item_after_sale.xml" value="0.2" />
+        <entry key="app/src/main/res/layout/item_order_item.xml" value="0.35989583333333336" />
         <entry key="app/src/main/res/layout/onsale_head_view.xml" value="0.35989583333333336" />
         <entry key="common/src/main/res/drawable/radius_16_bg_black.xml" value="0.375" />
         <entry key="common/src/main/res/drawable/radius_16_bg_fff.xml" value="0.375" />
