@@ -2,7 +2,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="../../../../layout/custom_preview.xml" value="0.2935185185185185" />
+        <entry key="../../../../layout/custom_preview.xml" value="0.1484375" />
         <entry key="app/src/main/res/drawable-xxhdpi/bg_24_white_cont_1.xml" value="0.25925925925925924" />
         <entry key="app/src/main/res/drawable-xxhdpi/radius_180_disable.xml" value="0.25925925925925924" />
         <entry key="app/src/main/res/drawable/radius_bottom_8_bg_eee.xml" value="0.25925925925925924" />
@@ -31,6 +31,7 @@
         <entry key="common/src/main/res/layout/common_refresh_recyclerview.xml" value="0.24166666666666667" />
         <entry key="common/src/main/res/layout/custom_toast_network_error.xml" value="0.28229166666666666" />
         <entry key="common/src/main/res/layout/dialog_loading.xml" value="0.33055555555555555" />
+        <entry key="common/src/main/res/layout/layout_base.xml" value="0.35989583333333336" />
         <entry key="common/src/main/res/layout/layout_dafault_state_wrap.xml" value="0.2740740740740741" />
         <entry key="common/src/main/res/layout/no_network_toast.xml" value="0.35989583333333336" />
         <entry key="foundation/base/src/main/res/layout/layout_dafault_state_wrap.xml" value="0.13043478260869565" />
