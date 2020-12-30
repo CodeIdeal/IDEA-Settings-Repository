@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Any usage of a declaration annotated with `@ExperimentalContracts` must be accepted either by annotating that usage with the [OptIn] annotation, e.g. `@OptIn(ExperimentalContracts::class)`, or by using the compiler argument `-Xopt-in=kotlin.contracts.ExperimentalContracts`." />
+      <item value="Contracts" />
       <item value="This marker distinguishes the experimental contract declaration API and is used to opt-in for that feature when declaring contracts of user functions. Any usage of a declaration annotated with `@ExperimentalContracts` must be accepted either by annotating that usage with the [OptIn] annotation, e.g. `@OptIn(ExperimentalContracts::class)`, or by using the compiler argument `-Xopt-in=kotlin.contracts.ExperimentalContracts`." />
       <item value="warp" />
       <item value="特定" />
@@ -49,14 +51,12 @@
       <item value="Changes the activated state of this view. A view can be activated or not. * Note that activation is not the same as selection. Selection is * a transient property, representing the view (hierarchy) the user is * currently interacting with. Activation is a longer-term state that the * user can move views in and out of. For example, in a list view with * single or multiple selection enabled, the views in the current selection * set are activated. (Um, yeah, we are deeply sorry about the terminology * here.) The activated state is propagated down to children of the view it * is set on. *" />
       <item value="对接" />
       <item value="The amount of horizontal scroll." />
-      <item value="Spans of type SPAN_INCLUSIVE_INCLUSIVE expand * to include text inserted at either their starting or ending point." />
-      <item value="Spans of type SPAN_EXCLUSIVE_EXCLUSIVE do not expand * to include text inserted at either their starting or ending point. * They can never have a length of 0 and are automatically removed * from the buffer if all the text they cover is removed." />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="103" />
-        <entry key="ENGLISH" value="579" />
-        <entry key="CHINESE_TRADITIONAL" value="287" />
+        <entry key="ENGLISH" value="581" />
+        <entry key="CHINESE_TRADITIONAL" value="289" />
         <entry key="ALBANIAN" value="1" />
         <entry key="DANISH" value="1" />
         <entry key="FRENCH" value="6" />
