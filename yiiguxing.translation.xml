@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="args after sale status" />
       <item value="Write Transport Activity" />
       <item value="Indicates whether each item in the data set can be represented with a unique identifier of type {@link java.lang.Long}." />
       <item value="In this mode, {@link ConcatAdapter} will return {@code true} from {@link ConcatAdapterhasStableIds()} and will &lt;b&gt;require&lt;b&gt; all added {@link Adapter}s to have stable ids. Unlike {@link StableIdModeISOLATED_STABLE_IDS}, {@link ConcatAdapter} will not override the returned item ids. In this mode, child {@link Adapter}s must be aware of each-other and never return the same id unless and item is moved between {@link Adapter}s. Adding an adapter without stable ids will result in an {@link IllegalArgumentException}." />
@@ -50,7 +51,6 @@
       <item value="直角" />
       <item value="Valid" />
       <item value="State value for {@link android.graphics.drawable.StateListDrawable StateListDrawable}, set when a view or drawable is considered &quot;active&quot; by its host. Actual usage may vary between views. Consult the host view documentation for details. --&gt;" />
-      <item value="State value for {@link android.graphics.drawable.StateListDrawable StateListDrawable}, set when a view or its parent has been &quot;activated&quot; meaning the user has currently marked it as being of interest. This is an alternative representation of state_checked for when the state should be propagated down the view hierarchy." />
     </histories>
     <option name="languageScores">
       <map>
