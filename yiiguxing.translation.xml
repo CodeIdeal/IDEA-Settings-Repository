@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Write Transport Activity" />
       <item value="Indicates whether each item in the data set can be represented with a unique identifier of type {@link java.lang.Long}." />
       <item value="In this mode, {@link ConcatAdapter} will return {@code true} from {@link ConcatAdapterhasStableIds()} and will &lt;b&gt;require&lt;b&gt; all added {@link Adapter}s to have stable ids. Unlike {@link StableIdModeISOLATED_STABLE_IDS}, {@link ConcatAdapter} will not override the returned item ids. In this mode, child {@link Adapter}s must be aware of each-other and never return the same id unless and item is moved between {@link Adapter}s. Adding an adapter without stable ids will result in an {@link IllegalArgumentException}." />
       <item value="Any usage of a declaration annotated with `@ExperimentalContracts` must be accepted either by annotating that usage with the [OptIn] annotation, e.g. `@OptIn(ExperimentalContracts::class)`, or by using the compiler argument `-Xopt-in=kotlin.contracts.ExperimentalContracts`." />
@@ -50,13 +51,12 @@
       <item value="Valid" />
       <item value="State value for {@link android.graphics.drawable.StateListDrawable StateListDrawable}, set when a view or drawable is considered &quot;active&quot; by its host. Actual usage may vary between views. Consult the host view documentation for details. --&gt;" />
       <item value="State value for {@link android.graphics.drawable.StateListDrawable StateListDrawable}, set when a view or its parent has been &quot;activated&quot; meaning the user has currently marked it as being of interest. This is an alternative representation of state_checked for when the state should be propagated down the view hierarchy." />
-      <item value="Changes the activated state of this view. A view can be activated or not. * Note that activation is not the same as selection. Selection is * a transient property, representing the view (hierarchy) the user is * currently interacting with. Activation is a longer-term state that the * user can move views in and out of. For example, in a list view with * single or multiple selection enabled, the views in the current selection * set are activated. (Um, yeah, we are deeply sorry about the terminology * here.) The activated state is propagated down to children of the view it * is set on. *" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="103" />
-        <entry key="ENGLISH" value="583" />
-        <entry key="CHINESE_TRADITIONAL" value="291" />
+        <entry key="ENGLISH" value="584" />
+        <entry key="CHINESE_TRADITIONAL" value="292" />
         <entry key="ALBANIAN" value="1" />
         <entry key="DANISH" value="1" />
         <entry key="FRENCH" value="6" />
