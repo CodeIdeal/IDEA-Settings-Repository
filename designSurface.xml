@@ -18,6 +18,7 @@
         <entry key="app/src/main/res/layout/activity_order_detail.xml" value="0.35989583333333336" />
         <entry key="app/src/main/res/layout/activity_problem_list.xml" value="0.35989583333333336" />
         <entry key="app/src/main/res/layout/activity_return_transport.xml" value="0.35989583333333336" />
+        <entry key="app/src/main/res/layout/activity_search.xml" value="0.15052083333333333" />
         <entry key="app/src/main/res/layout/activity_service_center.xml" value="0.35989583333333336" />
         <entry key="app/src/main/res/layout/activity_setting_address.xml" value="0.35989583333333336" />
         <entry key="app/src/main/res/layout/activity_shipping_address.xml" value="0.35989583333333336" />
@@ -32,6 +33,7 @@
         <entry key="app/src/main/res/layout/item_logistic_end.xml" value="0.35989583333333336" />
         <entry key="app/src/main/res/layout/item_logistic_end1.xml" value="0.35989583333333336" />
         <entry key="app/src/main/res/layout/item_order_item.xml" value="0.35989583333333336" />
+        <entry key="app/src/main/res/layout/item_search_good.xml" value="0.15052083333333333" />
         <entry key="app/src/main/res/layout/item_transport_begin.xml" value="0.35989583333333336" />
         <entry key="app/src/main/res/layout/mine_item_top.xml" value="0.35989583333333336" />
         <entry key="app/src/main/res/layout/onsale_head_view.xml" value="0.35989583333333336" />
