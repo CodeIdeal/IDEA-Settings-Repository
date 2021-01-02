@@ -3,6 +3,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="../../../../layout/custom_preview.xml" value="0.1" />
+        <entry key="../../.gradle/caches/transforms-2/files-2.1/6a97d759b541e40f6b34c041a4599966/jetified-refresh-footer-classics-2.0.1/res/layout/srl_classics_footer.xml" value="0.35989583333333336" />
         <entry key="app/src/main/res/drawable-xxhdpi/bg_24_white_cont_1.xml" value="0.25925925925925924" />
         <entry key="app/src/main/res/drawable-xxhdpi/radius_180_disable.xml" value="0.25925925925925924" />
         <entry key="app/src/main/res/drawable/radius_bottom_8_bg_eee.xml" value="0.25925925925925924" />
@@ -30,6 +31,7 @@
         <entry key="app/src/main/res/layout/fragment_problem_item.xml" value="0.35989583333333336" />
         <entry key="app/src/main/res/layout/item_after_sale.xml" value="0.2" />
         <entry key="app/src/main/res/layout/item_brand_intro.xml" value="0.35989583333333336" />
+        <entry key="app/src/main/res/layout/item_load_more.xml" value="0.35989583333333336" />
         <entry key="app/src/main/res/layout/item_logistic_end.xml" value="0.35989583333333336" />
         <entry key="app/src/main/res/layout/item_logistic_end1.xml" value="0.35989583333333336" />
         <entry key="app/src/main/res/layout/item_order_item.xml" value="0.35989583333333336" />
@@ -47,6 +49,7 @@
         <entry key="common/src/main/res/layout/layout_base.xml" value="0.35989583333333336" />
         <entry key="common/src/main/res/layout/layout_dafault_state_wrap.xml" value="0.2740740740740741" />
         <entry key="common/src/main/res/layout/no_network_toast.xml" value="0.35989583333333336" />
+        <entry key="common/src/main/res/layout/view_load_more.xml" value="0.35989583333333336" />
         <entry key="foundation/base/src/main/res/layout/layout_dafault_state_wrap.xml" value="0.13043478260869565" />
         <entry key="moduleshop/src/main/res/layout/fragment_shopcart.xml" value="0.35989583333333336" />
         <entry key="moduleshop/src/main/res/layout/fragment_shopcart2.xml" value="0.3134057971014493" />
