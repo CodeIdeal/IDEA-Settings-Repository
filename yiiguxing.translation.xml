@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Wraper" />
+      <item value="Wrap" />
       <item value="args after sale status" />
       <item value="Write Transport Activity" />
       <item value="Indicates whether each item in the data set can be represented with a unique identifier of type {@link java.lang.Long}." />
@@ -49,14 +51,12 @@
       <item value="角" />
       <item value="直" />
       <item value="直角" />
-      <item value="Valid" />
-      <item value="State value for {@link android.graphics.drawable.StateListDrawable StateListDrawable}, set when a view or drawable is considered &quot;active&quot; by its host. Actual usage may vary between views. Consult the host view documentation for details. --&gt;" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="103" />
-        <entry key="ENGLISH" value="584" />
-        <entry key="CHINESE_TRADITIONAL" value="292" />
+        <entry key="ENGLISH" value="586" />
+        <entry key="CHINESE_TRADITIONAL" value="294" />
         <entry key="ALBANIAN" value="1" />
         <entry key="DANISH" value="1" />
         <entry key="FRENCH" value="6" />
@@ -70,7 +70,7 @@
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1609299870144" />
+    <option name="lastTrimTime" value="1609751593522" />
   </component>
   <component name="Settings">
     <option name="googleTranslateSettings">
