@@ -27,6 +27,7 @@
         <entry key="app/src/main/res/layout/activity_message_list.xml" value="0.24739583333333334" />
         <entry key="app/src/main/res/layout/activity_more_promotion.xml" value="0.35989583333333336" />
         <entry key="app/src/main/res/layout/activity_my_coupon.xml" value="0.35989583333333336" />
+        <entry key="app/src/main/res/layout/activity_n_goods_detail.xml" value="0.35989583333333336" />
         <entry key="app/src/main/res/layout/activity_on_sale2.xml" value="0.35989583333333336" />
         <entry key="app/src/main/res/layout/activity_order_detail.xml" value="0.35989583333333336" />
         <entry key="app/src/main/res/layout/activity_order_list.xml" value="0.35989583333333336" />
@@ -53,6 +54,7 @@
         <entry key="app/src/main/res/layout/item_logistic_end1.xml" value="0.35989583333333336" />
         <entry key="app/src/main/res/layout/item_my_coupon.xml" value="0.35989583333333336" />
         <entry key="app/src/main/res/layout/item_my_coupon_go_center.xml" value="0.35989583333333336" />
+        <entry key="app/src/main/res/layout/item_n_goods_detail_info.xml" value="0.35989583333333336" />
         <entry key="app/src/main/res/layout/item_no_coupon.xml" value="0.35989583333333336" />
         <entry key="app/src/main/res/layout/item_order_item.xml" value="0.35989583333333336" />
         <entry key="app/src/main/res/layout/item_search_good.xml" value="0.15052083333333333" />
