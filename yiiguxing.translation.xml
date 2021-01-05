@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Called when a view created by this adapter has been attached to a window. &lt;p&gt;This can be used as a reasonable signal that the view is about to be seen by the user. If the adapter previously freed any resources in {@link onViewDetachedFromWindow(RecyclerView.ViewHolder) onViewDetachedFromWindow} those resources should be restored here.&lt;p&gt;" />
       <item value="Idle" />
       <item value="Returns The itemId represented by this ViewHolder. @return The item's id if adapter has stable ids, {@link RecyclerViewNO_ID} otherwise" />
       <item value="In this mode, {@link ConcatAdapter} will return {@code true} from {@link ConcatAdapterhasStableIds()} and will &lt;b&gt;require&lt;b&gt; all added {@link Adapter}s to have stable ids. As two different adapters may return same stable ids because they are unaware of each-other, {@link ConcatAdapter} will isolate each {@link Adapter}'s id pool from each other such that it will overwrite the reported stable id before reporting back to the {@link RecyclerView}. In this mode, the value returned from {@link ViewHoldergetItemId()} might differ from the value returned from {@link AdaptergetItemId(int)}." />
@@ -50,13 +51,12 @@
       <item value="考虑头布局" />
       <item value="add contact server groupId choosing logic" />
       <item value="choosing" />
-      <item value="add contact server groupId choose logic" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="103" />
-        <entry key="ENGLISH" value="596" />
-        <entry key="CHINESE_TRADITIONAL" value="304" />
+        <entry key="ENGLISH" value="597" />
+        <entry key="CHINESE_TRADITIONAL" value="305" />
         <entry key="ALBANIAN" value="1" />
         <entry key="DANISH" value="1" />
         <entry key="FRENCH" value="6" />
