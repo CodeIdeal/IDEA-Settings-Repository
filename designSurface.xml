@@ -44,6 +44,7 @@
         <entry key="app/src/main/res/layout/empty_view.xml" value="0.35989583333333336" />
         <entry key="app/src/main/res/layout/fragment_after_sale.xml" value="0.35989583333333336" />
         <entry key="app/src/main/res/layout/fragment_goods_detail.xml" value="0.2760416666666667" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.35989583333333336" />
         <entry key="app/src/main/res/layout/fragment_mine2.xml" value="0.26458333333333334" />
         <entry key="app/src/main/res/layout/fragment_order_list.xml" value="0.35989583333333336" />
         <entry key="app/src/main/res/layout/fragment_problem_item.xml" value="0.35989583333333336" />
@@ -51,6 +52,8 @@
         <entry key="app/src/main/res/layout/item_after_sale.xml" value="0.2" />
         <entry key="app/src/main/res/layout/item_brand_intro.xml" value="0.35989583333333336" />
         <entry key="app/src/main/res/layout/item_get_coupon_center.xml" value="0.35989583333333336" />
+        <entry key="app/src/main/res/layout/item_goods_list.xml" value="0.35989583333333336" />
+        <entry key="app/src/main/res/layout/item_home_store.xml" value="0.35989583333333336" />
         <entry key="app/src/main/res/layout/item_load_more.xml" value="0.35989583333333336" />
         <entry key="app/src/main/res/layout/item_logistic_end.xml" value="0.35989583333333336" />
         <entry key="app/src/main/res/layout/item_logistic_end1.xml" value="0.35989583333333336" />
