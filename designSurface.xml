@@ -45,7 +45,7 @@
         <entry key="app/src/main/res/layout/fragment_after_sale.xml" value="0.35989583333333336" />
         <entry key="app/src/main/res/layout/fragment_goods_detail.xml" value="0.2760416666666667" />
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.35989583333333336" />
-        <entry key="app/src/main/res/layout/fragment_mine2.xml" value="0.26458333333333334" />
+        <entry key="app/src/main/res/layout/fragment_mine2.xml" value="0.35989583333333336" />
         <entry key="app/src/main/res/layout/fragment_order_list.xml" value="0.35989583333333336" />
         <entry key="app/src/main/res/layout/fragment_problem_item.xml" value="0.35989583333333336" />
         <entry key="app/src/main/res/layout/fragment_transport_detial.xml" value="0.35989583333333336" />
@@ -82,6 +82,7 @@
         <entry key="common/src/main/res/layout/no_network_toast.xml" value="0.35989583333333336" />
         <entry key="common/src/main/res/layout/view_base_quick_load_more.xml" value="0.35989583333333336" />
         <entry key="common/src/main/res/layout/view_load_more.xml" value="0.35989583333333336" />
+        <entry key="common/src/main/res/layout/view_load_more_wrap.xml" value="0.35989583333333336" />
         <entry key="foundation/base/src/main/res/layout/layout_dafault_state_wrap.xml" value="0.13043478260869565" />
         <entry key="moduleshop/src/main/res/layout/fragment_shopcart.xml" value="0.35989583333333336" />
         <entry key="moduleshop/src/main/res/layout/fragment_shopcart2.xml" value="0.35989583333333336" />
