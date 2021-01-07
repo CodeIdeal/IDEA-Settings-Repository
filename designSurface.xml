@@ -21,6 +21,7 @@
         <entry key="app/src/main/res/layout/activity_aftersale_detail.xml" value="0.35989583333333336" />
         <entry key="app/src/main/res/layout/activity_brand_category.xml" value="0.35989583333333336" />
         <entry key="app/src/main/res/layout/activity_brand_intro.xml" value="0.35989583333333336" />
+        <entry key="app/src/main/res/layout/activity_cancel_order.xml" value="0.35989583333333336" />
         <entry key="app/src/main/res/layout/activity_change_address.xml" value="0.35989583333333336" />
         <entry key="app/src/main/res/layout/activity_change_size.xml" value="0.35989583333333336" />
         <entry key="app/src/main/res/layout/activity_full_discount.xml" value="0.35989583333333336" />
@@ -37,6 +38,7 @@
         <entry key="app/src/main/res/layout/activity_order_list.xml" value="0.35989583333333336" />
         <entry key="app/src/main/res/layout/activity_popular_main.xml" value="0.35989583333333336" />
         <entry key="app/src/main/res/layout/activity_problem_list.xml" value="0.35989583333333336" />
+        <entry key="app/src/main/res/layout/activity_refund_choose.xml" value="0.35989583333333336" />
         <entry key="app/src/main/res/layout/activity_return_transport.xml" value="0.35989583333333336" />
         <entry key="app/src/main/res/layout/activity_search.xml" value="0.15052083333333333" />
         <entry key="app/src/main/res/layout/activity_service_center.xml" value="0.35989583333333336" />
