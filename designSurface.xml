@@ -38,6 +38,8 @@
         <entry key="app/src/main/res/layout/activity_return_transport.xml" value="0.35989583333333336" />
         <entry key="app/src/main/res/layout/activity_search.xml" value="0.15052083333333333" />
         <entry key="app/src/main/res/layout/activity_service_center.xml" value="0.35989583333333336" />
+        <entry key="app/src/main/res/layout/activity_service_record.xml" value="0.35989583333333336" />
+        <entry key="app/src/main/res/layout/activity_service_record_detail.xml" value="0.35989583333333336" />
         <entry key="app/src/main/res/layout/activity_setting_address.xml" value="0.35989583333333336" />
         <entry key="app/src/main/res/layout/activity_shipping_address.xml" value="0.35989583333333336" />
         <entry key="app/src/main/res/layout/activity_transport_detail.xml" value="0.35989583333333336" />
@@ -49,6 +51,7 @@
         <entry key="app/src/main/res/layout/fragment_mine2.xml" value="0.35989583333333336" />
         <entry key="app/src/main/res/layout/fragment_order_list.xml" value="0.35989583333333336" />
         <entry key="app/src/main/res/layout/fragment_problem_item.xml" value="0.35989583333333336" />
+        <entry key="app/src/main/res/layout/fragment_service_record_list.xml" value="0.35989583333333336" />
         <entry key="app/src/main/res/layout/fragment_transport_detial.xml" value="0.35989583333333336" />
         <entry key="app/src/main/res/layout/item_after_sale.xml" value="0.2" />
         <entry key="app/src/main/res/layout/item_brand_intro.xml" value="0.35989583333333336" />
@@ -82,6 +85,7 @@
         <entry key="common/src/main/res/layout/dialog_loading.xml" value="0.33055555555555555" />
         <entry key="common/src/main/res/layout/layout_base.xml" value="0.35989583333333336" />
         <entry key="common/src/main/res/layout/layout_dafault_state_wrap.xml" value="0.3212962962962963" />
+        <entry key="common/src/main/res/layout/layout_no_data_record.xml" value="0.35989583333333336" />
         <entry key="common/src/main/res/layout/no_network_toast.xml" value="0.35989583333333336" />
         <entry key="common/src/main/res/layout/view_base_quick_load_more.xml" value="0.35989583333333336" />
         <entry key="common/src/main/res/layout/view_load_more.xml" value="0.35989583333333336" />
