@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Whether to add the given target to the list of targets to exclude from this transition. The &lt;code&gt;exclude&lt;code&gt; parameter specifies whether the target should be added to or removed from the excluded list. &lt;p&gt;Excluding targets is a general mechanism for allowing transitions to run on a view hierarchy while skipping target views that should not be part of the transition. For example, you may want to avoid animating children of a specific ListView or Spinner. Views can be excluded either by their id, or by their instance reference, or by the Class of that view (eg, {@link Spinner}).&lt;p&gt; @param target The target to ignore when running this transition. @param exclude Whether to add the target to or remove the target from the current list of excluded targets." />
       <item value="distinct Until Changed" />
       <item value="Tell the host application the current progress of loading a page. @param view The WebView that initiated the callback. @param newProgress Current page loading progress, represented by an integer between 0 and 100." />
       <item value="ContentLoadingProgressBar implements a ProgressBar that waits a minimum time to be dismissed before showing. Once visible, the progress bar will be visible for a minimum amount of time to avoid &quot;flashes&quot; in the UI when an event could take a largely variable time to complete (from none, to a user perceivable amount)" />
@@ -50,13 +51,12 @@
       <item value="The renderer only renders * when the surface is created, or when {@link #requestRender} is called." />
       <item value="The renderer is called * continuously to re-render the scene." />
       <item value="处理中" />
-      <item value="没有考虑到头布局" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="103" />
-        <entry key="ENGLISH" value="600" />
-        <entry key="CHINESE_TRADITIONAL" value="308" />
+        <entry key="ENGLISH" value="601" />
+        <entry key="CHINESE_TRADITIONAL" value="309" />
         <entry key="ALBANIAN" value="1" />
         <entry key="DANISH" value="1" />
         <entry key="FRENCH" value="6" />
@@ -78,7 +78,6 @@
         <option name="primaryLanguage" value="CHINESE_TRADITIONAL" />
       </google-translate>
     </option>
-    <option name="ignoreRegExp" value="" />
     <option name="youdaoTranslateSettings">
       <youdao-translate>
         <option name="appId" value="5035e0423bd01874" />
