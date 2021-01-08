@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="The classes that affect character-level text formatting extend this class. Most extend its subclass {@link MetricAffectingSpan}, but simple ones may just implement {@link UpdateAppearance}." />
       <item value="Bitmask of bits that are relevent for controlling pointmark behavior of spans. MARK and POINT are conceptually located &lt;i&gt;between&lt;i&gt; two adjacent characters. A MARK is &quot;attached&quot; to the character before, while a POINT will stick to the character after. The insertion cursor is conceptually located between the MARK and the POINT. As a result, inserting a new character between a MARK and a POINT will leave the MARK unchanged, while the POINT will be shifted, now located after the inserted character and still glued to the same character after it. Depending on whether the insertion happens at the beginning or the end of a span, the span will hence be expanded to &lt;i&gt;include&lt;i&gt; the new character (when the span is using a MARK at its beginning or a POINT at its end) or it will be &lt;i&gt;excluded&lt;i&gt;. Note that &lt;i&gt;before&lt;i&gt; and &lt;i&gt;after&lt;i&gt; here refer to offsets in the String, which are independent from the visual representation of the text (left-to-right or right-to-left)." />
       <item value="Whether to add the given target to the list of targets to exclude from this transition. The &lt;code&gt;exclude&lt;code&gt; parameter specifies whether the target should be added to or removed from the excluded list. &lt;p&gt;Excluding targets is a general mechanism for allowing transitions to run on a view hierarchy while skipping target views that should not be part of the transition. For example, you may want to avoid animating children of a specific ListView or Spinner. Views can be excluded either by their id, or by their instance reference, or by the Class of that view (eg, {@link Spinner}).&lt;p&gt; @param target The target to ignore when running this transition. @param exclude Whether to add the target to or remove the target from the current list of excluded targets." />
       <item value="distinct Until Changed" />
@@ -50,13 +51,12 @@
       <item value="total price to two decimal places" />
       <item value="Triangle" />
       <item value="The renderer only renders * when the surface is created, or when {@link #requestRender} is called." />
-      <item value="The renderer is called * continuously to re-render the scene." />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="103" />
-        <entry key="ENGLISH" value="602" />
-        <entry key="CHINESE_TRADITIONAL" value="310" />
+        <entry key="ENGLISH" value="603" />
+        <entry key="CHINESE_TRADITIONAL" value="311" />
         <entry key="ALBANIAN" value="1" />
         <entry key="DANISH" value="1" />
         <entry key="FRENCH" value="6" />
