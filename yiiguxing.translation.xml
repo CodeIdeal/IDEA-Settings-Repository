@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="In this mode, {@link ConcatAdapter} will return {@code true} from {@link ConcatAdapterhasStableIds()} and will &lt;b&gt;require&lt;b&gt; all added {@link Adapter}s to have stable ids. As two different adapters may return same stable ids because they are unaware of each-other, {@link ConcatAdapter} will isolate each {@link Adapter}'s id pool from each other such that it will overwrite the reported stable id before reporting back to the {@link RecyclerView}. In this mode, the value returned from {@link ViewHoldergetItemId()} might differ from the value returned from {@link AdaptergetItemId(int)}. Adding an adapter without stable ids will result in an" />
+      <item value="In this mode, {@link ConcatAdapter} will return {@code true} from {@link ConcatAdapterhasStableIds()} and will &lt;b&gt;require&lt;b&gt; all added {@link Adapter}s to have stable ids. Unlike {@link StableIdModeISOLATED_STABLE_IDS}, {@link ConcatAdapter} will not override the returned item ids. In this mode, child {@link Adapter}s must be aware of each-other and never return the same id unless and item is moved between {@link Adapter}s. Adding an adapter without stable ids will result in an" />
       <item value="Postponed" />
       <item value="Position of ViewHolder to be returned." />
       <item value="Returns the total number of items that can be laid out. Note that this number is not necessarily equal to the number of items in the adapter, so you should always use this number for your position calculations and never access the adapter directly." />
@@ -49,14 +51,12 @@
       <item value="precision" />
       <item value="vertex" />
       <item value="Vertices" />
-      <item value="If set, and the activity being launched is already running in the * current task, then instead of launching a new instance of that activity, * all of the other activities on top of it will be closed and this Intent * will be delivered to the (now on top) old activity as a new Intent." />
-      <item value="Removes the mapping for the specified key from this map if present." />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="103" />
-        <entry key="ENGLISH" value="606" />
-        <entry key="CHINESE_TRADITIONAL" value="314" />
+        <entry key="ENGLISH" value="608" />
+        <entry key="CHINESE_TRADITIONAL" value="316" />
         <entry key="ALBANIAN" value="1" />
         <entry key="DANISH" value="1" />
         <entry key="FRENCH" value="6" />
