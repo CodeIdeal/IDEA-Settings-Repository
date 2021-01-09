@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Postponed" />
+      <item value="Position of ViewHolder to be returned." />
       <item value="Returns the total number of items that can be laid out. Note that this number is not necessarily equal to the number of items in the adapter, so you should always use this number for your position calculations and never access the adapter directly." />
       <item value="The classes that affect character-level text formatting extend this class. Most extend its subclass {@link MetricAffectingSpan}, but simple ones may just implement {@link UpdateAppearance}." />
       <item value="Bitmask of bits that are relevent for controlling pointmark behavior of spans. MARK and POINT are conceptually located &lt;i&gt;between&lt;i&gt; two adjacent characters. A MARK is &quot;attached&quot; to the character before, while a POINT will stick to the character after. The insertion cursor is conceptually located between the MARK and the POINT. As a result, inserting a new character between a MARK and a POINT will leave the MARK unchanged, while the POINT will be shifted, now located after the inserted character and still glued to the same character after it. Depending on whether the insertion happens at the beginning or the end of a span, the span will hence be expanded to &lt;i&gt;include&lt;i&gt; the new character (when the span is using a MARK at its beginning or a POINT at its end) or it will be &lt;i&gt;excluded&lt;i&gt;. Note that &lt;i&gt;before&lt;i&gt; and &lt;i&gt;after&lt;i&gt; here refer to offsets in the String, which are independent from the visual representation of the text (left-to-right or right-to-left)." />
@@ -49,14 +51,12 @@
       <item value="Vertices" />
       <item value="If set, and the activity being launched is already running in the * current task, then instead of launching a new instance of that activity, * all of the other activities on top of it will be closed and this Intent * will be delivered to the (now on top) old activity as a new Intent." />
       <item value="Removes the mapping for the specified key from this map if present." />
-      <item value="total price to two decimal places" />
-      <item value="Triangle" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="103" />
-        <entry key="ENGLISH" value="604" />
-        <entry key="CHINESE_TRADITIONAL" value="312" />
+        <entry key="ENGLISH" value="606" />
+        <entry key="CHINESE_TRADITIONAL" value="314" />
         <entry key="ALBANIAN" value="1" />
         <entry key="DANISH" value="1" />
         <entry key="FRENCH" value="6" />
