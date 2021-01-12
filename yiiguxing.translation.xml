@@ -1,6 +1,10 @@
 <application>
   <component name="AppStorage">
+    <option name="newTranslationDialogWidth" value="598" />
+    <option name="newTranslationDialogX" value="931" />
+    <option name="newTranslationDialogY" value="415" />
     <histories>
+      <item value="效果" />
       <item value="Inset" />
       <item value="Height as measured during measure pass." />
       <item value="In this mode, {@link ConcatAdapter} will return {@code true} from {@link ConcatAdapterhasStableIds()} and will &lt;b&gt;require&lt;b&gt; all added {@link Adapter}s to have stable ids. As two different adapters may return same stable ids because they are unaware of each-other, {@link ConcatAdapter} will isolate each {@link Adapter}'s id pool from each other such that it will overwrite the reported stable id before reporting back to the {@link RecyclerView}. In this mode, the value returned from {@link ViewHoldergetItemId()} might differ from the value returned from {@link AdaptergetItemId(int)}. Adding an adapter without stable ids will result in an" />
@@ -50,7 +54,6 @@
       <item value="If the superclass is a parameterized type, the {@code Type} * object returned must accurately reflect the actual type * parameters used in the source code. The parameterized type * representing the superclass is created if it had not been * created before. See the declaration of {@link * java.lang.reflect.ParameterizedType ParameterizedType} for the * semantics of the creation process for parameterized types. If * this {@code Class} represents either the {@code Object} * class, an interface, a primitive type, or void, then null is * returned. If this object represents an array class then the * {@code Class} object representing the {@code Object} class is * returned." />
       <item value="Returns the {@code Type} representing the direct superclass of * the entity (class, interface, primitive type or void) represented by * this {@code Class}." />
       <item value="Returns the canonical name of the underlying class as * defined by the Java Language Specification. Returns null if * the underlying class does not have a canonical name (i.e., if * it is a local or anonymous class or an array whose component * type does not have a canonical name). * @return the canonical name of the underlying class if it exists, and * {@code null} otherwise." />
-      <item value="precision" />
     </histories>
     <option name="languageScores">
       <map>
