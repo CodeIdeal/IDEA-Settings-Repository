@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Inset" />
       <item value="Height as measured during measure pass." />
       <item value="In this mode, {@link ConcatAdapter} will return {@code true} from {@link ConcatAdapterhasStableIds()} and will &lt;b&gt;require&lt;b&gt; all added {@link Adapter}s to have stable ids. As two different adapters may return same stable ids because they are unaware of each-other, {@link ConcatAdapter} will isolate each {@link Adapter}'s id pool from each other such that it will overwrite the reported stable id before reporting back to the {@link RecyclerView}. In this mode, the value returned from {@link ViewHoldergetItemId()} might differ from the value returned from {@link AdaptergetItemId(int)}. Adding an adapter without stable ids will result in an" />
       <item value="In this mode, {@link ConcatAdapter} will return {@code true} from {@link ConcatAdapterhasStableIds()} and will &lt;b&gt;require&lt;b&gt; all added {@link Adapter}s to have stable ids. Unlike {@link StableIdModeISOLATED_STABLE_IDS}, {@link ConcatAdapter} will not override the returned item ids. In this mode, child {@link Adapter}s must be aware of each-other and never return the same id unless and item is moved between {@link Adapter}s. Adding an adapter without stable ids will result in an" />
@@ -50,13 +51,12 @@
       <item value="Returns the {@code Type} representing the direct superclass of * the entity (class, interface, primitive type or void) represented by * this {@code Class}." />
       <item value="Returns the canonical name of the underlying class as * defined by the Java Language Specification. Returns null if * the underlying class does not have a canonical name (i.e., if * it is a local or anonymous class or an array whose component * type does not have a canonical name). * @return the canonical name of the underlying class if it exists, and * {@code null} otherwise." />
       <item value="precision" />
-      <item value="vertex" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="103" />
-        <entry key="ENGLISH" value="609" />
-        <entry key="CHINESE_TRADITIONAL" value="317" />
+        <entry key="ENGLISH" value="610" />
+        <entry key="CHINESE_TRADITIONAL" value="318" />
         <entry key="ALBANIAN" value="1" />
         <entry key="DANISH" value="1" />
         <entry key="FRENCH" value="6" />
