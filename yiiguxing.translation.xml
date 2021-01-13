@@ -4,6 +4,10 @@
     <option name="newTranslationDialogX" value="931" />
     <option name="newTranslationDialogY" value="415" />
     <histories>
+      <item value="Flag for {@link showSoftInput} to indicate that the user has forced the input method open (such as by long-pressing menu) so it should not be closed until they explicitly do so." />
+      <item value="Flag for {@link showSoftInput} to indicate that this is an implicit request to show the input window, not as the result of a direct request by the user. The window may not be shown in this case." />
+      <item value="Provides additional operating flags. Currently may be 0 or have the {@link SHOW_IMPLICIT} bit set." />
+      <item value="he system window inset represents the area of a full-screen window that is partially or fully obscured by the status bar, navigation bar, IME or other system windows." />
       <item value="silver" />
       <item value="sliver" />
       <item value="copper" />
@@ -50,16 +54,12 @@
       <item value="add animate to loading dialog" />
       <item value="translaste" />
       <item value="Geometry" />
-      <item value="Geogetry" />
-      <item value="Geobetry" />
-      <item value="gl Viewport" />
-      <item value="组件" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="103" />
-        <entry key="ENGLISH" value="616" />
-        <entry key="CHINESE_TRADITIONAL" value="325" />
+        <entry key="ENGLISH" value="620" />
+        <entry key="CHINESE_TRADITIONAL" value="329" />
         <entry key="ALBANIAN" value="1" />
         <entry key="DANISH" value="1" />
         <entry key="FRENCH" value="6" />
