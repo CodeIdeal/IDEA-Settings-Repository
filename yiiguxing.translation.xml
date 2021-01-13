@@ -4,6 +4,9 @@
     <option name="newTranslationDialogX" value="931" />
     <option name="newTranslationDialogY" value="415" />
     <histories>
+      <item value="silver" />
+      <item value="sliver" />
+      <item value="copper" />
       <item value="board" />
       <item value="borard" />
       <item value="leaderborard" />
@@ -51,15 +54,12 @@
       <item value="Geobetry" />
       <item value="gl Viewport" />
       <item value="组件" />
-      <item value="Consolidated" />
-      <item value="fail" />
-      <item value="remove shop name in order detail" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="103" />
-        <entry key="ENGLISH" value="613" />
-        <entry key="CHINESE_TRADITIONAL" value="322" />
+        <entry key="ENGLISH" value="616" />
+        <entry key="CHINESE_TRADITIONAL" value="325" />
         <entry key="ALBANIAN" value="1" />
         <entry key="DANISH" value="1" />
         <entry key="FRENCH" value="6" />
