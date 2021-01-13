@@ -86,7 +86,7 @@
         <entry key="app/src/main/res/layout/pop_more_menus.xml" value="0.3458333333333333" />
         <entry key="common/src/main/res/drawable/radius_16_bg_black.xml" value="0.375" />
         <entry key="common/src/main/res/drawable/radius_16_bg_fff.xml" value="0.375" />
-        <entry key="common/src/main/res/drawable/radius_180_bg_4d000000.xml" value="0.2953703703703704" />
+        <entry key="common/src/main/res/drawable/radius_180_bg_4d000000.xml" value="0.3609375" />
         <entry key="common/src/main/res/drawable/radius_180_bg_gradient.xml" value="0.3553846153846154" />
         <entry key="common/src/main/res/drawable/radius_180_line_ff445e_bg_white.xml" value="0.3553846153846154" />
         <entry key="common/src/main/res/drawable/radius_24_line_ff.xml" value="0.375" />
@@ -109,7 +109,7 @@
         <entry key="common/src/main/res/layout/view_load_more.xml" value="0.35989583333333336" />
         <entry key="common/src/main/res/layout/view_load_more_wrap.xml" value="0.35989583333333336" />
         <entry key="foundation/base/src/main/res/layout/layout_dafault_state_wrap.xml" value="0.13043478260869565" />
-        <entry key="modulelive/src/main/res/layout/activity_live_room.xml" value="0.3745064861816131" />
+        <entry key="modulelive/src/main/res/layout/activity_live_room.xml" value="0.3458333333333333" />
         <entry key="moduleshop/src/main/res/layout/fragment_shopcart.xml" value="0.35989583333333336" />
         <entry key="moduleshop/src/main/res/layout/fragment_shopcart2.xml" value="0.3458333333333333" />
         <entry key="moduleshop/src/main/res/layout/head_shop_cart_title.xml" value="0.3458333333333333" />
