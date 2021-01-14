@@ -102,6 +102,7 @@
         <entry key="common/src/main/res/layout/dialog_loading.xml" value="0.33055555555555555" />
         <entry key="common/src/main/res/layout/dialog_spec.xml" value="0.3458333333333333" />
         <entry key="common/src/main/res/layout/dialog_update_new.xml" value="0.4171717171717172" />
+        <entry key="common/src/main/res/layout/item_text.xml" value="0.3458333333333333" />
         <entry key="common/src/main/res/layout/layout_base.xml" value="0.35989583333333336" />
         <entry key="common/src/main/res/layout/layout_dafault_state_wrap.xml" value="0.3212962962962963" />
         <entry key="common/src/main/res/layout/layout_no_data_record.xml" value="0.35989583333333336" />
