@@ -4,6 +4,7 @@
     <option name="newTranslationDialogX" value="931" />
     <option name="newTranslationDialogY" value="415" />
     <histories>
+      <item value="module" />
       <item value="contract" />
       <item value="Flag for {@link showSoftInput} to indicate that the user has forced the input method open (such as by long-pressing menu) so it should not be closed until they explicitly do so." />
       <item value="Flag for {@link showSoftInput} to indicate that this is an implicit request to show the input window, not as the result of a direct request by the user. The window may not be shown in this case." />
@@ -53,13 +54,12 @@
       <item value="特定" />
       <item value="Callers should switch to checking {@link NetworkCapabilitieshasTransport} instead with one of the NetworkCapabilitiesTRANSPORT_ constants : {@link getType} and {@link getTypeName} cannot account for networks using multiple transports. Note that generally apps should not care about transport; {@link NetworkCapabilitiesNET_CAPABILITY_NOT_METERED} and {@link NetworkCapabilitiesgetLinkDownstreamBandwidthKbps} are calls that apps concerned with meteredness or bandwidth should be looking at, as they offer this information with much better accuracy." />
       <item value="add animate to loading dialog" />
-      <item value="translaste" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="103" />
-        <entry key="ENGLISH" value="620" />
-        <entry key="CHINESE_TRADITIONAL" value="329" />
+        <entry key="ENGLISH" value="621" />
+        <entry key="CHINESE_TRADITIONAL" value="330" />
         <entry key="ALBANIAN" value="1" />
         <entry key="DANISH" value="1" />
         <entry key="FRENCH" value="6" />
