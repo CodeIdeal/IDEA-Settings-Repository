@@ -63,6 +63,7 @@
         <entry key="app/src/main/res/layout/fragment_transport_detial.xml" value="0.35989583333333336" />
         <entry key="app/src/main/res/layout/item_after_sale.xml" value="0.2" />
         <entry key="app/src/main/res/layout/item_brand_intro.xml" value="0.35989583333333336" />
+        <entry key="app/src/main/res/layout/item_brand_score.xml" value="0.3458333333333333" />
         <entry key="app/src/main/res/layout/item_get_coupon_center.xml" value="0.35989583333333336" />
         <entry key="app/src/main/res/layout/item_goods_list.xml" value="0.35989583333333336" />
         <entry key="app/src/main/res/layout/item_home_store.xml" value="0.35989583333333336" />
@@ -72,7 +73,7 @@
         <entry key="app/src/main/res/layout/item_more_menus.xml" value="0.3458333333333333" />
         <entry key="app/src/main/res/layout/item_my_coupon.xml" value="0.35989583333333336" />
         <entry key="app/src/main/res/layout/item_my_coupon_go_center.xml" value="0.35989583333333336" />
-        <entry key="app/src/main/res/layout/item_n_goods_detail_info.xml" value="0.35989583333333336" />
+        <entry key="app/src/main/res/layout/item_n_goods_detail_info.xml" value="1.0" />
         <entry key="app/src/main/res/layout/item_no_coupon.xml" value="0.35989583333333336" />
         <entry key="app/src/main/res/layout/item_order_item.xml" value="0.35989583333333336" />
         <entry key="app/src/main/res/layout/item_popular_main.xml" value="0.35989583333333336" />
@@ -112,6 +113,7 @@
         <entry key="modulelive/src/main/res/drawable/icon_live_like.xml" value="0.3609375" />
         <entry key="modulelive/src/main/res/layout/activity_live_room.xml" value="0.3458333333333333" />
         <entry key="modulelive/src/main/res/layout/layout_input_dialog.xml" value="0.3458333333333333" />
+        <entry key="modulelive/src/main/res/layout/layout_periscope.xml" value="0.3458333333333333" />
         <entry key="moduleshop/src/main/res/layout/fragment_shopcart.xml" value="0.35989583333333336" />
         <entry key="moduleshop/src/main/res/layout/fragment_shopcart2.xml" value="0.3458333333333333" />
         <entry key="moduleshop/src/main/res/layout/head_shop_cart_title.xml" value="0.3458333333333333" />
