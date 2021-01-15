@@ -4,6 +4,7 @@
     <option name="newTranslationDialogX" value="931" />
     <option name="newTranslationDialogY" value="415" />
     <histories>
+      <item value="Calculates the scroll speed. &lt;p&gt;By default, LinearSmoothScroller assumes this method always returns the same value and caches the result of calling it. @param displayMetrics DisplayMetrics to be used for real dimension calculations @return The time (in ms) it should take for each pixel. For instance, if returned value is 2 ms, it means scrolling 1000 pixels with LinearInterpolation should take 2 seconds." />
       <item value="When LayoutManager needs to scroll to a position, it sets this variable and requests a layout which will check this variable and re-layout accordingly." />
       <item value="May be null. The relative positions [0..1] of each corresponding color in the colors array. If this is null, the the colors are distributed evenly along the gradient line." />
       <item value="Return the stable ID for the item at &lt;code&gt;position&lt;code&gt;. If {@link hasStableIds()} would return false this method should return {@link NO_ID}. The default implementation of this method returns {@link NO_ID}." />
@@ -53,13 +54,12 @@
       <item value="Wraper" />
       <item value="Wrap" />
       <item value="args after sale status" />
-      <item value="Write Transport Activity" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="103" />
-        <entry key="ENGLISH" value="630" />
-        <entry key="CHINESE_TRADITIONAL" value="339" />
+        <entry key="ENGLISH" value="631" />
+        <entry key="CHINESE_TRADITIONAL" value="340" />
         <entry key="ALBANIAN" value="1" />
         <entry key="DANISH" value="1" />
         <entry key="FRENCH" value="6" />
