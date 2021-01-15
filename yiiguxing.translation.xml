@@ -4,6 +4,7 @@
     <option name="newTranslationDialogX" value="931" />
     <option name="newTranslationDialogY" value="415" />
     <histories>
+      <item value="When LayoutManager needs to scroll to a position, it sets this variable and requests a layout which will check this variable and re-layout accordingly." />
       <item value="May be null. The relative positions [0..1] of each corresponding color in the colors array. If this is null, the the colors are distributed evenly along the gradient line." />
       <item value="Return the stable ID for the item at &lt;code&gt;position&lt;code&gt;. If {@link hasStableIds()} would return false this method should return {@link NO_ID}. The default implementation of this method returns {@link NO_ID}." />
       <item value="Starts coroutine related to this job (if any) if it was not started yet. The result `true` if this invocation actually started coroutine or `false` if it was already started or completed." />
@@ -53,13 +54,12 @@
       <item value="Wrap" />
       <item value="args after sale status" />
       <item value="Write Transport Activity" />
-      <item value="Indicates whether each item in the data set can be represented with a unique identifier of type {@link java.lang.Long}." />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="103" />
-        <entry key="ENGLISH" value="629" />
-        <entry key="CHINESE_TRADITIONAL" value="338" />
+        <entry key="ENGLISH" value="630" />
+        <entry key="CHINESE_TRADITIONAL" value="339" />
         <entry key="ALBANIAN" value="1" />
         <entry key="DANISH" value="1" />
         <entry key="FRENCH" value="6" />
