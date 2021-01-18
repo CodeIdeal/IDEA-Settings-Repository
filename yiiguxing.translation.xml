@@ -4,7 +4,11 @@
     <option name="newTranslationDialogX" value="931" />
     <option name="newTranslationDialogY" value="415" />
     <histories>
+      <item value="enter" />
+      <item value="enter tip" />
+      <item value="The screen density expressed as dots-per-inch. May be either {@link DENSITY_LOW}, {@link DENSITY_MEDIUM}, or {@link DENSITY_HIGH}." />
       <item value="Calculates the scroll speed. &lt;p&gt;By default, LinearSmoothScroller assumes this method always returns the same value and caches the result of calling it. @param displayMetrics DisplayMetrics to be used for real dimension calculations @return The time (in ms) it should take for each pixel. For instance, if returned value is 2 ms, it means scrolling 1000 pixels with LinearInterpolation should take 2 seconds." />
+      <item value="Constant for {@link getActionMasked}: A pressed gesture has started, the motion contains the initial starting location. &lt;p&gt; This is also a good time to check the button state to distinguish secondary and tertiary button clicks and handle them appropriately. Use {@link getButtonState} to retrieve the button state." />
       <item value="When LayoutManager needs to scroll to a position, it sets this variable and requests a layout which will check this variable and re-layout accordingly." />
       <item value="May be null. The relative positions [0..1] of each corresponding color in the colors array. If this is null, the the colors are distributed evenly along the gradient line." />
       <item value="Return the stable ID for the item at &lt;code&gt;position&lt;code&gt;. If {@link hasStableIds()} would return false this method should return {@link NO_ID}. The default implementation of this method returns {@link NO_ID}." />
@@ -50,16 +54,12 @@
       <item value="If {@code false}, {@link ConcatAdapter} assumes all assigned adapters share a global view type pool such that they use the same view types to refer to the same {@link ViewHolder}s. &lt;p&gt; Setting this to {@code false} will allow nested adapters to share {@link ViewHolder}s but it also means these adapters should not have conflicting view types ({@link AdaptergetItemViewType(int)}) such that two different adapters return the same view type for different {@link ViewHolder}s. By default, it is set to {@code true} which means {@link ConcatAdapter} will isolate view types across adapters, preventing them from using the same {@link ViewHolder}s." />
       <item value="In this mode, {@link ConcatAdapter} will return {@code true} from {@link ConcatAdapterhasStableIds()} and will &lt;b&gt;require&lt;b&gt; all added {@link Adapter}s to have stable ids. Unlike {@link StableIdModeISOLATED_STABLE_IDS}, {@link ConcatAdapter} will not override the returned item ids. In this mode, child {@link Adapter}s must be aware of each-other and never return the same id unless and item is moved between {@link Adapter}s. Adding an adapter without stable ids will result in an {@link IllegalArgumentException}." />
       <item value="In this mode, {@link ConcatAdapter} will return {@code true} from {@link ConcatAdapterhasStableIds()} and will &lt;b&gt;require&lt;b&gt; all added {@link Adapter}s to have stable ids. As two different adapters may return same stable ids because they are unaware of each-other, {@link ConcatAdapter} will isolate each {@link Adapter}'s id pool from each other such that it will overwrite the reported stable id before reporting back to the {@link RecyclerView}. In this mode, the value returned from {@link ViewHoldergetItemId()} might differ from the value returned from {@link AdaptergetItemId(int)}. Adding an adapter without stable ids will result in an {@link IllegalArgumentException}." />
-      <item value="Called by RecyclerView when it starts observing this Adapter. &lt;p&gt; Keep in mind that same adapter may be observed by multiple RecyclerViews. @param recyclerView The RecyclerView instance which started observing this adapter. @see onDetachedFromRecyclerView(RecyclerView)" />
-      <item value="Wraper" />
-      <item value="Wrap" />
-      <item value="args after sale status" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="103" />
-        <entry key="ENGLISH" value="631" />
-        <entry key="CHINESE_TRADITIONAL" value="340" />
+        <entry key="ENGLISH" value="636" />
+        <entry key="CHINESE_TRADITIONAL" value="345" />
         <entry key="ALBANIAN" value="1" />
         <entry key="DANISH" value="1" />
         <entry key="FRENCH" value="6" />
@@ -74,7 +74,7 @@
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1610344451100" />
+    <option name="lastTrimTime" value="1610938364203" />
   </component>
   <component name="Settings">
     <option name="googleTranslateSettings">
