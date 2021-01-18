@@ -5,6 +5,8 @@
     <option name="newTranslationDialogY" value="415" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="Opens subscription to this [BroadcastChannel] and makes sure that the given [block] consumes all elements from it by always invoking [cancel][ReceiveChannel.cancel] after the execution of the block. Note: This API will become obsolete in future updates with introduction of lazy asynchronous streams. See [issue 254](https:github.comKotlinkotlinx.coroutinesissues254)." />
+      <item value="Cancels reception of remaining elements from this channel with an optional [cause]. This function closes the channel and removes all buffered sent elements from it. A cause can be used to specify an error message or to provide other details on the cancellation reason for debugging purposes. If the cause is not specified, then an instance of [CancellationException] with a default message is created to [close][SendChannel.close] the channel. Immediately after invocation of this function [isClosedForReceive] and [isClosedForSend][SendChannel.isClosedForSend] on the side of [SendChannel] start returning `true`. Any attempt to send to or receive from this channel will lead to a [CancellationException]." />
       <item value="关注Channel" />
       <item value="关注" />
       <item value="Indicates how many of this container's child subtrees contain transient state" />
@@ -53,14 +55,12 @@
       <item value="Idle" />
       <item value="Returns The itemId represented by this ViewHolder. @return The item's id if adapter has stable ids, {@link RecyclerViewNO_ID} otherwise" />
       <item value="In this mode, {@link ConcatAdapter} will return {@code true} from {@link ConcatAdapterhasStableIds()} and will &lt;b&gt;require&lt;b&gt; all added {@link Adapter}s to have stable ids. As two different adapters may return same stable ids because they are unaware of each-other, {@link ConcatAdapter} will isolate each {@link Adapter}'s id pool from each other such that it will overwrite the reported stable id before reporting back to the {@link RecyclerView}. In this mode, the value returned from {@link ViewHoldergetItemId()} might differ from the value returned from {@link AdaptergetItemId(int)}." />
-      <item value="In this mode, {@link ConcatAdapter} will return {@code true} from {@link ConcatAdapterhasStableIds()} and will &lt;b&gt;require&lt;b&gt; all added {@link Adapter}s to have stable ids. Unlike {@link StableIdModeISOLATED_STABLE_IDS}, {@link ConcatAdapter} will not override the returned item ids. In this mode, child {@link Adapter}s must be aware of each-other and never return the same id unless an item is moved between {@link Adapter}s." />
-      <item value="Setting this to {@code false} will allow nested adapters to share {@link ViewHolder}s but it also means these adapters should not have conflicting view types ({@link AdaptergetItemViewType(int)}) such that two different adapters return the same view type for different {@link ViewHolder}s." />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="104" />
-        <entry key="ENGLISH" value="636" />
-        <entry key="CHINESE_TRADITIONAL" value="345" />
+        <entry key="ENGLISH" value="638" />
+        <entry key="CHINESE_TRADITIONAL" value="347" />
         <entry key="ALBANIAN" value="1" />
         <entry key="DANISH" value="1" />
         <entry key="FRENCH" value="6" />
