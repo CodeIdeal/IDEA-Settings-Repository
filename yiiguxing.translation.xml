@@ -5,6 +5,7 @@
     <option name="newTranslationDialogY" value="415" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="Obtains the current continuation instance inside suspend functions and suspends the currently running coroutine. In this function both [Continuation.resume] and [Continuation.resumeWithException] can be used either synchronously in the same stack-frame where the suspension function is run or asynchronously later in the same thread or from a different thread of execution. Subsequent invocation of any resume function will produce an [IllegalStateException]." />
       <item value="Opens subscription to this [BroadcastChannel] and makes sure that the given [block] consumes all elements from it by always invoking [cancel][ReceiveChannel.cancel] after the execution of the block. Note: This API will become obsolete in future updates with introduction of lazy asynchronous streams. See [issue 254](https:github.comKotlinkotlinx.coroutinesissues254)." />
       <item value="Cancels reception of remaining elements from this channel with an optional [cause]. This function closes the channel and removes all buffered sent elements from it. A cause can be used to specify an error message or to provide other details on the cancellation reason for debugging purposes. If the cause is not specified, then an instance of [CancellationException] with a default message is created to [close][SendChannel.close] the channel. Immediately after invocation of this function [isClosedForReceive] and [isClosedForSend][SendChannel.isClosedForSend] on the side of [SendChannel] start returning `true`. Any attempt to send to or receive from this channel will lead to a [CancellationException]." />
       <item value="关注Channel" />
@@ -54,7 +55,6 @@
       <item value="Called when a view created by this adapter has been attached to a window. &lt;p&gt;This can be used as a reasonable signal that the view is about to be seen by the user. If the adapter previously freed any resources in {@link onViewDetachedFromWindow(RecyclerView.ViewHolder) onViewDetachedFromWindow} those resources should be restored here.&lt;p&gt;" />
       <item value="Idle" />
       <item value="Returns The itemId represented by this ViewHolder. @return The item's id if adapter has stable ids, {@link RecyclerViewNO_ID} otherwise" />
-      <item value="In this mode, {@link ConcatAdapter} will return {@code true} from {@link ConcatAdapterhasStableIds()} and will &lt;b&gt;require&lt;b&gt; all added {@link Adapter}s to have stable ids. As two different adapters may return same stable ids because they are unaware of each-other, {@link ConcatAdapter} will isolate each {@link Adapter}'s id pool from each other such that it will overwrite the reported stable id before reporting back to the {@link RecyclerView}. In this mode, the value returned from {@link ViewHoldergetItemId()} might differ from the value returned from {@link AdaptergetItemId(int)}." />
     </histories>
     <option name="languageScores">
       <map>
