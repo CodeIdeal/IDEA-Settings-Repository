@@ -5,6 +5,7 @@
     <option name="newTranslationDialogY" value="415" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="Detector" />
       <item value="Obtains the current continuation instance inside suspend functions and suspends the currently running coroutine. In this function both [Continuation.resume] and [Continuation.resumeWithException] can be used either synchronously in the same stack-frame where the suspension function is run or asynchronously later in the same thread or from a different thread of execution. Subsequent invocation of any resume function will produce an [IllegalStateException]." />
       <item value="Opens subscription to this [BroadcastChannel] and makes sure that the given [block] consumes all elements from it by always invoking [cancel][ReceiveChannel.cancel] after the execution of the block. Note: This API will become obsolete in future updates with introduction of lazy asynchronous streams. See [issue 254](https:github.comKotlinkotlinx.coroutinesissues254)." />
       <item value="Cancels reception of remaining elements from this channel with an optional [cause]. This function closes the channel and removes all buffered sent elements from it. A cause can be used to specify an error message or to provide other details on the cancellation reason for debugging purposes. If the cause is not specified, then an instance of [CancellationException] with a default message is created to [close][SendChannel.close] the channel. Immediately after invocation of this function [isClosedForReceive] and [isClosedForSend][SendChannel.isClosedForSend] on the side of [SendChannel] start returning `true`. Any attempt to send to or receive from this channel will lead to a [CancellationException]." />
@@ -54,13 +55,12 @@
       <item value="ContentLoadingProgressBar implements a ProgressBar that waits a minimum time to be dismissed before showing. Once visible, the progress bar will be visible for a minimum amount of time to avoid &quot;flashes&quot; in the UI when an event could take a largely variable time to complete (from none, to a user perceivable amount)" />
       <item value="Called when a view created by this adapter has been attached to a window. &lt;p&gt;This can be used as a reasonable signal that the view is about to be seen by the user. If the adapter previously freed any resources in {@link onViewDetachedFromWindow(RecyclerView.ViewHolder) onViewDetachedFromWindow} those resources should be restored here.&lt;p&gt;" />
       <item value="Idle" />
-      <item value="Returns The itemId represented by this ViewHolder. @return The item's id if adapter has stable ids, {@link RecyclerViewNO_ID} otherwise" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="104" />
-        <entry key="ENGLISH" value="638" />
-        <entry key="CHINESE_TRADITIONAL" value="347" />
+        <entry key="ENGLISH" value="639" />
+        <entry key="CHINESE_TRADITIONAL" value="348" />
         <entry key="ALBANIAN" value="1" />
         <entry key="DANISH" value="1" />
         <entry key="FRENCH" value="6" />
