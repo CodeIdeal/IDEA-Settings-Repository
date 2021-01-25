@@ -5,6 +5,8 @@
     <option name="newTranslationDialogY" value="415" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="Previous position of the first item that was removed" />
+      <item value="Returns a view of the portion of this list between the specified [fromIndex] (inclusive) and [toIndex] (exclusive). The returned list is backed by this list, so non-structural changes in the returned list are reflected in this list, and vice-versa. Structural changes in the base list make the behavior of the view undefined." />
       <item value="compatible getLoadMoreViewCount and getEmptyViewCount may change" />
       <item value="since onChanged() is implemented by the app, it could do anything, including removing itself from {@link mObservers} - and that could cause problems if an iterator is used on the ArrayList {@link mObservers}. to avoid such problems, just march thru the list in the reverse order." />
       <item value="Notify any registered observers that the data set has changed. &lt;p&gt;There are two different classes of data change events, item changes and structural changes. Item changes are when a single item has its data updated but no positional changes have occurred. Structural changes are when items are inserted, removed or moved within the data set.&lt;p&gt; &lt;p&gt;This event does not specify what about the data set has changed, forcing any observers to assume that all existing items and structure may no longer be valid. LayoutManagers will be forced to fully rebind and relayout all visible views.&lt;p&gt; &lt;p&gt;&lt;code&gt;RecyclerView&lt;code&gt; will attempt to synthesize visible structural change events for adapters that report that they have {@link hasStableIds() stable IDs} when this method is used. This can help for the purposes of animation and visual object persistence but individual item views will still need to be rebound and relaid out.&lt;p&gt; &lt;p&gt;If you are writing an adapter it will always be more efficient to use the more specific change events if you can. Rely on &lt;code&gt;notifyDataSetChanged()&lt;code&gt; as a last resort.&lt;p&gt;" />
@@ -53,14 +55,12 @@
       <item value="Position of ViewHolder to be returned." />
       <item value="Returns the total number of items that can be laid out. Note that this number is not necessarily equal to the number of items in the adapter, so you should always use this number for your position calculations and never access the adapter directly." />
       <item value="The classes that affect character-level text formatting extend this class. Most extend its subclass {@link MetricAffectingSpan}, but simple ones may just implement {@link UpdateAppearance}." />
-      <item value="Bitmask of bits that are relevent for controlling pointmark behavior of spans. MARK and POINT are conceptually located &lt;i&gt;between&lt;i&gt; two adjacent characters. A MARK is &quot;attached&quot; to the character before, while a POINT will stick to the character after. The insertion cursor is conceptually located between the MARK and the POINT. As a result, inserting a new character between a MARK and a POINT will leave the MARK unchanged, while the POINT will be shifted, now located after the inserted character and still glued to the same character after it. Depending on whether the insertion happens at the beginning or the end of a span, the span will hence be expanded to &lt;i&gt;include&lt;i&gt; the new character (when the span is using a MARK at its beginning or a POINT at its end) or it will be &lt;i&gt;excluded&lt;i&gt;. Note that &lt;i&gt;before&lt;i&gt; and &lt;i&gt;after&lt;i&gt; here refer to offsets in the String, which are independent from the visual representation of the text (left-to-right or right-to-left)." />
-      <item value="Whether to add the given target to the list of targets to exclude from this transition. The &lt;code&gt;exclude&lt;code&gt; parameter specifies whether the target should be added to or removed from the excluded list. &lt;p&gt;Excluding targets is a general mechanism for allowing transitions to run on a view hierarchy while skipping target views that should not be part of the transition. For example, you may want to avoid animating children of a specific ListView or Spinner. Views can be excluded either by their id, or by their instance reference, or by the Class of that view (eg, {@link Spinner}).&lt;p&gt; @param target The target to ignore when running this transition. @param exclude Whether to add the target to or remove the target from the current list of excluded targets." />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="104" />
-        <entry key="ENGLISH" value="644" />
-        <entry key="CHINESE_TRADITIONAL" value="353" />
+        <entry key="ENGLISH" value="645" />
+        <entry key="CHINESE_TRADITIONAL" value="354" />
         <entry key="ALBANIAN" value="1" />
         <entry key="DANISH" value="1" />
         <entry key="FRENCH" value="6" />
