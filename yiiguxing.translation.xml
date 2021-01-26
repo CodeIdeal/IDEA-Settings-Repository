@@ -5,6 +5,7 @@
     <option name="newTranslationDialogY" value="415" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="padding Hor" />
       <item value="Continuous" />
       <item value="Constant for {@link getActionMasked}: A non-primary pointer has gone down. &lt;p&gt; Use {@link getActionIndex} to retrieve the index of the pointer that changed. &lt;p&gt;&lt;p&gt; The index is encoded in the {@link ACTION_POINTER_INDEX_MASK} bits of the unmasked action returned by {@link getAction}. &lt;p&gt;" />
       <item value="Call this when your activity is done and should be closed. The ActivityResult is propagated back to whoever launched you via onActivityResult()." />
@@ -54,7 +55,6 @@
       <item value="Height as measured during measure pass." />
       <item value="In this mode, {@link ConcatAdapter} will return {@code true} from {@link ConcatAdapterhasStableIds()} and will &lt;b&gt;require&lt;b&gt; all added {@link Adapter}s to have stable ids. As two different adapters may return same stable ids because they are unaware of each-other, {@link ConcatAdapter} will isolate each {@link Adapter}'s id pool from each other such that it will overwrite the reported stable id before reporting back to the {@link RecyclerView}. In this mode, the value returned from {@link ViewHoldergetItemId()} might differ from the value returned from {@link AdaptergetItemId(int)}. Adding an adapter without stable ids will result in an" />
       <item value="In this mode, {@link ConcatAdapter} will return {@code true} from {@link ConcatAdapterhasStableIds()} and will &lt;b&gt;require&lt;b&gt; all added {@link Adapter}s to have stable ids. Unlike {@link StableIdModeISOLATED_STABLE_IDS}, {@link ConcatAdapter} will not override the returned item ids. In this mode, child {@link Adapter}s must be aware of each-other and never return the same id unless and item is moved between {@link Adapter}s. Adding an adapter without stable ids will result in an" />
-      <item value="Postponed" />
     </histories>
     <option name="languageScores">
       <map>
