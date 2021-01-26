@@ -5,6 +5,7 @@
     <option name="newTranslationDialogY" value="415" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="Constant for {@link getActionMasked}: A non-primary pointer has gone down. &lt;p&gt; Use {@link getActionIndex} to retrieve the index of the pointer that changed. &lt;p&gt;&lt;p&gt; The index is encoded in the {@link ACTION_POINTER_INDEX_MASK} bits of the unmasked action returned by {@link getAction}. &lt;p&gt;" />
       <item value="Call this when your activity is done and should be closed. The ActivityResult is propagated back to whoever launched you via onActivityResult()." />
       <item value="Previous position of the first item that was removed" />
       <item value="Returns a view of the portion of this list between the specified [fromIndex] (inclusive) and [toIndex] (exclusive). The returned list is backed by this list, so non-structural changes in the returned list are reflected in this list, and vice-versa. Structural changes in the base list make the behavior of the view undefined." />
@@ -54,13 +55,12 @@
       <item value="In this mode, {@link ConcatAdapter} will return {@code true} from {@link ConcatAdapterhasStableIds()} and will &lt;b&gt;require&lt;b&gt; all added {@link Adapter}s to have stable ids. Unlike {@link StableIdModeISOLATED_STABLE_IDS}, {@link ConcatAdapter} will not override the returned item ids. In this mode, child {@link Adapter}s must be aware of each-other and never return the same id unless and item is moved between {@link Adapter}s. Adding an adapter without stable ids will result in an" />
       <item value="Postponed" />
       <item value="Position of ViewHolder to be returned." />
-      <item value="Returns the total number of items that can be laid out. Note that this number is not necessarily equal to the number of items in the adapter, so you should always use this number for your position calculations and never access the adapter directly." />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="104" />
-        <entry key="ENGLISH" value="646" />
-        <entry key="CHINESE_TRADITIONAL" value="355" />
+        <entry key="ENGLISH" value="647" />
+        <entry key="CHINESE_TRADITIONAL" value="356" />
         <entry key="ALBANIAN" value="1" />
         <entry key="DANISH" value="1" />
         <entry key="FRENCH" value="6" />
