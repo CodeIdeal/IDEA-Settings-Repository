@@ -126,6 +126,7 @@
         <entry key="live/src/main/res/layout/activity_camera_anchor.xml" value="0.3458333333333333" />
         <entry key="live/src/main/res/layout/activity_camera_anchor2.xml" value="0.3458333333333333" />
         <entry key="live/src/main/res/layout/activity_screen_anchor.xml" value="0.3458333333333333" />
+        <entry key="live/src/main/res/layout/item_live_message.xml" value="1.25" />
         <entry key="live/src/main/res/layout/layout_camera_anchor_panel.xml" value="0.3458333333333333" />
         <entry key="modulelive/src/main/res/drawable/icon_live_like.xml" value="0.3609375" />
         <entry key="modulelive/src/main/res/layout/activity_live_room.xml" value="0.3458333333333333" />

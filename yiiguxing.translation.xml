@@ -5,6 +5,10 @@
     <option name="newTranslationDialogY" value="415" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="Creates the directory named by this abstract pathname." />
+      <item value="Creates the directory named by this abstract pathname, including any necessary but nonexistent parent directories. Note that if this operation fails it may have succeeded in creating some of the necessary parent directories." />
+      <item value="extras" />
+      <item value="extrs" />
       <item value="admins" />
       <item value="padding Hor" />
       <item value="Continuous" />
@@ -51,16 +55,12 @@
       <item value="borard" />
       <item value="leaderborard" />
       <item value="Called when the activity has detected the user's press of the back key. The {@link getOnBackPressedDispatcher() OnBackPressedDispatcher} will be given a chance to handle the back button before the default behavior of {@link android.app.ActivityonBackPressed()} is invoked." />
-      <item value="效果" />
-      <item value="Inset" />
-      <item value="Height as measured during measure pass." />
-      <item value="In this mode, {@link ConcatAdapter} will return {@code true} from {@link ConcatAdapterhasStableIds()} and will &lt;b&gt;require&lt;b&gt; all added {@link Adapter}s to have stable ids. As two different adapters may return same stable ids because they are unaware of each-other, {@link ConcatAdapter} will isolate each {@link Adapter}'s id pool from each other such that it will overwrite the reported stable id before reporting back to the {@link RecyclerView}. In this mode, the value returned from {@link ViewHoldergetItemId()} might differ from the value returned from {@link AdaptergetItemId(int)}. Adding an adapter without stable ids will result in an" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="104" />
-        <entry key="ENGLISH" value="649" />
-        <entry key="CHINESE_TRADITIONAL" value="358" />
+        <entry key="ENGLISH" value="653" />
+        <entry key="CHINESE_TRADITIONAL" value="362" />
         <entry key="ALBANIAN" value="1" />
         <entry key="DANISH" value="1" />
         <entry key="FRENCH" value="6" />
