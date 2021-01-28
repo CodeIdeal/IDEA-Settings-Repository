@@ -5,6 +5,7 @@
     <option name="newTranslationDialogY" value="415" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="BULLETIN" />
       <item value="Creates the directory named by this abstract pathname." />
       <item value="Creates the directory named by this abstract pathname, including any necessary but nonexistent parent directories. Note that if this operation fails it may have succeeded in creating some of the necessary parent directories." />
       <item value="extras" />
@@ -54,13 +55,12 @@
       <item value="board" />
       <item value="borard" />
       <item value="leaderborard" />
-      <item value="Called when the activity has detected the user's press of the back key. The {@link getOnBackPressedDispatcher() OnBackPressedDispatcher} will be given a chance to handle the back button before the default behavior of {@link android.app.ActivityonBackPressed()} is invoked." />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="104" />
-        <entry key="ENGLISH" value="653" />
-        <entry key="CHINESE_TRADITIONAL" value="362" />
+        <entry key="ENGLISH" value="654" />
+        <entry key="CHINESE_TRADITIONAL" value="363" />
         <entry key="ALBANIAN" value="1" />
         <entry key="DANISH" value="1" />
         <entry key="FRENCH" value="6" />
