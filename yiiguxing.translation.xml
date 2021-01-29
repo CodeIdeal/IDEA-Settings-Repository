@@ -1,10 +1,11 @@
 <application>
   <component name="AppStorage">
-    <option name="newTranslationDialogWidth" value="596" />
+    <option name="newTranslationDialogWidth" value="594" />
     <option name="newTranslationDialogX" value="931" />
     <option name="newTranslationDialogY" value="415" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="Dynamically modify the server environment according to the compilation parameters" />
       <item value="Unintercepted" />
       <item value="The prompt cancellation guarantee is the result of a coordinated implementation inside `suspendCancellableCoroutine` function and the [CoroutineDispatcher] class. The coroutine dispatcher checks for the status of the [Job] immediately before continuing its normal execution and aborts this normal execution, calling all the corresponding cancellation handlers, if the job was cancelled. If a custom implementation of [ContinuationInterceptor] is used in a coroutine's context that does not extend [CoroutineDispatcher] class, then there is no prompt cancellation guarantee. A custom continuation interceptor can resume execution of a previously suspended coroutine even if its job was already cancelled." />
       <item value="Obtains the current continuation instance inside suspend functions and suspends the currently running coroutine. In this function both [Continuation.resume] and [Continuation.resumeWithException] can be used either synchronously in the same stack-frame where the suspension function is run or asynchronously later in the same thread or from a different thread of execution. Subsequent invocation of any resume function will produce an [" />
@@ -54,7 +55,6 @@
       <item value="contract" />
       <item value="Flag for {@link showSoftInput} to indicate that the user has forced the input method open (such as by long-pressing menu) so it should not be closed until they explicitly do so." />
       <item value="Flag for {@link showSoftInput} to indicate that this is an implicit request to show the input window, not as the result of a direct request by the user. The window may not be shown in this case." />
-      <item value="Provides additional operating flags. Currently may be 0 or have the {@link SHOW_IMPLICIT} bit set." />
     </histories>
     <option name="languageScores">
       <map>
