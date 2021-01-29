@@ -5,6 +5,8 @@
     <option name="newTranslationDialogY" value="415" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="For USAGE_IO_OUTPUT, destroy() implies setSurface(null)." />
+      <item value="Frees any native resources associated with this object. The primary use is to force immediate cleanup of resources when it is believed the GC will not respond quickly enough." />
       <item value="EXTENSION" />
       <item value="eturns the smallest (closest to negative infinity) {@code double} value that is greater than or equal to the argument and is equal to a mathematical integer. Special cases: &lt;ul&gt;&lt;li&gt;If the argument value is already equal to a mathematical integer, then the result is the same as the argument. &lt;li&gt;If the argument is NaN or an infinity or positive zero or negative zero, then the result is the same as the argument. &lt;li&gt;If the argument value is less than zero but greater than -1.0, then the result is negative zero.&lt;ul&gt; Note that the value of {@code Math.ceil(x)} is exactly the value of {@code -Math.floor(-x)}." />
       <item value="BULLETIN" />
@@ -53,14 +55,12 @@
       <item value="he system window inset represents the area of a full-screen window that is partially or fully obscured by the status bar, navigation bar, IME or other system windows." />
       <item value="silver" />
       <item value="sliver" />
-      <item value="copper" />
-      <item value="board" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="104" />
-        <entry key="ENGLISH" value="656" />
-        <entry key="CHINESE_TRADITIONAL" value="365" />
+        <entry key="ENGLISH" value="658" />
+        <entry key="CHINESE_TRADITIONAL" value="367" />
         <entry key="ALBANIAN" value="1" />
         <entry key="DANISH" value="1" />
         <entry key="FRENCH" value="6" />
