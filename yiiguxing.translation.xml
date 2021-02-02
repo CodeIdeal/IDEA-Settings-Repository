@@ -5,6 +5,7 @@
     <option name="newTranslationDialogY" value="415" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="Creates a [CoroutineScope] and calls the specified suspend block with this scope. The provided scope inherits its [coroutineContext][CoroutineScope.coroutineContext] from the outer scope, but overrides the context's [Job]." />
       <item value="Dynamically modify the server environment according to the compilation parameters" />
       <item value="Unintercepted" />
       <item value="The prompt cancellation guarantee is the result of a coordinated implementation inside `suspendCancellableCoroutine` function and the [CoroutineDispatcher] class. The coroutine dispatcher checks for the status of the [Job] immediately before continuing its normal execution and aborts this normal execution, calling all the corresponding cancellation handlers, if the job was cancelled. If a custom implementation of [ContinuationInterceptor] is used in a coroutine's context that does not extend [CoroutineDispatcher] class, then there is no prompt cancellation guarantee. A custom continuation interceptor can resume execution of a previously suspended coroutine even if its job was already cancelled." />
@@ -54,13 +55,12 @@
       <item value="module" />
       <item value="contract" />
       <item value="Flag for {@link showSoftInput} to indicate that the user has forced the input method open (such as by long-pressing menu) so it should not be closed until they explicitly do so." />
-      <item value="Flag for {@link showSoftInput} to indicate that this is an implicit request to show the input window, not as the result of a direct request by the user. The window may not be shown in this case." />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="104" />
-        <entry key="ENGLISH" value="661" />
-        <entry key="CHINESE_TRADITIONAL" value="370" />
+        <entry key="ENGLISH" value="662" />
+        <entry key="CHINESE_TRADITIONAL" value="371" />
         <entry key="ALBANIAN" value="1" />
         <entry key="DANISH" value="1" />
         <entry key="FRENCH" value="6" />
@@ -75,7 +75,7 @@
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1611540127368" />
+    <option name="lastTrimTime" value="1612232200379" />
   </component>
   <component name="Settings">
     <option name="googleTranslateSettings">
