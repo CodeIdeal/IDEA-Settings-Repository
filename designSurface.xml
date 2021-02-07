@@ -114,6 +114,7 @@
         <entry key="common/src/main/res/layout/dialog_loading.xml" value="0.33055555555555555" />
         <entry key="common/src/main/res/layout/dialog_spec.xml" value="0.3458333333333333" />
         <entry key="common/src/main/res/layout/dialog_update_new.xml" value="0.4171717171717172" />
+        <entry key="common/src/main/res/layout/item_goods_image.xml" value="0.3458333333333333" />
         <entry key="common/src/main/res/layout/item_text.xml" value="0.3458333333333333" />
         <entry key="common/src/main/res/layout/layout_base.xml" value="0.35989583333333336" />
         <entry key="common/src/main/res/layout/layout_dafault_state_wrap.xml" value="0.3212962962962963" />
@@ -132,6 +133,7 @@
         <entry key="live/src/main/res/layout/layout_camera_anchor_panel.xml" value="0.3458333333333333" />
         <entry key="modulelive/src/main/res/drawable/icon_live_like.xml" value="0.3609375" />
         <entry key="modulelive/src/main/res/layout/activity_live_room.xml" value="0.3458333333333333" />
+        <entry key="modulelive/src/main/res/layout/float_video.xml" value="1.5" />
         <entry key="modulelive/src/main/res/layout/item_live_message.xml" value="0.3458333333333333" />
         <entry key="modulelive/src/main/res/layout/item_message.xml" value="0.6401028277634961" />
         <entry key="modulelive/src/main/res/layout/layout_input_dialog.xml" value="0.3458333333333333" />
