@@ -5,6 +5,7 @@
     <option name="newTranslationDialogY" value="415" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="_supervisor_" />
       <item value="Creates a [CoroutineScope] and calls the specified suspend block with this scope. The provided scope inherits its [coroutineContext][CoroutineScope.coroutineContext] from the outer scope, but overrides the context's [Job]." />
       <item value="Dynamically modify the server environment according to the compilation parameters" />
       <item value="Unintercepted" />
@@ -54,7 +55,6 @@
       <item value="&lt;p&gt;Contains useful information about the current RecyclerView state like target scroll position or view focus. State object can also keep arbitrary data, identified by resource ids.&lt;p&gt; &lt;p&gt;Often times, RecyclerView components will need to pass information between each other. To provide a well defined data bus between components, RecyclerView passes the same State object to component callbacks and these components can use it to exchange data.&lt;p&gt; &lt;p&gt;If you implement custom components, you can use State's putgetremove methods to pass data between your components without needing to manage their lifecycles.&lt;p&gt;" />
       <item value="module" />
       <item value="contract" />
-      <item value="Flag for {@link showSoftInput} to indicate that the user has forced the input method open (such as by long-pressing menu) so it should not be closed until they explicitly do so." />
     </histories>
     <option name="languageScores">
       <map>
@@ -75,7 +75,7 @@
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1612682530038" />
+    <option name="lastTrimTime" value="1613978361993" />
   </component>
   <component name="Settings">
     <option name="googleTranslateSettings">
