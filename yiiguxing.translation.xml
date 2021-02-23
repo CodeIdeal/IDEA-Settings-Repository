@@ -5,6 +5,11 @@
     <option name="newTranslationDialogY" value="415" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="直播" />
+      <item value="直播房间" />
+      <item value="直播间" />
+      <item value="Living Room" />
+      <item value="Live Room" />
       <item value="_supervisor_" />
       <item value="Creates a [CoroutineScope] and calls the specified suspend block with this scope. The provided scope inherits its [coroutineContext][CoroutineScope.coroutineContext] from the outer scope, but overrides the context's [Job]." />
       <item value="Dynamically modify the server environment according to the compilation parameters" />
@@ -50,17 +55,12 @@
       <item value="Return the stable ID for the item at &lt;code&gt;position&lt;code&gt;. If {@link hasStableIds()} would return false this method should return {@link NO_ID}. The default implementation of this method returns {@link NO_ID}." />
       <item value="Starts coroutine related to this job (if any) if it was not started yet. The result `true` if this invocation actually started coroutine or `false` if it was already started or completed." />
       <item value="an optional function that is called when element was sent but was not delivered to the consumer. See &quot;Undelivered elements&quot; section in [Channel] documentation." />
-      <item value="Requests a rendezvous channel in the `Channel(...)` factory function &amp;mdash; a channel that does not have a buffer." />
-      <item value="Requests a conflated channel in the `Channel(...)` factory function. This is a shortcut to creating a channel with [`onBufferOverflow = DROP_OLDEST`][BufferOverflow.DROP_OLDEST]." />
-      <item value="&lt;p&gt;Contains useful information about the current RecyclerView state like target scroll position or view focus. State object can also keep arbitrary data, identified by resource ids.&lt;p&gt; &lt;p&gt;Often times, RecyclerView components will need to pass information between each other. To provide a well defined data bus between components, RecyclerView passes the same State object to component callbacks and these components can use it to exchange data.&lt;p&gt; &lt;p&gt;If you implement custom components, you can use State's putgetremove methods to pass data between your components without needing to manage their lifecycles.&lt;p&gt;" />
-      <item value="module" />
-      <item value="contract" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="104" />
-        <entry key="ENGLISH" value="662" />
-        <entry key="CHINESE_TRADITIONAL" value="371" />
+        <entry key="CHINESE" value="107" />
+        <entry key="ENGLISH" value="664" />
+        <entry key="CHINESE_TRADITIONAL" value="373" />
         <entry key="ALBANIAN" value="1" />
         <entry key="DANISH" value="1" />
         <entry key="FRENCH" value="6" />
