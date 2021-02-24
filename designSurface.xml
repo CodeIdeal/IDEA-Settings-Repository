@@ -96,6 +96,7 @@
         <entry key="beauty/src/main/res/layout/beauty_panel.xml" value="0.24895833333333334" />
         <entry key="common/src/main/res/drawable/radius_12_bg_2d000000.xml" value="0.3609375" />
         <entry key="common/src/main/res/drawable/radius_12_bg_fef5e4.xml" value="0.3609375" />
+        <entry key="common/src/main/res/drawable/radius_15_bg_white.xml" value="0.3609375" />
         <entry key="common/src/main/res/drawable/radius_16_bg_black.xml" value="0.375" />
         <entry key="common/src/main/res/drawable/radius_16_bg_fff.xml" value="0.375" />
         <entry key="common/src/main/res/drawable/radius_180_bg_2d000000.xml" value="0.3609375" />
@@ -115,6 +116,7 @@
         <entry key="common/src/main/res/layout/custom_toast_network_error.xml" value="0.28229166666666666" />
         <entry key="common/src/main/res/layout/dialog_loading.xml" value="0.33055555555555555" />
         <entry key="common/src/main/res/layout/dialog_spec.xml" value="0.3458333333333333" />
+        <entry key="common/src/main/res/layout/dialog_tips.xml" value="0.3458333333333333" />
         <entry key="common/src/main/res/layout/dialog_update_new.xml" value="0.4171717171717172" />
         <entry key="common/src/main/res/layout/item_goods_image.xml" value="0.3458333333333333" />
         <entry key="common/src/main/res/layout/item_text.xml" value="0.3458333333333333" />
