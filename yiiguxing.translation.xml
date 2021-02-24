@@ -5,6 +5,7 @@
     <option name="newTranslationDialogY" value="415" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="oprate" />
       <item value="FOLLOW" />
       <item value="banned" />
       <item value="banded" />
@@ -54,19 +55,18 @@
       <item value="Calculates the scroll speed. &lt;p&gt;By default, LinearSmoothScroller assumes this method always returns the same value and caches the result of calling it. @param displayMetrics DisplayMetrics to be used for real dimension calculations @return The time (in ms) it should take for each pixel. For instance, if returned value is 2 ms, it means scrolling 1000 pixels with LinearInterpolation should take 2 seconds." />
       <item value="Constant for {@link getActionMasked}: A pressed gesture has started, the motion contains the initial starting location. &lt;p&gt; This is also a good time to check the button state to distinguish secondary and tertiary button clicks and handle them appropriately. Use {@link getButtonState} to retrieve the button state." />
       <item value="When LayoutManager needs to scroll to a position, it sets this variable and requests a layout which will check this variable and re-layout accordingly." />
-      <item value="May be null. The relative positions [0..1] of each corresponding color in the colors array. If this is null, the the colors are distributed evenly along the gradient line." />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="107" />
         <entry key="ENGLISH" value="667" />
-        <entry key="CHINESE_TRADITIONAL" value="376" />
+        <entry key="CHINESE_TRADITIONAL" value="377" />
         <entry key="ALBANIAN" value="1" />
         <entry key="DANISH" value="1" />
         <entry key="FRENCH" value="6" />
         <entry key="CATALAN" value="1" />
         <entry key="CZECH" value="1" />
-        <entry key="CROATIAN" value="1" />
+        <entry key="CROATIAN" value="2" />
         <entry key="LATIN" value="1" />
         <entry key="SAMOAN" value="1" />
         <entry key="UZBEK" value="1" />
