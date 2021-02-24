@@ -5,6 +5,7 @@
     <option name="newTranslationDialogY" value="415" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="FOLLOW" />
       <item value="banned" />
       <item value="banded" />
       <item value="直播" />
@@ -54,13 +55,12 @@
       <item value="Constant for {@link getActionMasked}: A pressed gesture has started, the motion contains the initial starting location. &lt;p&gt; This is also a good time to check the button state to distinguish secondary and tertiary button clicks and handle them appropriately. Use {@link getButtonState} to retrieve the button state." />
       <item value="When LayoutManager needs to scroll to a position, it sets this variable and requests a layout which will check this variable and re-layout accordingly." />
       <item value="May be null. The relative positions [0..1] of each corresponding color in the colors array. If this is null, the the colors are distributed evenly along the gradient line." />
-      <item value="Return the stable ID for the item at &lt;code&gt;position&lt;code&gt;. If {@link hasStableIds()} would return false this method should return {@link NO_ID}. The default implementation of this method returns {@link NO_ID}." />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="107" />
-        <entry key="ENGLISH" value="666" />
-        <entry key="CHINESE_TRADITIONAL" value="375" />
+        <entry key="ENGLISH" value="667" />
+        <entry key="CHINESE_TRADITIONAL" value="376" />
         <entry key="ALBANIAN" value="1" />
         <entry key="DANISH" value="1" />
         <entry key="FRENCH" value="6" />
