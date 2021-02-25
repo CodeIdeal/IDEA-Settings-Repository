@@ -5,6 +5,7 @@
     <option name="newTranslationDialogY" value="415" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="Marks declarations that are still experimental in coroutines API, which means that the design of the corresponding declarations has open issues which may (or may not) lead to their changes in the future. Roughly speaking, there is a chance that those declarations will be deprecated in the near future or the semantics of their behavior may change in some way that may break some code." />
       <item value="oprate" />
       <item value="FOLLOW" />
       <item value="banned" />
@@ -54,13 +55,12 @@
       <item value="The screen density expressed as dots-per-inch. May be either {@link DENSITY_LOW}, {@link DENSITY_MEDIUM}, or {@link DENSITY_HIGH}." />
       <item value="Calculates the scroll speed. &lt;p&gt;By default, LinearSmoothScroller assumes this method always returns the same value and caches the result of calling it. @param displayMetrics DisplayMetrics to be used for real dimension calculations @return The time (in ms) it should take for each pixel. For instance, if returned value is 2 ms, it means scrolling 1000 pixels with LinearInterpolation should take 2 seconds." />
       <item value="Constant for {@link getActionMasked}: A pressed gesture has started, the motion contains the initial starting location. &lt;p&gt; This is also a good time to check the button state to distinguish secondary and tertiary button clicks and handle them appropriately. Use {@link getButtonState} to retrieve the button state." />
-      <item value="When LayoutManager needs to scroll to a position, it sets this variable and requests a layout which will check this variable and re-layout accordingly." />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="107" />
-        <entry key="ENGLISH" value="667" />
-        <entry key="CHINESE_TRADITIONAL" value="377" />
+        <entry key="ENGLISH" value="668" />
+        <entry key="CHINESE_TRADITIONAL" value="378" />
         <entry key="ALBANIAN" value="1" />
         <entry key="DANISH" value="1" />
         <entry key="FRENCH" value="6" />
