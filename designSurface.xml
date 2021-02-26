@@ -101,10 +101,16 @@
         <entry key="common/src/main/res/drawable/radius_16_bg_fff.xml" value="0.375" />
         <entry key="common/src/main/res/drawable/radius_180_bg_2d000000.xml" value="0.3609375" />
         <entry key="common/src/main/res/drawable/radius_180_bg_4d000000.xml" value="0.3609375" />
+        <entry key="common/src/main/res/drawable/radius_180_bg_60_00e9bf.xml" value="0.2453125" />
+        <entry key="common/src/main/res/drawable/radius_180_bg_60_ff445e.xml" value="0.2453125" />
+        <entry key="common/src/main/res/drawable/radius_180_bg_60_ff5901.xml" value="0.2453125" />
         <entry key="common/src/main/res/drawable/radius_180_bg_80_ff445e.xml" value="0.3609375" />
         <entry key="common/src/main/res/drawable/radius_180_bg_ff445e.xml" value="0.3609375" />
         <entry key="common/src/main/res/drawable/radius_180_bg_gradient.xml" value="0.3553846153846154" />
         <entry key="common/src/main/res/drawable/radius_180_line_ff445e_bg_white.xml" value="0.3553846153846154" />
+        <entry key="common/src/main/res/drawable/radius_24_bg_60_00e9bf.xml" value="0.3609375" />
+        <entry key="common/src/main/res/drawable/radius_24_bg_60_ff445e.xml" value="0.3609375" />
+        <entry key="common/src/main/res/drawable/radius_24_bg_60_ff5901.xml" value="0.3609375" />
         <entry key="common/src/main/res/drawable/radius_24_line_ff.xml" value="0.375" />
         <entry key="common/src/main/res/drawable/radius_24_line_ff445e_bg_fff.xml" value="0.375" />
         <entry key="common/src/main/res/drawable/radius_8_bg_white.xml" value="0.3609375" />
