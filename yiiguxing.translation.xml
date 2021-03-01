@@ -5,6 +5,8 @@
     <option name="newTranslationDialogY" value="415" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="stagger" />
+      <item value="has Last" />
       <item value="conflated" />
       <item value="Marks declarations that are still experimental in coroutines API, which means that the design of the corresponding declarations has open issues which may (or may not) lead to their changes in the future. Roughly speaking, there is a chance that those declarations will be deprecated in the near future or the semantics of their behavior may change in some way that may break some code." />
       <item value="oprate" />
@@ -53,14 +55,12 @@
       <item value="Indicates whether the view is currently tracking transient state that the app should not need to concern itself with saving and restoring, but that the framework should take special note to preserve when possible. &lt;p&gt;A view with transient state cannot be trivially rebound from an external data source, such as an adapter binding item views in a list. This may be because the view is performing an animation, tracking user selection of content, or similar.&lt;p&gt; @return true if the view has transient state" />
       <item value="enter" />
       <item value="enter tip" />
-      <item value="The screen density expressed as dots-per-inch. May be either {@link DENSITY_LOW}, {@link DENSITY_MEDIUM}, or {@link DENSITY_HIGH}." />
-      <item value="Calculates the scroll speed. &lt;p&gt;By default, LinearSmoothScroller assumes this method always returns the same value and caches the result of calling it. @param displayMetrics DisplayMetrics to be used for real dimension calculations @return The time (in ms) it should take for each pixel. For instance, if returned value is 2 ms, it means scrolling 1000 pixels with LinearInterpolation should take 2 seconds." />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="107" />
-        <entry key="ENGLISH" value="669" />
-        <entry key="CHINESE_TRADITIONAL" value="379" />
+        <entry key="ENGLISH" value="671" />
+        <entry key="CHINESE_TRADITIONAL" value="381" />
         <entry key="ALBANIAN" value="1" />
         <entry key="DANISH" value="1" />
         <entry key="FRENCH" value="6" />

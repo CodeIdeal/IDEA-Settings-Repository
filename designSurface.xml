@@ -101,10 +101,16 @@
         <entry key="common/src/main/res/drawable/radius_16_bg_fff.xml" value="0.375" />
         <entry key="common/src/main/res/drawable/radius_180_bg_2d000000.xml" value="0.3609375" />
         <entry key="common/src/main/res/drawable/radius_180_bg_4d000000.xml" value="0.3609375" />
+        <entry key="common/src/main/res/drawable/radius_180_bg_60_00e9bf.xml" value="0.2453125" />
+        <entry key="common/src/main/res/drawable/radius_180_bg_60_ff445e.xml" value="0.2453125" />
+        <entry key="common/src/main/res/drawable/radius_180_bg_60_ff5901.xml" value="0.2453125" />
         <entry key="common/src/main/res/drawable/radius_180_bg_80_ff445e.xml" value="0.3609375" />
         <entry key="common/src/main/res/drawable/radius_180_bg_ff445e.xml" value="0.3609375" />
         <entry key="common/src/main/res/drawable/radius_180_bg_gradient.xml" value="0.3553846153846154" />
         <entry key="common/src/main/res/drawable/radius_180_line_ff445e_bg_white.xml" value="0.3553846153846154" />
+        <entry key="common/src/main/res/drawable/radius_24_bg_60_00e9bf.xml" value="0.3609375" />
+        <entry key="common/src/main/res/drawable/radius_24_bg_60_ff445e.xml" value="0.3609375" />
+        <entry key="common/src/main/res/drawable/radius_24_bg_60_ff5901.xml" value="0.3609375" />
         <entry key="common/src/main/res/drawable/radius_24_line_ff.xml" value="0.375" />
         <entry key="common/src/main/res/drawable/radius_24_line_ff445e_bg_fff.xml" value="0.375" />
         <entry key="common/src/main/res/drawable/radius_8_bg_white.xml" value="0.3609375" />
@@ -137,12 +143,13 @@
         <entry key="live/src/main/res/layout/layout_camera_anchor_panel.xml" value="0.3458333333333333" />
         <entry key="modulelive/src/main/res/drawable/icon_live_like.xml" value="0.3609375" />
         <entry key="modulelive/src/main/res/drawable/shape_float_close.xml" value="0.3609375" />
-        <entry key="modulelive/src/main/res/layout/activity_live_room.xml" value="0.3458333333333333" />
+        <entry key="modulelive/src/main/res/layout/activity_live_room.xml" value="0.41977800201816345" />
         <entry key="modulelive/src/main/res/layout/float_video.xml" value="0.5799373040752351" />
         <entry key="modulelive/src/main/res/layout/item_live_message.xml" value="0.3458333333333333" />
         <entry key="modulelive/src/main/res/layout/item_message.xml" value="0.6401028277634961" />
         <entry key="modulelive/src/main/res/layout/layout_input_dialog.xml" value="0.3458333333333333" />
         <entry key="modulelive/src/main/res/layout/layout_periscope.xml" value="0.3458333333333333" />
+        <entry key="moduleshop/src/main/res/layout/activity_shopcart.xml" value="0.3458333333333333" />
         <entry key="moduleshop/src/main/res/layout/fragment_shopcart.xml" value="0.35989583333333336" />
         <entry key="moduleshop/src/main/res/layout/fragment_shopcart2.xml" value="0.3458333333333333" />
         <entry key="moduleshop/src/main/res/layout/head_shop_cart_title.xml" value="0.3458333333333333" />
