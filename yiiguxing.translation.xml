@@ -5,6 +5,7 @@
     <option name="newTranslationDialogY" value="415" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="area" />
       <item value="stagger" />
       <item value="has Last" />
       <item value="conflated" />
@@ -54,13 +55,12 @@
       <item value="Indicates how many of this container's child subtrees contain transient state" />
       <item value="Indicates whether the view is currently tracking transient state that the app should not need to concern itself with saving and restoring, but that the framework should take special note to preserve when possible. &lt;p&gt;A view with transient state cannot be trivially rebound from an external data source, such as an adapter binding item views in a list. This may be because the view is performing an animation, tracking user selection of content, or similar.&lt;p&gt; @return true if the view has transient state" />
       <item value="enter" />
-      <item value="enter tip" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="107" />
-        <entry key="ENGLISH" value="671" />
-        <entry key="CHINESE_TRADITIONAL" value="381" />
+        <entry key="ENGLISH" value="672" />
+        <entry key="CHINESE_TRADITIONAL" value="382" />
         <entry key="ALBANIAN" value="1" />
         <entry key="DANISH" value="1" />
         <entry key="FRENCH" value="6" />
