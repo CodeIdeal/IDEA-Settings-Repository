@@ -82,6 +82,7 @@
         <entry key="app/src/main/res/layout/item_my_coupon.xml" value="0.35989583333333336" />
         <entry key="app/src/main/res/layout/item_my_coupon_go_center.xml" value="0.35989583333333336" />
         <entry key="app/src/main/res/layout/item_n_goods_detail_info.xml" value="1.0" />
+        <entry key="app/src/main/res/layout/item_n_goods_detail_more.xml" value="0.1" />
         <entry key="app/src/main/res/layout/item_no_coupon.xml" value="0.35989583333333336" />
         <entry key="app/src/main/res/layout/item_order_item.xml" value="0.35989583333333336" />
         <entry key="app/src/main/res/layout/item_popular_main.xml" value="0.35989583333333336" />
