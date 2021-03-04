@@ -5,6 +5,7 @@
     <option name="newTranslationDialogY" value="415" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="muted" />
       <item value="The number of digits allowed in the fraction portion of value." />
       <item value="blur" />
       <item value="area" />
@@ -54,13 +55,12 @@
       <item value="Cancels reception of remaining elements from this channel with an optional [cause]. This function closes the channel and removes all buffered sent elements from it. A cause can be used to specify an error message or to provide other details on the cancellation reason for debugging purposes. If the cause is not specified, then an instance of [CancellationException] with a default message is created to [close][SendChannel.close] the channel. Immediately after invocation of this function [isClosedForReceive] and [isClosedForSend][SendChannel.isClosedForSend] on the side of [SendChannel] start returning `true`. Any attempt to send to or receive from this channel will lead to a [CancellationException]." />
       <item value="关注Channel" />
       <item value="关注" />
-      <item value="Indicates how many of this container's child subtrees contain transient state" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="107" />
-        <entry key="ENGLISH" value="674" />
-        <entry key="CHINESE_TRADITIONAL" value="384" />
+        <entry key="ENGLISH" value="675" />
+        <entry key="CHINESE_TRADITIONAL" value="385" />
         <entry key="ALBANIAN" value="1" />
         <entry key="DANISH" value="1" />
         <entry key="FRENCH" value="6" />
