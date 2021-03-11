@@ -5,6 +5,7 @@
     <option name="newTranslationDialogY" value="415" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="The value of the normalized time (0.0 to 1.0) after it has been run through the interpolation function." />
       <item value="Horizontal scaling factor to apply at the start of the animation" />
       <item value="The X coordinate of the point about which the object is being scaled, specified as an absolute number where 0 is the left edge. (This point remains fixed while the object changes size.) This value can either be an absolute number if pivotXType is ABSOLUTE, or a percentage (where 1.0 is 100%) otherwise." />
       <item value="drainage" />
@@ -54,13 +55,12 @@
       <item value="Deceleration" />
       <item value="Detector" />
       <item value="Obtains the current continuation instance inside suspend functions and suspends the currently running coroutine. In this function both [Continuation.resume] and [Continuation.resumeWithException] can be used either synchronously in the same stack-frame where the suspension function is run or asynchronously later in the same thread or from a different thread of execution. Subsequent invocation of any resume function will produce an [IllegalStateException]." />
-      <item value="Opens subscription to this [BroadcastChannel] and makes sure that the given [block] consumes all elements from it by always invoking [cancel][ReceiveChannel.cancel] after the execution of the block. Note: This API will become obsolete in future updates with introduction of lazy asynchronous streams. See [issue 254](https:github.comKotlinkotlinx.coroutinesissues254)." />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="107" />
-        <entry key="ENGLISH" value="678" />
-        <entry key="CHINESE_TRADITIONAL" value="388" />
+        <entry key="ENGLISH" value="679" />
+        <entry key="CHINESE_TRADITIONAL" value="389" />
         <entry key="ALBANIAN" value="1" />
         <entry key="DANISH" value="1" />
         <entry key="FRENCH" value="6" />
